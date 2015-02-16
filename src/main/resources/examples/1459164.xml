@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:evergreen.iisg.nl:1459164</identifier>
+                <datestamp>2014-07-07T15:18:01Z</datestamp>
+            </header>
+            <metadata>
+                <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+
+                    <marc:leader>00620nkm a22 a 4500</marc:leader>
+                    <marc:controlfield tag="001">1459164</marc:controlfield>
+                    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+                    <marc:controlfield tag="005">20140707132013.0</marc:controlfield>
+                    <marc:controlfield tag="008">120710suuuu ne. uuu d</marc:controlfield>
+                    <marc:datafield ind1=" " ind2=" " tag="040">
+                        <marc:subfield code="a">NL-AMISG</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="044">
+                        <marc:subfield code="a">ne.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2=" " tag="100">
+                        <marc:subfield code="0">(NL-AMISG)2004249</marc:subfield>
+                        <marc:subfield code="photographer">f</marc:subfield>
+                        <marc:subfield code="a">Schoondergang, Robert,</marc:subfield>
+                        <marc:subfield code="e">photographer</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="0" tag="245">
+                        <marc:subfield code="k">Visual document.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="260">
+                        <marc:subfield code="c">(Ca. 1982).</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="300">
+                        <marc:subfield code="g">10 ex.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="500">
+                        <marc:subfield code="a">Photographs by various photographers of the Greenpeace ship "Sirius" in
+                            different places.
+                        </marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="540">
+                        <marc:subfield code="b">Robert Schoondergang.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="542">
+                        <marc:subfield code="m">closed</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="2" ind2="4" tag="610">
+                        <marc:subfield code="a">Sirius.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)287902</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="2" ind2="4" tag="610">
+                        <marc:subfield code="a">Greenpeace.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)126003</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="648">
+                        <marc:subfield code="a">1981-1983.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)368060</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="650">
+                        <marc:subfield code="a">Environment protection.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)158032</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="651">
+                        <marc:subfield code="a">International.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)144624</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="655">
+                        <marc:subfield code="a">Photo.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="2" ind2=" " tag="710">
+                        <marc:subfield code="0">(NL-AMISG)2001698</marc:subfield>
+                        <marc:subfield code="a">Greenpeace Nederland,</marc:subfield>
+                        <marc:subfield code="b">c</marc:subfield>
+                        <marc:subfield code="d">e</marc:subfield>
+                        <marc:subfield code="collector">f</marc:subfield>
+                        <marc:subfield code="g">k</marc:subfield>
+                        <marc:subfield code="l">m</marc:subfield>
+                        <marc:subfield code="n">o</marc:subfield>
+                        <marc:subfield code="p">r</marc:subfield>
+                        <marc:subfield code="s">t</marc:subfield>
+                        <marc:subfield code="v">x</marc:subfield>
+                        <marc:subfield code="y">z</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="4" ind2=" " tag="852">
+                        <marc:subfield code="a">IISG</marc:subfield>
+                        <marc:subfield code="b">IISG</marc:subfield>
+                        <marc:subfield code="c">IISG</marc:subfield>
+                        <marc:subfield code="j">BG B32/942</marc:subfield>
+                        <marc:subfield code="n">Available</marc:subfield>
+                        <marc:subfield code="p">30051003173702</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="901">
+                        <marc:subfield code="a">1459164</marc:subfield>
+                        <marc:subfield code="b"/>
+                        <marc:subfield code="c">1459164</marc:subfield>
+                        <marc:subfield code="t">biblio</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="902">
+                        <marc:subfield code="a">10622/6854C803-BD22-4AAE-BDC5-B1EB0B0C085F</marc:subfield>
+                    </marc:datafield>
+                </marc:record>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:evergreen.iisg.nl:897563</identifier>
+                <datestamp>2014-05-19T22:36:01Z</datestamp>
+            </header>
+            <metadata>
+                <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+
+                    <marc:leader>00454nkm a22001810a 45 0</marc:leader>
+                    <marc:controlfield tag="001">897563</marc:controlfield>
+                    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+                    <marc:controlfield tag="005">19961111133054.0</marc:controlfield>
+                    <marc:controlfield tag="008">199611suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
+                    <marc:datafield ind1=" " ind2=" " tag="035">
+                        <marc:subfield code="a">(IISG)IISGb10758124</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="040">
+                        <marc:subfield code="a">NL-AmISG</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2=" " tag="100">
+                        <marc:subfield code="a">Willemen, Kees,</marc:subfield>
+                        <marc:subfield code="e">draughtsman.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)361306</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="3" tag="245">
+                        <marc:subfield code="a">De aanklagers.</marc:subfield>
+                        <marc:subfield code="k">Visual document.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="260">
+                        <marc:subfield code="c">(Ca.1977)</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="300">
+                        <marc:subfield code="g">32.5x25 cm.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="542">
+                        <marc:subfield code="m">closed</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="4" tag="600">
+                        <marc:subfield code="a">Strauss, Franz-Josef.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)344060</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="4" tag="600">
+                        <marc:subfield code="a">Hauser, Richard,</marc:subfield>
+                        <marc:subfield code="c">?.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)125068</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="650">
+                        <marc:subfield code="a">Caricature.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)306037</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="655">
+                        <marc:subfield code="a">Drawing.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)269282</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="694">
+                        <marc:subfield code="a">Willemen, K.</marc:subfield>
+                        <marc:subfield code="b">BG C15/19</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2=" " tag="700">
+                        <marc:subfield code="a">Willemen, Kees,</marc:subfield>
+                        <marc:subfield code="e">collector.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)2000737</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="4" ind2=" " tag="852">
+                        <marc:subfield code="a">IISG</marc:subfield>
+                        <marc:subfield code="b">IISG</marc:subfield>
+                        <marc:subfield code="c">IISG</marc:subfield>
+                        <marc:subfield code="j">BG C15/19</marc:subfield>
+                        <marc:subfield code="n">Available</marc:subfield>
+                        <marc:subfield code="p">10622/30051000782075</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="901">
+                        <marc:subfield code="a">897563</marc:subfield>
+                        <marc:subfield code="b">Unknown</marc:subfield>
+                        <marc:subfield code="c">897563</marc:subfield>
+                        <marc:subfield code="t">biblio</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="902">
+                        <marc:subfield code="a">10622/B054BB94-3209-41F7-B6FC-DAD6A7806E2E</marc:subfield>
+                    </marc:datafield>
+                </marc:record>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

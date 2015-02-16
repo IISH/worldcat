@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:evergreen.iisg.nl:1480868</identifier>
+                <datestamp>2014-01-27T11:34:53Z</datestamp>
+            </header>
+            <metadata>
+                <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+                    <marc:leader>00620nam a22 7a 4500</marc:leader>
+                    <marc:controlfield tag="001">1480868</marc:controlfield>
+                    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+                    <marc:controlfield tag="005">20130908074545.0</marc:controlfield>
+                    <marc:controlfield tag="008">130905s rus ru d</marc:controlfield>
+                    <marc:datafield ind1=" " ind2=" " tag="020">
+                        <marc:subfield code="a">978-5-89826-388-1</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="040">
+                        <marc:subfield code="a">NL-AMISG</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="041">
+                        <marc:subfield code="a">ru</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="044">
+                        <marc:subfield code="a">rus</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2=" " tag="100">
+                        <marc:subfield code="0">(NL-AMISG)2009184</marc:subfield>
+                        <marc:subfield code="a">Savel'ev, Aleksandr Vladimirovič</marc:subfield>
+                        <marc:subfield code="b">c</marc:subfield>
+                        <marc:subfield code="d">e</marc:subfield>
+                        <marc:subfield code="f">k</marc:subfield>
+                        <marc:subfield code="l">m</marc:subfield>
+                        <marc:subfield code="n">o</marc:subfield>
+                        <marc:subfield code="p">q</marc:subfield>
+                        <marc:subfield code="r">s</marc:subfield>
+                        <marc:subfield code="t">v</marc:subfield>
+                        <marc:subfield code="x">y</marc:subfield>
+                        <marc:subfield code="z"/>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="0" tag="245">
+                        <marc:subfield code="a">Neobyčnaja kar'era akademika A.M. Pankratovoj /</marc:subfield>
+                        <marc:subfield code="c">A.V. Savel'ev.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="260">
+                        <marc:subfield code="a">Moskva :</marc:subfield>
+                        <marc:subfield code="b">Progress-Tradicija,</marc:subfield>
+                        <marc:subfield code="c">2012.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="300">
+                        <marc:subfield code="a">431 p.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2=" " tag="600">
+                        <marc:subfield code="a">Pankratova, Anna Michajlovna.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)184141</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="4" ind2=" " tag="852">
+                        <marc:subfield code="a">IISG</marc:subfield>
+                        <marc:subfield code="b">IISG</marc:subfield>
+                        <marc:subfield code="c">IISG</marc:subfield>
+                        <marc:subfield code="j">2012/1054</marc:subfield>
+                        <marc:subfield code="n">Available</marc:subfield>
+                        <marc:subfield code="p">459043905689093084</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="901">
+                        <marc:subfield code="a">1480868</marc:subfield>
+                        <marc:subfield code="b"/>
+                        <marc:subfield code="c">1480868</marc:subfield>
+                        <marc:subfield code="t">biblio</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="902">
+                        <marc:subfield code="a">10622/344F5E65-36C0-4306-A4CC-3EDEFDB14EF7</marc:subfield>
+                    </marc:datafield>
+                </marc:record>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>

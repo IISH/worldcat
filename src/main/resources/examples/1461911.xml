@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>oai:evergreen.iisg.nl:1461911</identifier>
+                <datestamp>2014-05-12T17:53:17Z</datestamp>
+            </header>
+            <metadata>
+                <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+                    <marc:leader>00620nkm a22 a 4500</marc:leader>
+                    <marc:controlfield tag="001">1461911</marc:controlfield>
+                    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+                    <marc:controlfield tag="005">20121002144302.0</marc:controlfield>
+                    <marc:controlfield tag="008">121002s2011 ph phi d</marc:controlfield>
+                    <marc:datafield ind1=" " ind2=" " tag="040">
+                        <marc:subfield code="a">NL-AMISG</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="041">
+                        <marc:subfield code="a">phi</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="044">
+                        <marc:subfield code="a">ph</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="0" tag="245">
+                        <marc:subfield code="a">Gaganda pa ang Pilipinas :</marc:subfield>
+                        <marc:subfield code="b">kung trabaho'y regular hindi kontraktwal!</marc:subfield>
+                        <marc:subfield code="k">Visual document.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="260">
+                        <marc:subfield code="c">2011, May 1</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="300">
+                        <marc:subfield code="g">28x44 cm.</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="542">
+                        <marc:subfield code="m">closed</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="1" ind2="4" tag="600">
+                        <marc:subfield code="a">Bonifacio, Andres.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)49212</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="648">
+                        <marc:subfield code="a">2011-2011.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)570078</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="650">
+                        <marc:subfield code="a">Portrait.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)306035</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="650">
+                        <marc:subfield code="a">Bonded labour.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)64754</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="651">
+                        <marc:subfield code="a">Philippines.</marc:subfield>
+                        <marc:subfield code="0">(NL-AMISG)297125</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2="4" tag="655">
+                        <marc:subfield code="0">(NL-AMISG)2005380</marc:subfield>
+                        <marc:subfield code="a">Printed matter</marc:subfield>
+                        <marc:subfield code="v">x</marc:subfield>
+                        <marc:subfield code="y">z</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1="2" ind2=" " tag="710">
+                        <marc:subfield code="0">(NL-AMISG)2005394</marc:subfield>
+                        <marc:subfield code="a">Palea</marc:subfield>
+                        <marc:subfield code="b">c</marc:subfield>
+                        <marc:subfield code="d">e</marc:subfield>
+                        <marc:subfield code="f">g</marc:subfield>
+                        <marc:subfield code="k">l</marc:subfield>
+                        <marc:subfield code="m">n</marc:subfield>
+                        <marc:subfield code="o">p</marc:subfield>
+                        <marc:subfield code="r">s</marc:subfield>
+                        <marc:subfield code="t">v</marc:subfield>
+                        <marc:subfield code="x">y</marc:subfield>
+                        <marc:subfield code="z"/>
+                    </marc:datafield>
+                    <marc:datafield ind1="2" ind2=" " tag="710">
+                        <marc:subfield code="0">(NL-AMISG)2005395</marc:subfield>
+                        <marc:subfield code="a">FTLU</marc:subfield>
+                        <marc:subfield code="b">c</marc:subfield>
+                        <marc:subfield code="d">e</marc:subfield>
+                        <marc:subfield code="f">g</marc:subfield>
+                        <marc:subfield code="k">l</marc:subfield>
+                        <marc:subfield code="m">n</marc:subfield>
+                        <marc:subfield code="o">p</marc:subfield>
+                        <marc:subfield code="r">s</marc:subfield>
+                        <marc:subfield code="t">v</marc:subfield>
+                        <marc:subfield code="x">y</marc:subfield>
+                        <marc:subfield code="z"/>
+                    </marc:datafield>
+                    <marc:datafield ind1="4" ind2=" " tag="852">
+                        <marc:subfield code="a">IISG</marc:subfield>
+                        <marc:subfield code="b">IISG</marc:subfield>
+                        <marc:subfield code="c">IISG</marc:subfield>
+                        <marc:subfield code="j">BG D85/509</marc:subfield>
+                        <marc:subfield code="n">Available</marc:subfield>
+                        <marc:subfield code="p">30051003050280</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="901">
+                        <marc:subfield code="a">1461911</marc:subfield>
+                        <marc:subfield code="b"/>
+                        <marc:subfield code="c">1461911</marc:subfield>
+                        <marc:subfield code="t">biblio</marc:subfield>
+                    </marc:datafield>
+                    <marc:datafield ind1=" " ind2=" " tag="902">
+                        <marc:subfield code="a">10622/5CC56BB2-034A-4B2D-ACB1-657AB850F498</marc:subfield>
+                    </marc:datafield>
+                </marc:record>
+            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>
