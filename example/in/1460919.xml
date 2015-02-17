@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:leader>00620nkm a22 a 4500</marc:leader>
+    <marc:controlfield tag="001">1460919</marc:controlfield>
+    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+    <marc:controlfield tag="005">20120906100428.0</marc:controlfield>
+    <marc:controlfield tag="008">120906s1972 gw ger d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+        <marc:subfield code="a">NL-AMISG</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="041">
+        <marc:subfield code="a">ger</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="044">
+        <marc:subfield code="a">gw</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="100">
+        <marc:subfield code="0">(NL-AMISG)2005096</marc:subfield>
+        <marc:subfield code="photographer">f</marc:subfield>
+        <marc:subfield code="a">Klemm, Barbara</marc:subfield>
+        <marc:subfield code="e">photographer</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="0" tag="245">
+        <marc:subfield code="k">Visual document.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+        <marc:subfield code="c">1972</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="500">
+        <marc:subfield code=""/>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="542">
+        <marc:subfield code="m">closed</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="4" tag="600">
+        <marc:subfield code="0">(NL-AMISG)1164</marc:subfield>
+        <marc:subfield code="a">Abendroth, Wolfgang</marc:subfield>
+        <marc:subfield code="b">c</marc:subfield>
+        <marc:subfield code="d">e</marc:subfield>
+        <marc:subfield code="f">k</marc:subfield>
+        <marc:subfield code="l">m</marc:subfield>
+        <marc:subfield code="n">o</marc:subfield>
+        <marc:subfield code="p">q</marc:subfield>
+        <marc:subfield code="r">s</marc:subfield>
+        <marc:subfield code="t">v</marc:subfield>
+        <marc:subfield code="x">y</marc:subfield>
+        <marc:subfield code="z"/>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="4" tag="600">
+        <marc:subfield code="a">Marcuse, Herbert</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)188664</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="648">
+        <marc:subfield code="a">1972-1972</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)568304</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="650">
+        <marc:subfield code="a">Double portrait</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)99302</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="651">
+        <marc:subfield code="a">Frankfurt am Main (Germany)</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)111999</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="655">
+        <marc:subfield code="a">Photo</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="700">
+        <marc:subfield code="a">Abendroth, Wolfgang,</marc:subfield>
+        <marc:subfield code="e">collector</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)2000001</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="4" ind2=" " tag="852">
+        <marc:subfield code="a">IISG</marc:subfield>
+        <marc:subfield code="b">IISG</marc:subfield>
+        <marc:subfield code="c">IISG</marc:subfield>
+        <marc:subfield code="j">BG B35/54</marc:subfield>
+        <marc:subfield code="n">Available</marc:subfield>
+        <marc:subfield code="p">30051002972286</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="901">
+        <marc:subfield code="a">1460919</marc:subfield>
+        <marc:subfield code="b"/>
+        <marc:subfield code="c">1460919</marc:subfield>
+        <marc:subfield code="t">biblio</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="902">
+        <marc:subfield code="a">10622/43CA0034-B821-4C24-96DD-8B5B324D8EF5</marc:subfield>
+    </marc:datafield>
+</marc:record>

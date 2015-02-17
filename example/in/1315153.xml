@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:leader>00437nkm a2200169 a 45 0</marc:leader>
+    <marc:controlfield tag="001">1315153</marc:controlfield>
+    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+    <marc:controlfield tag="005">20091104114014.0</marc:controlfield>
+    <marc:controlfield tag="008">200911suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+        <marc:subfield code="a">(IISG)IISGb1107476213</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+        <marc:subfield code="a">NL-AmISG</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="0" tag="245">
+        <marc:subfield code="f">1980-</marc:subfield>
+        <marc:subfield code="k">Visual document.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="542">
+        <marc:subfield code="m">closed</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="648">
+        <marc:subfield code="a">1975-1999.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)366946</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="648">
+        <marc:subfield code="a">2000-2024.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)477153</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="650">
+        <marc:subfield code="a">Animal protection.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)64690</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="651">
+        <marc:subfield code="a">Netherlands.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)569282</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="4" tag="655">
+        <marc:subfield code="a">Poster.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)3248</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="695">
+        <marc:subfield code="a">NED</marc:subfield>
+        <marc:subfield code="e">Nederland</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="2" ind2=" " tag="710">
+        <marc:subfield code="a">Dierenbescherming (Den Haag)</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)88909</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="4" ind2=" " tag="852">
+        <marc:subfield code="a">IISG</marc:subfield>
+        <marc:subfield code="b">IISG</marc:subfield>
+        <marc:subfield code="c">IISG</marc:subfield>
+        <marc:subfield code="j">BG C26/388</marc:subfield>
+        <marc:subfield code="n">Available</marc:subfield>
+        <marc:subfield code="p">10622/30051002811229</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="901">
+        <marc:subfield code="a">1315153</marc:subfield>
+        <marc:subfield code="b">Unknown</marc:subfield>
+        <marc:subfield code="c">1315153</marc:subfield>
+        <marc:subfield code="t">biblio</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="902">
+        <marc:subfield code="a">10622/7755B41E-0D5D-4A09-9B77-5158F5AF5D61</marc:subfield>
+    </marc:datafield>
+</marc:record>

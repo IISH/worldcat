@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+
+    <marc:leader>00648nam a2200193 a 45 0</marc:leader>
+    <marc:controlfield tag="001">1006289</marc:controlfield>
+    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+    <marc:controlfield tag="005">19970718152026.0</marc:controlfield>
+    <marc:controlfield tag="008">199707suuuuuuuube |||||||||||||||||fre d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="020">
+        <marc:subfield code="a">2-8027-1038-9</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+        <marc:subfield code="a">(IISG)IISGb10790159</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+        <marc:subfield code="a">NL-AmISG</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2=" " tag="041">
+        <marc:subfield code="a">fre</marc:subfield>
+        <marc:subfield code="a">dut</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="044">
+        <marc:subfield code="a">be</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="3" tag="245">
+        <marc:subfield code="a">La réforme des marchés et des intermédiaires financiers =
+        </marc:subfield>
+        <marc:subfield code="b">De hervorming van de financiële markten en bemiddelaars /
+        </marc:subfield>
+        <marc:subfield code="c">coord.: Jean-François Tossens.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+        <marc:subfield code="a">Bruxelles :</marc:subfield>
+        <marc:subfield code="b">Bruylant,</marc:subfield>
+        <marc:subfield code="c">1997.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+        <marc:subfield code="a">822 p.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="700">
+        <marc:subfield code="a">Tossens, Jean-François.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)412778</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="3" ind2=" " tag="740">
+        <marc:subfield code="a">De hervorming van de financiële markten en bemiddelaars.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2="0" tag="830">
+        <marc:subfield code="a">Cahiers / AEDBF/EVBFR ;</marc:subfield>
+        <marc:subfield code="v">5.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)33870</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="4" ind2=" " tag="852">
+        <marc:subfield code="a">IISG</marc:subfield>
+        <marc:subfield code="b">IISG</marc:subfield>
+        <marc:subfield code="c">NEHA</marc:subfield>
+        <marc:subfield code="j">1997/9413</marc:subfield>
+        <marc:subfield code="n">Available</marc:subfield>
+        <marc:subfield code="p">N10575969</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="901">
+        <marc:subfield code="a">1006289</marc:subfield>
+        <marc:subfield code="b">Unknown</marc:subfield>
+        <marc:subfield code="c">1006289</marc:subfield>
+        <marc:subfield code="t">biblio</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="902">
+        <marc:subfield code="a">10622/8A22E3A2-6EA7-48A2-BE9E-FC43BC188854</marc:subfield>
+    </marc:datafield>
+</marc:record>

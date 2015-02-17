@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:leader>00641nam a22001810a 45 0</marc:leader>
+    <marc:controlfield tag="001">798588</marc:controlfield>
+    <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+    <marc:controlfield tag="005">19950210234845.0</marc:controlfield>
+    <marc:controlfield tag="008">199502suuuuuuuu||||||||||||||||||||chi d</marc:controlfield>
+    <marc:datafield ind1=" " ind2=" " tag="020">
+        <marc:subfield code="z">7-5366-0372</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="035">
+        <marc:subfield code="a">(IISG)IISGb10645072</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="040">
+        <marc:subfield code="a">NL-AmISG</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="0" ind2=" " tag="041">
+        <marc:subfield code="a">chi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="0" tag="245">
+        <marc:subfield code="a">Chen DuXiu nianpu :</marc:subfield>
+        <marc:subfield code="b">1879-1942 /</marc:subfield>
+        <marc:subfield code="c">Wang GuangYuan (ed.).</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="260">
+        <marc:subfield code="a">ChongQing :</marc:subfield>
+        <marc:subfield code="b">ChongQing Chubanshe,</marc:subfield>
+        <marc:subfield code="c">1987.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="300">
+        <marc:subfield code="a">381 p.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2="4" tag="600">
+        <marc:subfield code="a">Chen DuXiu.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)51676</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="690">
+        <marc:subfield code="a">Az 824</marc:subfield>
+        <marc:subfield code="b">Asia; Central, South, and South East Asia; China; history before 1949;
+            Republic 1911 - 1949; personalities
+        </marc:subfield>
+        <marc:subfield code="c">Azië; Centraal-, Zuid- en Zuidoost-Azië; China; geschiedenis tot 1949;
+            Republiek 1911 - 1949; personen.
+        </marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="1" ind2=" " tag="700">
+        <marc:subfield code="a">Wang GuangYuan.</marc:subfield>
+        <marc:subfield code="0">(NL-AMISG)417445</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1="4" ind2=" " tag="852">
+        <marc:subfield code="a">IISG</marc:subfield>
+        <marc:subfield code="b">IISG</marc:subfield>
+        <marc:subfield code="c">IISG</marc:subfield>
+        <marc:subfield code="j">1992/681</marc:subfield>
+        <marc:subfield code="n">Available</marc:subfield>
+        <marc:subfield code="p">N10501169</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="901">
+        <marc:subfield code="a">798588</marc:subfield>
+        <marc:subfield code="b">Unknown</marc:subfield>
+        <marc:subfield code="c">798588</marc:subfield>
+        <marc:subfield code="t">biblio</marc:subfield>
+    </marc:datafield>
+    <marc:datafield ind1=" " ind2=" " tag="902">
+        <marc:subfield code="a">10622/062C0991-C55D-4102-B221-11ED313DF7F7</marc:subfield>
+    </marc:datafield>
+</marc:record>
