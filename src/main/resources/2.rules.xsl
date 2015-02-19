@@ -6,4 +6,7 @@
         </xsl:copy>
     </xsl:template>
 
+    <xsl:template match="marc:datafield[not(marc:subfield)]"/>
+
+
 </xsl:stylesheet>

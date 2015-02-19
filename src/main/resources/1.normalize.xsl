@@ -9,7 +9,6 @@
     </xsl:template>
 
     <!-- Verwijder ongeldige marc -->
-    <xsl:template match="marc:datafield[not(marc:subfield)]"/>
     <xsl:template match="marc:subfield[not(@code) or @code='']"/>
 
     <!--
@@ -47,5 +46,7 @@
         </marc:leader>
 
     </xls:template>
+
+
 
 </xsl:stylesheet>
