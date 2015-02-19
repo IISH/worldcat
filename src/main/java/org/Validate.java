@@ -17,16 +17,12 @@ public class Validate {
 
     public Validate() throws SAXException {
 
-
-        // 1. Lookup a factory for the W3C XML Schema language
         SchemaFactory factory =
                 SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
 
-        // 2. Compile the schema.
         final URL schemaLocation = this.getClass().getResource("/marc21slim.xsd");
         Schema schema = factory.newSchema(schemaLocation);
 
-        // 3. Get a validator from the schema.
         validator = schema.newValidator();
     }
 
@@ -34,7 +30,6 @@ public class Validate {
 
         final Source source = new StreamSource(file);
 
-        // 5. Check the document
         try {
             validator.reset();
             validator.validate(source);

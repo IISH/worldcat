@@ -1,5 +1,7 @@
 package org;
 
+import org.xml.sax.SAXException;
+
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
@@ -13,8 +15,15 @@ public class IISH2WorldCat {
     final TransformerFactory tf = TransformerFactory.newInstance();
     @SuppressWarnings("unchecked")
     private ArrayList<Transformer> transformers = new ArrayList(2);
+    private static Validate validate;
 
     public IISH2WorldCat() {
+
+        try {
+            validate = new Validate();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        }
 
         String[] _transformers = {"/1.normalize.xsl", "/2.rules.xsl"};
         for (String _transformer : _transformers) {
@@ -58,6 +67,7 @@ public class IISH2WorldCat {
 
             final int length = (int) source_file.length();
             byte[] record = new byte[length];
+
             source.read(record, 0, length);
 
             for (Transformer transformer : transformers) {
@@ -67,6 +77,13 @@ public class IISH2WorldCat {
             File target = new File(targetFolder, source_file.getName());
             FileOutputStream fos = new FileOutputStream(target);
             fos.write(record);
+
+            String msg = validate.validate(target);
+            if (msg != null) {
+                System.out.println("===================================================================");
+                System.out.println("Invalid MarcXML: " + target.getAbsolutePath());
+                System.out.println(msg);
+            }
         }
     }
 
