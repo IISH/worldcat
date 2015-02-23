@@ -1,1 +1,73 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00484nkm a22001930a 45 0</marc:leader><marc:controlfield tag="001">647151</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">19950210234845.0</marc:controlfield><marc:controlfield tag="008">199502suuuuuuuu||||||||||||||||||||||| d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10582398</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="0">(NL-AMISG)29139</marc:subfield><marc:subfield code="a">Bennekom, Kors van,</marc:subfield><marc:subfield code="e">photographer</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">1957.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Huisuitzetting op de Zanddwarsstraat.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">Kors van Bennekom.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="542"><marc:subfield code="m">closed</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1957-1957.</marc:subfield><marc:subfield code="0">(NL-AMISG)365665</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Housing.</marc:subfield><marc:subfield code="0">(NL-AMISG)107655</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Amsterdam. (Netherlands)</marc:subfield><marc:subfield code="0">(NL-AMISG)572941</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Photo.</marc:subfield><marc:subfield code="0">(NL-AMISG)121213</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="695"><marc:subfield code="a">NED</marc:subfield><marc:subfield code="g">Amsterdam.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="987"><marc:subfield code="a">5491</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG B16/885</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">10622/30051000389038</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">647151</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">647151</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/98AD2690-D4AD-4DF2-AEAC-7E41D7CBE996</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00484nkm a22001930a 45 0</marc:leader>
+<marc:controlfield tag="001">647151</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">19950210234845.0</marc:controlfield>
+<marc:controlfield tag="008">199502suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:subfield code="a">(IISG)IISGb10582398</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="0">(NL-AMISG)29139</marc:subfield>
+<marc:subfield code="a">Bennekom, Kors van,</marc:subfield>
+<marc:subfield code="e">photographer</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="k">Visual document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="c">1957.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+<marc:subfield code="a">Huisuitzetting op de Zanddwarsstraat.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="b">Kors van Bennekom.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="542">
+<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1957-1957.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)365665</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Housing.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)107655</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+<marc:subfield code="a">Amsterdam. (Netherlands)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)572941</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+<marc:subfield code="a">Photo.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="695">
+<marc:subfield code="a">NED</marc:subfield>
+<marc:subfield code="g">Amsterdam.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="987">
+<marc:subfield code="a">5491</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">BG B16/885</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">10622/30051000389038</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">647151</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">647151</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/98AD2690-D4AD-4DF2-AEAC-7E41D7CBE996</marc:subfield>
+</marc:datafield>
+</marc:record>
