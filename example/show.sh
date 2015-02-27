@@ -5,7 +5,7 @@ echo "Time:" `date +"%T"`
 
 
 echo
-echo "Source 1: $2"
+echo "Source: $2"
 cat $2 | grep $1
 
 
@@ -16,9 +16,8 @@ cat $2 | grep $1
 #	cat $3 | grep $1
 #fi
 
-
-echo
-echo "Target: out/test.xml"
+#echo
+#echo "Target: out/test.xml"
 cat out/test.xml | grep $1
 
 

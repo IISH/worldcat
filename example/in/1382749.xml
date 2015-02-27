@@ -1,9 +1,9 @@
 <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00767nas a2200181 a 45 0</marc:leader>
-	<marc:controlfield tag="001">1382749</marc:controlfield>
-	<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
-	<marc:controlfield tag="005">20111108083005.0</marc:controlfield>
-	<marc:controlfield tag="008">199506suuuuuuuuxxk ||||||||||||||||eng| d</marc:controlfield>
+<marc:controlfield tag="001">1382749</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20111108083005.0</marc:controlfield>
+<marc:controlfield tag="008">199506suuuuuuuuxxk ||||||||||||||||eng| d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="035">
 <marc:subfield code="a">(IISG)IISGb10705307</marc:subfield>
 </marc:datafield>
