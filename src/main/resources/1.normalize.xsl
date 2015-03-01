@@ -391,4 +391,49 @@
 
 	</xls:template>
 
+    <!--
+        step 041$a
+    -->
+    <xls:template match="marc:datafield[@tag='041']">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+
+            <xsl:variable name="count041a" select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
+            <xsl:variable name="count041bcd" select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a'])"/>
+
+            <xsl:choose>
+                <xsl:when test="$count041a='1'">
+                    <xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="@*|node()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+
+        </xsl:copy>
+    </xls:template>
+
+
+    <!--
+        step 044$a
+    -->
+    <xls:template match="marc:datafield[@tag='044']">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+
+            <xsl:variable name="count044a" select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
+            <xsl:variable name="count044bcd" select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a'])"/>
+
+            <xsl:choose>
+                <xsl:when test="$count044a='1'">
+                    <xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="@*|node()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+
+        </xsl:copy>
+    </xls:template>
+
 </xsl:stylesheet>
