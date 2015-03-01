@@ -419,7 +419,6 @@
     -->
     <xls:template match="marc:datafield[@tag='044']">
         <xsl:copy>
-            <xsl:apply-templates select="@*"/>
 
             <xsl:variable name="count044a" select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
             <xsl:variable name="count044bcd" select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a'])"/>
@@ -435,5 +434,25 @@
 
         </xsl:copy>
     </xls:template>
+
+
+    <!--
+        step 245$a
+    -->
+    <xls:template match="marc:datafield[@tag='245']">
+
+        <xsl:variable name="var245_marcleader" select="//marc:leader"/>
+        <xsl:variable name="var245_marcleader_pos7" select="substring($var245_marcleader, 7, 1)"/>
+        <xsl:variable name="var245_655a" select="/marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a']"/>
+        <xsl:variable name="var245_245a" select="/marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
+
+        <xsl:value-of select="$var245_marcleader_pos7"/> ++ <xsl:value-of select="$var245_245a"/> -- <xsl:value-of select="$var245_655a"/> --
+
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates select="node()"/>
+        </xsl:copy>
+    </xls:template>
+
 
 </xsl:stylesheet>
