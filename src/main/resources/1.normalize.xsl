@@ -4,156 +4,394 @@
 
 	<!-- QUESTION: 1403469.xml 044.a heeft als waarde -cs -->
 
-    <!-- check correctness of language code -->
-    <xsl:template name="checkLanguageCode">
-        <xsl:param name="lc"/>
-        <xsl:param name="if_incorrect_return_value"/>
-        <xsl:choose>
+	<!-- check correctness of language code -->
+	<xsl:template name="checkLanguageCode">
+		<xsl:param name="lc"/>
+		<xsl:param name="if_incorrect_return_value"/>
+		<xsl:choose>
 
-            <xsl:when test="$lc='afr'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='alb'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ara'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='asm'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='aze'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='bak'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='bal'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ban'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='baq'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='bel'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ben'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='bre'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='bul'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='bur'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='cat'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='cel'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='che'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='chi'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='cpe'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='crp'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='cze'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='dan'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='dum'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='dut'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='eng'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='epo'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='est'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='fao'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='fin'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='fre'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='fry'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='geo'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ger'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='gle'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='glg'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='gmh'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='gre'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='gsw'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='heb'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='hin'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='hrv'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='hun'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ice'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ido'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='iku'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ina'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='inc'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ind'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ira'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ita'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='jav'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='jpn'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kac'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kar'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kas'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kaz'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='khm'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kor'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kro'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='kur'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='lat'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='lav'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='lit'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ltz'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mac'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mal'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='map'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mar'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='may'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mis'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mlg'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mon'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='mul'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='nep'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='nor'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='pan'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='pap'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='per'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='pol'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='por'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='pro'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='pus'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='que'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='raj'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='rom'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='rum'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='rus'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='san'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='shn'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='sin'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='slo'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='slv'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='smn'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='sna'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='snd'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='spa'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='srd'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='srn'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='srp'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='sun'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='swe'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tam'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tat'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tel'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tgk'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tgl'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tha'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tib'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tur'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='tut'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='ukr'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='urd'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='uzb'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='vie'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='vot'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='wel'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='xho'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='yid'"><xsl:value-of select="$lc"/></xsl:when>
-            <xsl:when test="$lc='zul'"><xsl:value-of select="$lc"/></xsl:when>
+			<xsl:when test="$lc='afr'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='alb'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ara'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='asm'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='aze'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='bak'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='bal'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ban'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='baq'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='bel'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ben'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='bre'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='bul'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='bur'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='cat'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='cel'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='che'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='chi'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='cpe'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='crp'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='cze'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='dan'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='dum'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='dut'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='eng'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='epo'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='est'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='fao'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='fin'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='fre'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='fry'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='geo'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ger'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='gle'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='glg'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='gmh'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='gre'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='gsw'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='heb'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='hin'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='hrv'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='hun'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ice'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ido'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='iku'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ina'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='inc'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ind'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ira'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ita'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='jav'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='jpn'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kac'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kar'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kas'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kaz'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='khm'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kor'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kro'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='kur'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='lat'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='lav'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='lit'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ltz'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mac'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mal'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='map'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mar'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='may'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mis'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mlg'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mon'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='mul'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='nep'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='nor'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='pan'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='pap'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='per'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='pol'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='por'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='pro'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='pus'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='que'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='raj'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='rom'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='rum'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='rus'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='san'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='shn'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='sin'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='slo'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='slv'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='smn'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='sna'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='snd'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='spa'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='srd'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='srn'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='srp'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='sun'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='swe'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tam'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tat'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tel'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tgk'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tgl'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tha'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tib'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tur'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='tut'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='ukr'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='urd'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='uzb'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='vie'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='vot'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='wel'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='xho'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='yid'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
+			<xsl:when test="$lc='zul'">
+				<xsl:value-of select="$lc"/>
+			</xsl:when>
 
-            <xsl:otherwise>
-                <xsl:value-of select="$if_incorrect_return_value"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+			<xsl:otherwise>
+				<xsl:value-of select="$if_incorrect_return_value"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
-    <!-- correct the place of publication code -->
-    <xsl:template name="correctLanguageCode">
-        <xsl:param name="c"/>
-        <xsl:choose>
-            <xsl:when test="$c='uuu'">und</xsl:when>
-            <xsl:when test="$c='joe'">srp</xsl:when>
-            <xsl:when test="$c='fra'">fre</xsl:when>
-            <xsl:when test="$c='ru#'">rus</xsl:when>
-            <xsl:when test="$c='ru '">rus</xsl:when>
-            <xsl:when test="$c='ru|'">rus</xsl:when>
-            <xsl:when test="$c='ne#'">dut</xsl:when>
-            <xsl:when test="$c='ne '">dut</xsl:when>
-            <xsl:when test="$c='ne|'">dut</xsl:when>
-            <xsl:otherwise>
-                <xsl:value-of select="$c"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+	<!-- correct the place of publication code -->
+	<xsl:template name="correctLanguageCode">
+		<xsl:param name="c"/>
+		<xsl:choose>
+			<xsl:when test="$c='uuu'">und</xsl:when>
+			<xsl:when test="$c='joe'">srp</xsl:when>
+			<xsl:when test="$c='fra'">fre</xsl:when>
+			<xsl:when test="$c='ru#'">rus</xsl:when>
+			<xsl:when test="$c='ru '">rus</xsl:when>
+			<xsl:when test="$c='ru|'">rus</xsl:when>
+			<xsl:when test="$c='ne#'">dut</xsl:when>
+			<xsl:when test="$c='ne '">dut</xsl:when>
+			<xsl:when test="$c='ne|'">dut</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$c"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
 
 	<!-- correct the place of publication code -->
@@ -276,14 +514,16 @@
 
 		<xsl:variable name="var3Postfix_new">
 			<xsl:choose>
-				<xsl:when test="$var3Postfix='' or $var3Postfix='  d' or $var3Postfix='| d' or $var3Postfix='||d'"><xsl:value-of select="concat(' ', 'd')"/></xsl:when>
+				<xsl:when test="$var3Postfix='' or $var3Postfix='  d' or $var3Postfix='| d' or $var3Postfix='||d'">
+					<xsl:value-of select="concat(' ', 'd')"/>
+				</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="$var3Postfix"/>
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
 
-        <!-- concat -->
+		<!-- concat -->
 		<xsl:variable name="var3step1" select="concat($var3, $var3Postfix_new)"/>
 
 		<!--
@@ -315,144 +555,171 @@
 			</xsl:call-template>
 		</xsl:variable>
 
-        <!-- concat -->
+		<!-- concat -->
 		<xsl:variable name="var3step2" select="concat($var3step1_pos1_15, $var3NewPubCode_2, $var3step1_pos19_41)"/>
 
-        <!--
-            step 3
-            008 35-37
-        -->
-        <xsl:variable name="var3step1_pos1_35" select="substring($var3step2, 1, 35)"/>
-        <xsl:variable name="var3step1_pos36_38" select="substring($var3step2, 36, 3)"/>
-        <xsl:variable name="var3step1_pos39_41" select="substring($var3step2, 39, 3)"/>
-        <xsl:variable name="var041a" select="//marc:datafield[@tag='041']/marc:subfield[@code='a']"/>
-        <xsl:variable name="var655a" select="//marc:datafield[@tag='655']/marc:subfield[@code='a']"/>
-        <xsl:variable name="varmarcleader" select="//marc:leader"/>
-        <xsl:variable name="varmarcleader_pos7" select="substring($varmarcleader, 7, 1)"/>
+		<!--
+			step 3
+			008 35-37
+		-->
+		<xsl:variable name="var3step1_pos1_35" select="substring($var3step2, 1, 35)"/>
+		<xsl:variable name="var3step1_pos36_38" select="substring($var3step2, 36, 3)"/>
+		<xsl:variable name="var3step1_pos39_41" select="substring($var3step2, 39, 3)"/>
+		<xsl:variable name="var041a" select="//marc:datafield[@tag='041']/marc:subfield[@code='a']"/>
+		<xsl:variable name="var655a" select="//marc:datafield[@tag='655']/marc:subfield[@code='a']"/>
+		<xsl:variable name="varmarcleader" select="//marc:leader"/>
+		<xsl:variable name="varmarcleader_pos7" select="substring($varmarcleader, 7, 1)"/>
 
-        <xsl:variable name="var3langcode" select="$var3step1_pos36_38"/>
+		<xsl:variable name="var3langcode" select="$var3step1_pos36_38"/>
 
-        <xsl:variable name="var3langcode_2">
-            <xsl:choose>
-                <xsl:when test="$var3langcode='|||' and string-length($var041a)=3">
+		<xsl:variable name="var3langcode_2">
+			<xsl:choose>
+				<xsl:when test="$var3langcode='|||' and string-length($var041a)=3">
 
-                    <!-- check if 041a code is correct, if not return ||| -->
+					<!-- check if 041a code is correct, if not return ||| -->
 
-                    <xsl:variable name="var041a_checked">
-                        <xsl:call-template name="checkLanguageCode">
-                            <xsl:with-param name="lc" select="$var041a"/>
-                            <xsl:with-param name="if_incorrect_return_value" select="'|||'"/>
-                        </xsl:call-template>
-                    </xsl:variable>
+					<xsl:variable name="var041a_checked">
+						<xsl:call-template name="checkLanguageCode">
+							<xsl:with-param name="lc" select="$var041a"/>
+							<xsl:with-param name="if_incorrect_return_value" select="'|||'"/>
+						</xsl:call-template>
+					</xsl:variable>
 
-                    <xsl:value-of select="$var041a_checked"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$var3langcode"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+					<xsl:value-of select="$var041a_checked"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$var3langcode"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 
-        <xsl:variable name="var3langcode_3">
-            <xsl:choose>
-                <xsl:when test="$var3langcode_2='|||' and ( $var655a='Photo' or $var655a='Photo.' ) and $varmarcleader_pos7='k'">
-                    <xsl:value-of select="'zxx'"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$var3langcode_2"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+		<xsl:variable name="var3langcode_3">
+			<xsl:choose>
+				<xsl:when
+						test="$var3langcode_2='|||' and ( $var655a='Photo' or $var655a='Photo.' ) and $varmarcleader_pos7='k'">
+					<xsl:value-of select="'zxx'"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$var3langcode_2"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 
-        <xsl:variable name="var3langcode_4">
-            <xsl:choose>
-                <xsl:when test="$var3langcode_3='|||'">
-                    <xsl:value-of select="'und'"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$var3langcode_3"/>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+		<xsl:variable name="var3langcode_4">
+			<xsl:choose>
+				<xsl:when test="$var3langcode_3='|||'">
+					<xsl:value-of select="'und'"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$var3langcode_3"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
 
-        <xsl:variable name="var3langcode_5">
-            <xsl:call-template name="correctLanguageCode">
-                <xsl:with-param name="c" select="$var3langcode_4"/>
-            </xsl:call-template>
-        </xsl:variable>
+		<xsl:variable name="var3langcode_5">
+			<xsl:call-template name="correctLanguageCode">
+				<xsl:with-param name="c" select="$var3langcode_4"/>
+			</xsl:call-template>
+		</xsl:variable>
 
-        <!-- concat -->
-        <xsl:variable name="var3step3" select="concat($var3step1_pos1_35, $var3langcode_5, $var3step1_pos39_41)"/>
+		<!-- concat -->
+		<xsl:variable name="var3step3" select="concat($var3step1_pos1_35, $var3langcode_5, $var3step1_pos39_41)"/>
 
-        <!-- return 008 -->
+		<!-- return 008 -->
 		<marc:controlfield tag="008">
 			<xsl:value-of select="$var3step3"/>
 		</marc:controlfield>
 
 	</xls:template>
 
-    <!--
-        step 041$a
-    -->
-    <xls:template match="marc:datafield[@tag='041']">
-        <xsl:copy>
-            <xsl:apply-templates select="@*"/>
+	<!--
+		step 041$a
+	-->
+	<xls:template match="marc:datafield[@tag='041']">
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
 
-            <xsl:variable name="count041a" select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
-            <xsl:variable name="count041bcd" select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a'])"/>
+			<xsl:variable name="count041a"
+			              select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
+			<xsl:variable name="count041bcd"
+			              select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a'])"/>
 
-            <xsl:choose>
-                <xsl:when test="$count041a='1'">
-                    <xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:apply-templates select="@*|node()"/>
-                </xsl:otherwise>
-            </xsl:choose>
+			<xsl:choose>
+				<xsl:when test="$count041a='1'">
+					<xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates select="@*|node()"/>
+				</xsl:otherwise>
+			</xsl:choose>
 
-        </xsl:copy>
-    </xls:template>
-
-
-    <!--
-        step 044$a
-    -->
-    <xls:template match="marc:datafield[@tag='044']">
-        <xsl:copy>
-
-            <xsl:variable name="count044a" select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
-            <xsl:variable name="count044bcd" select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a'])"/>
-
-            <xsl:choose>
-                <xsl:when test="$count044a='1'">
-                    <xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:apply-templates select="@*|node()"/>
-                </xsl:otherwise>
-            </xsl:choose>
-
-        </xsl:copy>
-    </xls:template>
+		</xsl:copy>
+	</xls:template>
 
 
-    <!--
-        step 245$a
-    -->
-    <xls:template match="marc:datafield[@tag='245']">
+	<!--
+		step 044$a
+	-->
+	<xls:template match="marc:datafield[@tag='044']">
+		<xsl:copy>
 
-        <xsl:variable name="var245_marcleader" select="//marc:leader"/>
-        <xsl:variable name="var245_marcleader_pos7" select="substring($var245_marcleader, 7, 1)"/>
-        <xsl:variable name="var245_655a" select="/marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a']"/>
-        <xsl:variable name="var245_245a" select="/marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
+			<xsl:variable name="count044a"
+			              select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
 
-        <xsl:value-of select="$var245_marcleader_pos7"/> ++ <xsl:value-of select="$var245_245a"/> -- <xsl:value-of select="$var245_655a"/> --
+			<xsl:choose>
+				<xsl:when test="$count044a='1'">
+					<xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates select="@*|node()"/>
+				</xsl:otherwise>
+			</xsl:choose>
 
-        <xsl:copy>
-            <xsl:apply-templates select="@*"/>
-            <xsl:apply-templates select="node()"/>
-        </xsl:copy>
-    </xls:template>
+		</xsl:copy>
+	</xls:template>
+
+
+	<!--
+		step 245$a
+	-->
+	<xls:template match="marc:datafield[@tag='245']">
+		<xsl:copy>
+			<xsl:attribute name="ind1">
+				<xsl:value-of select="@ind1"/>
+			</xsl:attribute>
+
+			<xsl:attribute name="ind2">
+				<xsl:value-of select="@ind2"/>
+			</xsl:attribute>
+
+			<xsl:attribute name="tag">
+				<xsl:value-of select="@tag"/>
+			</xsl:attribute>
+
+			<xsl:variable name="var245_marcleader_pos7" select="substring(//marc:leader, 7, 1)"/>
+			<xsl:variable name="var245_marcleader_pos8" select="substring(//marc:leader, 8, 1)"/>
+			<xsl:variable name="var245_245a" select="/marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
+
+			<xsl:choose>
+				<!-- 655a -->
+				<xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos7='k'">
+					<marc:subfield code="a">
+						<xsl:value-of select="/marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a']"/>
+					</marc:subfield>
+				</xsl:when>
+				<!-- 245k -->
+				<xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos8='s'">
+					<marc:subfield code="a">
+						<xsl:value-of select="marc:subfield[@code='k']"/>
+					</marc:subfield>
+				</xsl:when>
+			</xsl:choose>
+
+			<xsl:apply-templates select="@*|node()[@code!='a']"/>
+
+		</xsl:copy>
+
+	</xls:template>
 
 
 </xsl:stylesheet>

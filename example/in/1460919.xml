@@ -11,19 +11,20 @@
 <marc:subfield code="a">ger</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="044">
-<marc:subfield code="a">gw</marc:subfield>
+	<marc:subfield code="a">gw</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="0">(NL-AMISG)2005096</marc:subfield>
-<marc:subfield code="photographer">f</marc:subfield>
-<marc:subfield code="a">Klemm, Barbara</marc:subfield>
-<marc:subfield code="e">photographer</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2005096</marc:subfield>
+	<marc:subfield code="photographer">f</marc:subfield>
+	<marc:subfield code="a">Klemm, Barbara</marc:subfield>
+	<marc:subfield code="e">photographer</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
-    <marc:subfield code="k">Visual document.</marc:subfield>
+	<marc:subfield code="a"></marc:subfield>
+	<marc:subfield code="k">Visual document.</marc:subfield>
 </marc:datafield>
-    <marc:datafield ind1=" " ind2=" " tag="260">
-<marc:subfield code="c">1972</marc:subfield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="c">1972</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="500">
 <marc:subfield code=""/>
