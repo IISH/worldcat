@@ -641,11 +641,9 @@
 
 			<xsl:variable name="count041a"
 			              select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
-			<xsl:variable name="count041bcd"
-			              select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a'])"/>
 
 			<xsl:choose>
-				<xsl:when test="$count041a='1'">
+				<xsl:when test="$count041a=1">
 					<xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
 				</xsl:when>
 				<xsl:otherwise>
@@ -667,7 +665,7 @@
 			              select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
 
 			<xsl:choose>
-				<xsl:when test="$count044a='1'">
+				<xsl:when test="$count044a=1">
 					<xsl:apply-templates select="@*|/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
 				</xsl:when>
 				<xsl:otherwise>
@@ -751,6 +749,29 @@
 
 		</xsl:copy>
 
+	</xls:template>
+
+	<!--
+		invalid subfield codes, part 1, collector, designer, draughtsman, engraver, painter, photographer
+	-->
+	<xls:template match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='collector']">
+		<!-- TODO is het nodig om te controlen of originele waarde f is ??? -->
+		<marc:subfield code="e">collector</marc:subfield>
+	</xls:template>
+	<xls:template match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='designer']">
+		<marc:subfield code="e">designer</marc:subfield>
+	</xls:template>
+	<xls:template match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='draughtsman']">
+		<marc:subfield code="e">draughtsman</marc:subfield>
+	</xls:template>
+	<xls:template match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='engraver']">
+		<marc:subfield code="e">engraver</marc:subfield>
+	</xls:template>
+	<xls:template match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='painter']">
+		<marc:subfield code="e">painter</marc:subfield>
+	</xls:template>
+	<xls:template match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='photographer']">
+		<marc:subfield code="e">photographer</marc:subfield>
 	</xls:template>
 
 	<!--
