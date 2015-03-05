@@ -461,7 +461,7 @@
 	</xsl:template>
 
 	<!-- Verwijder ongeldige marc -->
-	<xsl:template match="marc:subfield[not(@code) or @code='']"/>
+	<!--<xsl:template match="marc:subfield[not(@code) or not(string-length(normalize-space(@code))=1)]"/>-->
 
 	<!--
 		Leader correcties test string:

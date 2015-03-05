@@ -30,34 +30,28 @@
 <marc:datafield ind1=" " ind2=" " tag="694">
 <marc:subfield code="a">Kun, M.</marc:subfield>
 <marc:subfield code="b">2001/1975</marc:subfield>
+<marc:subfield code="y">ZZZ</marc:subfield>
+<marc:subfield code="y"></marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="700">
 <marc:subfield code="0">(NL-AMISG)2000338</marc:subfield>
 <marc:subfield code="collector">f</marc:subfield>
 <marc:subfield code="collector">f</marc:subfield>
-<marc:subfield code="a">Kun, Miklós,</marc:subfield>
 <marc:subfield code="b">c</marc:subfield>
 <marc:subfield code="d">e</marc:subfield>
 <marc:subfield code="collector">f</marc:subfield>
-<marc:subfield code="k">l</marc:subfield>
-<marc:subfield code="m">n</marc:subfield>
-<marc:subfield code="o">p</marc:subfield>
-<marc:subfield code="q">r</marc:subfield>
-<marc:subfield code="s">t</marc:subfield>
+<marc:subfield code="y">ZZZ</marc:subfield>
 <marc:subfield code="v">x</marc:subfield>
-<marc:subfield code="y">z</marc:subfield>
+<marc:subfield code="y">ZZZ</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">2001/1975</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
 <marc:subfield code="p">N10614846</marc:subfield>
+<marc:subfield code="y">ZZZ</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="901">
 <marc:subfield code="a">1029318</marc:subfield>
-<marc:subfield code="b">Unknown</marc:subfield>
 <marc:subfield code="c">1029318</marc:subfield>
 <marc:subfield code="t">biblio</marc:subfield>
 </marc:datafield>
