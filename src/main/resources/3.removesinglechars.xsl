@@ -1,6 +1,5 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:marc="http://www.loc.gov/MARC21/slim"
-                xmlns:xls="http://www.w3.org/1999/XSL/Transform">
+                xmlns:marc="http://www.loc.gov/MARC21/slim">
 
 	<!-- copy node -->
 	<xsl:template match="@*|node()">
@@ -20,7 +19,6 @@
 				</xsl:copy>
 			</xsl:otherwise>
 		</xsl:choose>
-
 	</xsl:template>
 
 </xsl:stylesheet>

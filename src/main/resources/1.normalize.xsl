@@ -2,8 +2,6 @@
                 xmlns:marc="http://www.loc.gov/MARC21/slim"
                 xmlns:xls="http://www.w3.org/1999/XSL/Transform">
 
-	<!-- QUESTION: 1403469.xml 044.a heeft als waarde -cs -->
-
 	<!-- check correctness of language code -->
 	<xsl:template name="checkLanguageCode">
 		<xsl:param name="lc"/>
@@ -393,7 +391,6 @@
 		</xsl:choose>
 	</xsl:template>
 
-
 	<!-- correct the place of publication code -->
 	<xsl:template name="correctPlaceOfPublicationCode">
 		<xsl:param name="c"/>
@@ -503,8 +500,6 @@
 	<!--
 		Zie ook http://www.loc.gov/marc/bibliographic/bd008.html
 		008 39 (Srce)
-		QUESTION: moet er gecontroleerd worden dat var3Language dut of eng is?
-		QUESTION: kan er een postfix zijn?
 	-->
 	<xls:template match="marc:controlfield[@tag='008']">
 
@@ -625,7 +620,7 @@
 		<!-- concat -->
 		<xsl:variable name="var3step3" select="concat($var3step1_pos1_35, $var3langcode_5, $var3step1_pos39_41)"/>
 
-		<!-- return 008 -->
+		<!-- create controlfield 008 -->
 		<marc:controlfield tag="008">
 			<xsl:value-of select="$var3step3"/>
 		</marc:controlfield>
