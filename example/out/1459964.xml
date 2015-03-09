@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+
+  <marc:leader>00620nkm a22     7a 4500</marc:leader>
+  <marc:controlfield tag="001">1459964</marc:controlfield>
+  <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+  <marc:controlfield tag="005">20120809082623.0</marc:controlfield>
+  <marc:controlfield tag="008">120809s1976    ne                  und d</marc:controlfield>
+  <marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield>
+  
+  
+  <marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Naeff, Nico,</marc:subfield><marc:subfield code="e">photographer</marc:subfield><marc:subfield code="0">(NL-AMISG)454357</marc:subfield></marc:datafield>
+  <marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Photo</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">1976, 16 juni</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Tweede Kamerleden.</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">Nico Naeff.</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="542"><marc:subfield code="m">closed</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1976-1976</marc:subfield><marc:subfield code="0">(NL-AMISG)366975</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Den Haag (Netherlands)</marc:subfield><marc:subfield code="0">(NL-AMISG)231557</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Photo</marc:subfield><marc:subfield code="0">(NL-AMISG)121213</marc:subfield></marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">PvdA</marc:subfield><marc:subfield code="e">collector</marc:subfield><marc:subfield code="0">(NL-AMISG)574031</marc:subfield></marc:datafield>
+  <marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG A63/964</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">30051002971544</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1459964</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1459964</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/4B8C9E62-97C6-40C4-A903-2F2CB2B13F23</marc:subfield></marc:datafield>
+</marc:record>
