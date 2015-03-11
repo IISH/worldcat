@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00422nam a22001577a 4500</marc:leader>
 <marc:controlfield tag="001">896953</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -11,14 +10,10 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Rutherford, John G.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)286219</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">methods and systems /</marc:subfield>
-<marc:subfield code="c">John G. Rutherford.</marc:subfield>
-</marc:datafield>
+
+
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Rutherford, John G.</marc:subfield><marc:subfield code="0">(NL-AMISG)286219</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Quality control in industry :</marc:subfield><marc:subfield code="b">methods and systems /</marc:subfield><marc:subfield code="c">John G. Rutherford.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">New York, N.Y., [etc.] :</marc:subfield>
 <marc:subfield code="b">Pitman,</marc:subfield>
@@ -31,11 +26,7 @@
 <marc:subfield code="a">EVD</marc:subfield>
 <marc:subfield code="b">1996/10772</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Economische Voorlichtingsdienst (Den Haag),</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)573812</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Economische Voorlichtingsdienst (Den Haag),</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)573812</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

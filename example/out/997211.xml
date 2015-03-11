@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00582nkm a22002057a 4500</marc:leader>
 <marc:controlfield tag="001">997211</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
 <marc:controlfield tag="005">19980619093325.0</marc:controlfield>
-<marc:controlfield tag="008">199806suuuuuuuuxx#|||||||||||||||||und d</marc:controlfield>
+<marc:controlfield tag="008">199806suuuuuuuuxx |||||||||||||||||und d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="035">
 <marc:subfield code="a">(IISG)IISGb10803126</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Vinkenoog, Simon.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)319133</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="a">Painting.</marc:subfield>
-<marc:subfield code="k">Visual document.</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Vinkenoog, Simon.</marc:subfield><marc:subfield code="0">(NL-AMISG)319133</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">
+						
+						[Painting.]
+					</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">1966.</marc:subfield>
 </marc:datafield>
@@ -31,22 +27,13 @@
 <marc:datafield ind1=" " ind2=" " tag="542">
 <marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="648">
-<marc:subfield code="a">1966-1966.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)366210</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-<marc:subfield code="a">Sexuality.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)228354</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1966-1966.</marc:subfield><marc:subfield code="0">(NL-AMISG)366210</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Sexuality.</marc:subfield><marc:subfield code="0">(NL-AMISG)228354</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="651">
 <marc:subfield code="a">Netherlands.</marc:subfield>
 <marc:subfield code="0">(NL-AMISG)569282</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="655">
-<marc:subfield code="a">Painting.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)224931</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Painting.</marc:subfield><marc:subfield code="0">(NL-AMISG)224931</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="694">
 <marc:subfield code="a">Vinkenoog, S.</marc:subfield>
 <marc:subfield code="b">BG S8/67</marc:subfield>
@@ -55,11 +42,7 @@
 <marc:subfield code="a">NED</marc:subfield>
 <marc:subfield code="e">Nederland.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Vinkenoog, Simon,</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2000682</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Vinkenoog, Simon,</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)2000682</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

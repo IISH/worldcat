@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00648nam a22001937a 4500</marc:leader>
 <marc:controlfield tag="001">1006289</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -18,10 +17,8 @@
 <marc:subfield code="a">fre</marc:subfield>
 <marc:subfield code="a">dut</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2="3" tag="245">
-<marc:subfield code="b">De hervorming van de financiële markten en bemiddelaars /</marc:subfield>
-<marc:subfield code="c">coord.: Jean-François Tossens.</marc:subfield>
-</marc:datafield>
+
+<marc:datafield ind1="1" ind2="3" tag="245"><marc:subfield code="a">La réforme des marchés et des intermédiaires financiers =</marc:subfield><marc:subfield code="b">De hervorming van de financiële markten en bemiddelaars /</marc:subfield><marc:subfield code="c">coord.: Jean-François Tossens.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">Bruxelles :</marc:subfield>
 <marc:subfield code="b">Bruylant,</marc:subfield>
@@ -30,18 +27,11 @@
 <marc:datafield ind1=" " ind2=" " tag="300">
 <marc:subfield code="a">822 p.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Tossens, Jean-François.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)412778</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Tossens, Jean-François.</marc:subfield><marc:subfield code="0">(NL-AMISG)412778</marc:subfield></marc:datafield>
 <marc:datafield ind1="3" ind2=" " tag="740">
 <marc:subfield code="a">De hervorming van de financiële markten en bemiddelaars.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2="0" tag="830">
-<marc:subfield code="a">Cahiers / AEDBF/EVBFR ;</marc:subfield>
-<marc:subfield code="v">5.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)33870</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2="0" tag="830"><marc:subfield code="a">Cahiers / AEDBF/EVBFR ;</marc:subfield><marc:subfield code="v">5.</marc:subfield><marc:subfield code="0">(NL-AMISG)33870</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

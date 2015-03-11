@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00620nkm a22     7a 4500</marc:leader>
 <marc:controlfield tag="001">1479111</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -12,14 +11,9 @@
 <marc:subfield code="a">dut</marc:subfield>
 <marc:subfield code="a">ita</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Jongema, Marten,</marc:subfield>
-<marc:subfield code="e">designer.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)548223</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="k">Visual document.</marc:subfield>
-</marc:datafield>
+
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Jongema, Marten,</marc:subfield><marc:subfield code="e">designer.</marc:subfield><marc:subfield code="0">(NL-AMISG)548223</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Talentenshow Paradiso.</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">1990</marc:subfield>
 <marc:subfield code="e">(Amsterdam :</marc:subfield>
@@ -38,39 +32,17 @@
 <marc:datafield ind1=" " ind2=" " tag="542">
 <marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="2" ind2="4" tag="610">
-<marc:subfield code="a">Latente Talentenband.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)565389</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="648">
-<marc:subfield code="a">1990-1990.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)570149</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-<marc:subfield code="a">Pop music.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)247919</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-<marc:subfield code="a">Biographica.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)306042</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="2" ind2="4" tag="610"><marc:subfield code="a">Latente Talentenband.</marc:subfield><marc:subfield code="0">(NL-AMISG)565389</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1990-1990.</marc:subfield><marc:subfield code="0">(NL-AMISG)570149</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Pop music.</marc:subfield><marc:subfield code="0">(NL-AMISG)247919</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Biographica.</marc:subfield><marc:subfield code="0">(NL-AMISG)306042</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="651">
 <marc:subfield code="a">Amsterdam (Netherlands)</marc:subfield>
 <marc:subfield code="0">(NL-AMISG)572941</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="655">
-<marc:subfield code="a">Poster.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)3248</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Kisman, Max,</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2000301</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Paradiso (Amsterdam)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)249482</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Poster.</marc:subfield><marc:subfield code="0">(NL-AMISG)3248</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Kisman, Max,</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)2000301</marc:subfield></marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Paradiso (Amsterdam)</marc:subfield><marc:subfield code="0">(NL-AMISG)249482</marc:subfield></marc:datafield>
 <marc:datafield ind1="0" ind2=" " tag="740">
 <marc:subfield code="a">Paradiso Talentenshow.</marc:subfield>
 </marc:datafield>

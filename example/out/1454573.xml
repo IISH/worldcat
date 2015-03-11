@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00620nkm a22     7a 4500</marc:leader>
 <marc:controlfield tag="001">1454573</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -8,15 +7,13 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Vegter, Jaap,</marc:subfield>
-<marc:subfield code="e">draughtsman.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)333125</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="a">Drawing.</marc:subfield>
-<marc:subfield code="k">Visual document.</marc:subfield>
-</marc:datafield>
+
+
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Vegter, Jaap,</marc:subfield><marc:subfield code="e">draughtsman.</marc:subfield><marc:subfield code="0">(NL-AMISG)333125</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">
+						
+						[Drawing.]
+					</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">1989, 29 april</marc:subfield>
 <marc:subfield code="e">(Den Haag :</marc:subfield>
@@ -29,30 +26,15 @@
 <marc:datafield ind1=" " ind2=" " tag="542">
 <marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2="4" tag="600">
-<marc:subfield code="a">Fuchs, Rudi.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)412950</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="648">
-<marc:subfield code="a">1989-1989.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)369907</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-<marc:subfield code="a">Caricature.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)306037</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-<marc:subfield code="a">Culture policy.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)56150</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="600"><marc:subfield code="a">Fuchs, Rudi.</marc:subfield><marc:subfield code="0">(NL-AMISG)412950</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1989-1989.</marc:subfield><marc:subfield code="0">(NL-AMISG)369907</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Caricature.</marc:subfield><marc:subfield code="0">(NL-AMISG)306037</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Culture policy.</marc:subfield><marc:subfield code="0">(NL-AMISG)56150</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="651">
 <marc:subfield code="a">Den Haag (Netherlands)</marc:subfield>
 <marc:subfield code="0">(NL-AMISG)231557</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="655">
-<marc:subfield code="a">Drawing.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)269282</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Drawing.</marc:subfield><marc:subfield code="0">(NL-AMISG)269282</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

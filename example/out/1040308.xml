@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00457nam a22001817a 4500</marc:leader>
 <marc:controlfield tag="001">1040308</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -14,14 +13,10 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">West, Nigel.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)368070</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">British security service operations 1909-1945 /</marc:subfield>
-<marc:subfield code="c">Nigel West.</marc:subfield>
-</marc:datafield>
+
+
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">West, Nigel.</marc:subfield><marc:subfield code="0">(NL-AMISG)368070</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">MI5 :</marc:subfield><marc:subfield code="b">British security service operations 1909-1945 /</marc:subfield><marc:subfield code="c">Nigel West.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">[S.l.] :</marc:subfield>
 <marc:subfield code="b">Triad / Granada,</marc:subfield>
@@ -30,19 +25,12 @@
 <marc:datafield ind1=" " ind2=" " tag="300">
 <marc:subfield code="a">464 p.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="2" ind2="4" tag="610">
-<marc:subfield code="a">MI5 (UK)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)219072</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="2" ind2="4" tag="610"><marc:subfield code="a">MI5 (UK)</marc:subfield><marc:subfield code="0">(NL-AMISG)219072</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="694">
 <marc:subfield code="a">Wiebes, C.</marc:subfield>
 <marc:subfield code="b">2001/425</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Wiebes, Cees,</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2000727</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Wiebes, Cees,</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)2000727</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

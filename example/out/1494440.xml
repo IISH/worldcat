@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>01316cam a22003374a 4500</marc:leader>
 <marc:controlfield tag="001">1494440</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -21,13 +20,13 @@
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="955">
 <marc:subfield code="a">yk10 2005-06-06</marc:subfield>
-<marc:subfield code="a">aa08 2005-06-07</marc:subfield>
-<marc:subfield code="a">ps13 2006-01-17 1 copy rec'd., to CIP ver.</marc:subfield>
-<marc:subfield code="a">lg13 2008-04-07 copy 2 added</marc:subfield>
 <marc:subfield code="c">yk10 2005-06-06</marc:subfield>
 <marc:subfield code="d">yk02 2005-06-06</marc:subfield>
 <marc:subfield code="e">yk02 2005-06-06 to DCD</marc:subfield>
+<marc:subfield code="a">aa08 2005-06-07</marc:subfield>
+<marc:subfield code="a">ps13 2006-01-17 1 copy rec'd., to CIP ver.</marc:subfield>
 <marc:subfield code="f">sc02 2006-03-02 Z-CipVer</marc:subfield>
+<marc:subfield code="a">lg13 2008-04-07 copy 2 added</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="010">
 <marc:subfield code="a">  2005016116</marc:subfield>
@@ -64,15 +63,8 @@
 <marc:subfield code="a">B</marc:subfield>
 <marc:subfield code="2">22</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="0" ind2=" " tag="100">
-<marc:subfield code="a">U Sam Oeur,</marc:subfield>
-<marc:subfield code="d">1936-</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2015624</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">a memoir /</marc:subfield>
-<marc:subfield code="c">by U Sam Oeur ; with Ken McCullough.</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="100"><marc:subfield code="a">U Sam Oeur,</marc:subfield><marc:subfield code="d">1936-</marc:subfield><marc:subfield code="0">(NL-AMISG)2015624</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Crossing three wildernesses :</marc:subfield><marc:subfield code="b">a memoir /</marc:subfield><marc:subfield code="c">by U Sam Oeur ; with Ken McCullough.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="250">
 <marc:subfield code="a">1st ed.</marc:subfield>
 </marc:datafield>
@@ -85,10 +77,7 @@
 <marc:subfield code="a">367 p. ;</marc:subfield>
 <marc:subfield code="c">23 cm.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="0" ind2="0" tag="600">
-<marc:subfield code="a">U Sam Oeur,</marc:subfield>
-<marc:subfield code="d">1936-</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="0" ind2="0" tag="600"><marc:subfield code="a">U Sam Oeur,</marc:subfield><marc:subfield code="d">1936-</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2="0" tag="651">
 <marc:subfield code="a">Cambodia</marc:subfield>
 <marc:subfield code="x">History</marc:subfield>
@@ -101,16 +90,13 @@
 </marc:datafield>
 <marc:datafield ind1=" " ind2="0" tag="651">
 <marc:subfield code="a">Cambodia</marc:subfield>
-<marc:subfield code="v">Biography.</marc:subfield>
 <marc:subfield code="x">Officials and employees</marc:subfield>
+<marc:subfield code="v">Biography.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">McCullough, Ken.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2015625</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">McCullough, Ken.</marc:subfield><marc:subfield code="0">(NL-AMISG)2015625</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2="2" tag="856">
-<marc:subfield code="u">http://www.loc.gov/catdir/enhancements/fy1008/2005016116-d.html</marc:subfield>
 <marc:subfield code="3">Publisher description</marc:subfield>
+<marc:subfield code="u">http://www.loc.gov/catdir/enhancements/fy1008/2005016116-d.html</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
 <marc:subfield code="a">10622/9C047396-BCF8-11E4-9777-7492569A2AE7</marc:subfield>

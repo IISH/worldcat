@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00451nam a22001697a 4500</marc:leader>
 <marc:controlfield tag="001">1028392</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
 <marc:controlfield tag="005">20010914162211.0</marc:controlfield>
 <marc:controlfield tag="008">200109suuuuuuuuxr |||||||||||||||||cze d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="020">
-<marc:subfield code="a">8086093123</marc:subfield>
+	<marc:subfield code="a">8086093123</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="035">
 <marc:subfield code="a">(IISG)IISGb10875411</marc:subfield>
@@ -14,14 +13,10 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Havel, Jan.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)140407</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">ve stínu úvah a ve světle dokumentů /</marc:subfield>
-<marc:subfield code="c">Jan Havel.</marc:subfield>
-</marc:datafield>
+
+
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Havel, Jan.</marc:subfield><marc:subfield code="0">(NL-AMISG)140407</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Smrt Jana Masaryka očima kriminalisty :</marc:subfield><marc:subfield code="b">ve stínu úvah a ve světle dokumentů /</marc:subfield><marc:subfield code="c">Jan Havel.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">Vizovice :</marc:subfield>
 <marc:subfield code="b">Lípa,</marc:subfield>
@@ -34,11 +29,7 @@
 <marc:subfield code="a">Skrabek, K.</marc:subfield>
 <marc:subfield code="b">2001/4250</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Skrabek, Karel,</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2000599</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Skrabek, Karel,</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)2000599</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

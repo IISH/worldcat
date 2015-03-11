@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00767nas a22001817a 4500</marc:leader>
 <marc:controlfield tag="001">1382749</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -15,22 +14,13 @@
 <marc:subfield code="a">eng</marc:subfield>
 <marc:subfield code="a">fra</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">Annuaire international des dix-huitièmistes = Répertoire international des huitièmistes /</marc:subfield>
-<marc:subfield code="c">American Society for Eighteenth-century Studies ; Voltaire Foundation.</marc:subfield>
-</marc:datafield>
+
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">International directory of eighteenth-century studies =</marc:subfield><marc:subfield code="b">Annuaire international des dix-huitièmistes = Répertoire international des huitièmistes /</marc:subfield><marc:subfield code="c">American Society for Eighteenth-century Studies ; Voltaire Foundation.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">Oxford [etc.]</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">American Society for Eighteenth-century Studies (Colombus, Oh.)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)9475</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Voltaire Foundation (Oxford).</marc:subfield>
-<marc:subfield code="b">Taylor Institution.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)349131</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">American Society for Eighteenth-century Studies (Colombus, Oh.)</marc:subfield><marc:subfield code="0">(NL-AMISG)9475</marc:subfield></marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Voltaire Foundation (Oxford).</marc:subfield><marc:subfield code="b">Taylor Institution.</marc:subfield><marc:subfield code="0">(NL-AMISG)349131</marc:subfield></marc:datafield>
 <marc:datafield ind1="0" ind2=" " tag="740">
 <marc:subfield code="a">Annuaire international des dix-huitièmistes.</marc:subfield>
 </marc:datafield>
@@ -46,14 +36,14 @@
 <marc:subfield code="p">Z116224</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="0" ind2="0" tag="853">
-<marc:subfield code="a">(ISS)</marc:subfield>
 <marc:subfield code="8">2</marc:subfield>
+<marc:subfield code="a">(ISS)</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="5" ind2="0" tag="863">
+<marc:subfield code="8">2.1</marc:subfield>
 <marc:subfield code="a">ISS</marc:subfield>
 <marc:subfield code="p">P863.10360055</marc:subfield>
 <marc:subfield code="w">g</marc:subfield>
-<marc:subfield code="8">2.1</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="5" ind2="0" tag="866">
 <marc:subfield code="a">7(1991)</marc:subfield>
@@ -67,13 +57,13 @@
 <marc:subfield code="p">Z116223</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="0" ind2="0" tag="853">
-<marc:subfield code="a">(ISS)</marc:subfield>
 <marc:subfield code="8">2</marc:subfield>
+<marc:subfield code="a">(ISS)</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="5" ind2="0" tag="863">
+<marc:subfield code="8">2.1</marc:subfield>
 <marc:subfield code="a">ISS</marc:subfield>
 <marc:subfield code="p">P863.10360054</marc:subfield>
-<marc:subfield code="8">2.1</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="5" ind2="0" tag="866">
 <marc:subfield code="a">4(1979); (1995)</marc:subfield>

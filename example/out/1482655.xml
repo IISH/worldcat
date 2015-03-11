@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00620nam a22     7i 4500</marc:leader>
 <marc:controlfield tag="001">1482655</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -11,14 +10,10 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Ryley, Peter.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2009919</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">anarchism, anti-capitalism and ecology in late 19th and early 20th century Britain /</marc:subfield>
-<marc:subfield code="c">Peter Ryley.</marc:subfield>
-</marc:datafield>
+
+
+<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Ryley, Peter.</marc:subfield><marc:subfield code="0">(NL-AMISG)2009919</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Making another world possible :</marc:subfield><marc:subfield code="b">anarchism, anti-capitalism and ecology in late 19th and early 20th century Britain /</marc:subfield><marc:subfield code="c">Peter Ryley.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">New York, N.Y. [etc.] :</marc:subfield>
 <marc:subfield code="b">Bloomsbury,</marc:subfield>
@@ -27,10 +22,7 @@
 <marc:datafield ind1=" " ind2=" " tag="300">
 <marc:subfield code="a">XXVIII, 233 p.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="830">
-<marc:subfield code="a">Contemporary anarchist studies.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2009968</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="830"><marc:subfield code="a">Contemporary anarchist studies.</marc:subfield><marc:subfield code="0">(NL-AMISG)2009968</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>

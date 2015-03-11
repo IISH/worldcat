@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00620nam a22     7i 4500</marc:leader>
 <marc:controlfield tag="001">1483196</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -11,9 +10,7 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="c">ed. by Gwyn Campbell and Alessandro Stanziani.</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Bonded labour and debt in the Indian Ocean world /</marc:subfield><marc:subfield code="c">ed. by Gwyn Campbell and Alessandro Stanziani.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="a">London [etc.] :</marc:subfield>
 <marc:subfield code="b">Pickering and Chatto,</marc:subfield>
@@ -22,19 +19,9 @@
 <marc:datafield ind1=" " ind2=" " tag="300">
 <marc:subfield code="a">XIII, 240 pp.</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Campbell, Gwyn.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)486678</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="a">Stanziani, Alessandro.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)334227</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="0" tag="830">
-<marc:subfield code="a">Financial history ;</marc:subfield>
-<marc:subfield code="v">23.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)545563</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Campbell, Gwyn.</marc:subfield><marc:subfield code="0">(NL-AMISG)486678</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Stanziani, Alessandro.</marc:subfield><marc:subfield code="0">(NL-AMISG)334227</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2="0" tag="830"><marc:subfield code="a">Financial history ;</marc:subfield><marc:subfield code="v">23.</marc:subfield><marc:subfield code="0">(NL-AMISG)545563</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
 <marc:subfield code="a">10622/0D761381-F8D5-43D0-9AD7-EB3109ED6C80</marc:subfield>
 </marc:datafield>

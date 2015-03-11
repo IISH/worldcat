@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 <marc:leader>00620nim a22     7i 4500</marc:leader>
 <marc:controlfield tag="001">1484741</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
@@ -8,10 +7,9 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="b">amusement en propaganda tijdens de bezetting.</marc:subfield>
-<marc:subfield code="k">Sound document.</marc:subfield>
-</marc:datafield>
+
+
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Ongehoord :</marc:subfield><marc:subfield code="b">amusement en propaganda tijdens de bezetting.</marc:subfield><marc:subfield code="k">Sound document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">2005</marc:subfield>
 <marc:subfield code="e">(Amsterdam :</marc:subfield>
@@ -27,38 +25,17 @@
 <marc:datafield ind1=" " ind2=" " tag="540">
 <marc:subfield code="b">2005, Theater Instituut Nederland. </marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="648">
-<marc:subfield code="a">1940-1945.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)364487</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="650">
-<marc:subfield code="a">Music.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)164053</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="650">
-<marc:subfield code="a">Recreation.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)209765</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="650">
-<marc:subfield code="a">Theatre.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)548253</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="648"><marc:subfield code="a">1940-1945.</marc:subfield><marc:subfield code="0">(NL-AMISG)364487</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="650"><marc:subfield code="a">Music.</marc:subfield><marc:subfield code="0">(NL-AMISG)164053</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="650"><marc:subfield code="a">Recreation.</marc:subfield><marc:subfield code="0">(NL-AMISG)209765</marc:subfield></marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="650"><marc:subfield code="a">Theatre.</marc:subfield><marc:subfield code="0">(NL-AMISG)548253</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="651">
 <marc:subfield code="a">Netherlands.</marc:subfield>
 <marc:subfield code="0">(NL-AMISG)567897</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="655">
-<marc:subfield code="a">CD.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)43395</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Nederlands Instituut voor Beeld en Geluid (Hilversum)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)531021</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Theater Instituut Nederland (Amsterdam)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)531020</marc:subfield>
-</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="655"><marc:subfield code="a">CD.</marc:subfield><marc:subfield code="0">(NL-AMISG)43395</marc:subfield></marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Nederlands Instituut voor Beeld en Geluid (Hilversum)</marc:subfield><marc:subfield code="0">(NL-AMISG)531021</marc:subfield></marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Theater Instituut Nederland (Amsterdam)</marc:subfield><marc:subfield code="0">(NL-AMISG)531020</marc:subfield></marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
 <marc:subfield code="a">IISG</marc:subfield>
 <marc:subfield code="b">IISG</marc:subfield>
