@@ -1,1 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00659nac a22002177a 4500</marc:leader><marc:controlfield tag="001">1002659</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20130909132538.0</marc:controlfield><marc:controlfield tag="008">200812suuuuuuuuja |||||||||||||||||eng d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10789045</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2=" " tag="041"><marc:subfield code="a">eng</marc:subfield><marc:subfield code="a">fre</marc:subfield><marc:subfield code="a">ger</marc:subfield><marc:subfield code="a">rus</marc:subfield><marc:subfield code="a">dut</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">ja</marc:subfield><marc:subfield code="a">ne</marc:subfield><marc:subfield code="a">gw</marc:subfield><marc:subfield code="a">fr</marc:subfield><marc:subfield code="a">ru</marc:subfield><marc:subfield code="a">us</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="b">brochurecollectie.</marc:subfield><marc:subfield code="f">1890-1965.</marc:subfield><marc:subfield code="k">Book Collection</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">0,8 m. ; 8 brochuredozen.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Groepsbeschrijving.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Collectie brochures uit de periode 1890-1965 over en uit Japan, o.a. over de verhouding Japan-China en overige landen.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1875-1899.</marc:subfield><marc:subfield code="0">(NL-AMISG)358081</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1900-1924.</marc:subfield><marc:subfield code="0">(NL-AMISG)358689</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1925-1949.</marc:subfield><marc:subfield code="0">(NL-AMISG)360599</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Imperialism.</marc:subfield><marc:subfield code="0">(NL-AMISG)130884</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Japan.</marc:subfield><marc:subfield code="0">(NL-AMISG)82043</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="695"><marc:subfield code="a">EAS</marc:subfield><marc:subfield code="e">Japan.</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">Bro 3057-3064</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10575145</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1002659</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1002659</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/E01636EB-0210-456D-BFA6-464E700B6214</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00659nac a22002177a 4500</marc:leader>
+<marc:controlfield tag="001">1002659</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20130909132538.0</marc:controlfield>
+<marc:controlfield tag="008">200812suuuuuuuuja |||||||||||||||||eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:subfield code="a">(IISG)IISGb10789045</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+<marc:subfield code="a">eng</marc:subfield>
+<marc:subfield code="a">fre</marc:subfield>
+<marc:subfield code="a">ger</marc:subfield>
+<marc:subfield code="a">rus</marc:subfield>
+<marc:subfield code="a">dut</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+<marc:subfield code="a">ja</marc:subfield>
+<marc:subfield code="a">ne</marc:subfield>
+<marc:subfield code="a">gw</marc:subfield>
+<marc:subfield code="a">fr</marc:subfield>
+<marc:subfield code="a">ru</marc:subfield>
+<marc:subfield code="a">us</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="b">brochurecollectie.</marc:subfield>
+<marc:subfield code="f">1890-1965.</marc:subfield>
+<marc:subfield code="k">Book Collection</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">0,8 m. ; 8 brochuredozen.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+<marc:subfield code="a">Groepsbeschrijving.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+<marc:subfield code="a">Collectie brochures uit de periode 1890-1965 over en uit Japan, o.a. over de verhouding Japan-China en overige landen.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1875-1899.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)358081</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1900-1924.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)358689</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1925-1949.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)360599</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Imperialism.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)130884</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+<marc:subfield code="a">Japan.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)82043</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="695">
+<marc:subfield code="a">EAS</marc:subfield>
+<marc:subfield code="e">Japan.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">Bro 3057-3064</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">N10575145</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1002659</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">1002659</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/E01636EB-0210-456D-BFA6-464E700B6214</marc:subfield>
+</marc:datafield></marc:record>

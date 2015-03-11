@@ -1,1 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00525nam a22001457a 4500</marc:leader><marc:controlfield tag="001">252788</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">19950210234845.0</marc:controlfield><marc:controlfield tag="008">199502suuuuuuuuxx#|||||||||||||||||und d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10125361</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Hahn, Albert,</marc:subfield><marc:subfield code="c">Jr.</marc:subfield><marc:subfield code="0">(NL-AMISG)136342</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Amsterdam,</marc:subfield><marc:subfield code="c">1920.</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="4" tag="600"><marc:subfield code="a">Troelstra, Pieter Jelles.</marc:subfield><marc:subfield code="0">(NL-AMISG)250040</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="690"><marc:subfield code="a">N 1300</marc:subfield><marc:subfield code="b">Netherlands; social history; after 1813; social movements; after 1870; personalities; P.J. Troelstra</marc:subfield><marc:subfield code="c">Nederland; sociale geschiedenis; sinds 1813; de arbeidersbeweging na 1870; personen; P.J. Troelstra.</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">N 1300/29</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10123349</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">252788</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">252788</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/1F92BF20-8DAC-43F9-BA03-4185DE49852D</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00525nam a22001457a 4500</marc:leader>
+<marc:controlfield tag="001">252788</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">19950210234845.0</marc:controlfield>
+<marc:controlfield tag="008">199502suuuuuuuuxx#|||||||||||||||||und d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:subfield code="a">(IISG)IISGb10125361</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Hahn, Albert,</marc:subfield>
+<marc:subfield code="c">Jr.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)136342</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="a">Amsterdam,</marc:subfield>
+<marc:subfield code="c">1920.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="600">
+<marc:subfield code="a">Troelstra, Pieter Jelles.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)250040</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="690">
+<marc:subfield code="a">N 1300</marc:subfield>
+<marc:subfield code="b">Netherlands; social history; after 1813; social movements; after 1870; personalities; P.J. Troelstra</marc:subfield>
+<marc:subfield code="c">Nederland; sociale geschiedenis; sinds 1813; de arbeidersbeweging na 1870; personen; P.J. Troelstra.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">N 1300/29</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">N10123349</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">252788</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">252788</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/1F92BF20-8DAC-43F9-BA03-4185DE49852D</marc:subfield>
+</marc:datafield></marc:record>

@@ -1,1 +1,62 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nam a22      a 4500</marc:leader><marc:controlfield tag="001">1454768</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20120319081643.0</marc:controlfield><marc:controlfield tag="008">120209s        xxu                 eng</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="020"><marc:subfield code="a">978-0-8248-3571-2</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="041"><marc:subfield code="a">eng</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">xxu</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="0">(NL-AMISG)2002389</marc:subfield><marc:subfield code="a">Singh, Sarinda</marc:subfield><marc:subfield code="b">c</marc:subfield><marc:subfield code="d">e</marc:subfield><marc:subfield code="f">k</marc:subfield><marc:subfield code="l">m</marc:subfield><marc:subfield code="n">o</marc:subfield><marc:subfield code="p">q</marc:subfield><marc:subfield code="r">s</marc:subfield><marc:subfield code="t">v</marc:subfield><marc:subfield code="x">y</marc:subfield><marc:subfield code="z"/></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Natural potency and political power :</marc:subfield><marc:subfield code="b">forests and state authority in contemporary Laos /</marc:subfield><marc:subfield code="c">Sarinda Singh.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Honolulu, Hawaii :</marc:subfield><marc:subfield code="b">University of Hawai'i Press,</marc:subfield><marc:subfield code="c">2012.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">X, 192 p.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="0" tag="830"><marc:subfield code="a">Southeast Asia : politics, meaning, and memory</marc:subfield><marc:subfield code="0">(NL-AMISG)484145</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">2011/2220</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">ACQ1496</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1454768</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1454768</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/F6BFE6FA-5467-4615-A7F9-60D692F13108</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nam a22      a 4500</marc:leader>
+<marc:controlfield tag="001">1454768</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20120319081643.0</marc:controlfield>
+<marc:controlfield tag="008">120209s        xxu                 eng</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="020">
+<marc:subfield code="a">978-0-8248-3571-2</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+<marc:subfield code="a">eng</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+<marc:subfield code="a">xxu</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="0">(NL-AMISG)2002389</marc:subfield>
+<marc:subfield code="a">Singh, Sarinda</marc:subfield>
+<marc:subfield code="b">c</marc:subfield>
+<marc:subfield code="d">e</marc:subfield>
+<marc:subfield code="f">k</marc:subfield>
+<marc:subfield code="l">m</marc:subfield>
+<marc:subfield code="n">o</marc:subfield>
+<marc:subfield code="p">q</marc:subfield>
+<marc:subfield code="r">s</marc:subfield>
+<marc:subfield code="t">v</marc:subfield>
+<marc:subfield code="x">y</marc:subfield>
+<marc:subfield code="z"/></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="a">Natural potency and political power :</marc:subfield>
+<marc:subfield code="b">forests and state authority in contemporary Laos /</marc:subfield>
+<marc:subfield code="c">Sarinda Singh.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="a">Honolulu, Hawaii :</marc:subfield>
+<marc:subfield code="b">University of Hawai'i Press,</marc:subfield>
+<marc:subfield code="c">2012.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">X, 192 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="0" tag="830">
+<marc:subfield code="a">Southeast Asia : politics, meaning, and memory</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)484145</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">2011/2220</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">ACQ1496</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1454768</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1454768</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/F6BFE6FA-5467-4615-A7F9-60D692F13108</marc:subfield>
+</marc:datafield></marc:record>

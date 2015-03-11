@@ -1,1 +1,57 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00347nas a2200145 a 45 0</marc:leader><marc:controlfield tag="001">1424165</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20100127173651.0</marc:controlfield><marc:controlfield tag="008">201001suuuuuuuune |||||||||||||||||eng d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb11081961</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2=" " tag="041"><marc:subfield code="a">eng</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">ne</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="k">Jaarverslag = Annual report.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Amsterdam</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">European Forum for Democracy and Solidarity</marc:subfield><marc:subfield code="0">(NL-AMISG)562607</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">ZO 56385</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">Z212044</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2="0" tag="853"><marc:subfield code="8">2</marc:subfield><marc:subfield code="a">(ISS)</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="863"><marc:subfield code="8">2.1</marc:subfield><marc:subfield code="a">ISS</marc:subfield><marc:subfield code="p">P863.10550519</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="866"><marc:subfield code="a">(2008)</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1424165</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1424165</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/56E1EB4C-7143-48F0-A3FD-8FBB4013BCB1</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00347nas a2200145 a 45 0</marc:leader>
+<marc:controlfield tag="001">1424165</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20100127173651.0</marc:controlfield>
+<marc:controlfield tag="008">201001suuuuuuuune |||||||||||||||||eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:subfield code="a">(IISG)IISGb11081961</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+<marc:subfield code="a">eng</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+<marc:subfield code="a">ne</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="k">Jaarverslag = Annual report.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="a">Amsterdam</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">European Forum for Democracy and Solidarity</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)562607</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">ZO 56385</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">Z212044</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2="0" tag="853">
+<marc:subfield code="8">2</marc:subfield>
+<marc:subfield code="a">(ISS)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="863">
+<marc:subfield code="8">2.1</marc:subfield>
+<marc:subfield code="a">ISS</marc:subfield>
+<marc:subfield code="p">P863.10550519</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="866">
+<marc:subfield code="a">(2008)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1424165</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">1424165</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/56E1EB4C-7143-48F0-A3FD-8FBB4013BCB1</marc:subfield>
+</marc:datafield></marc:record>

@@ -1,1 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nkm a22     7a 4500</marc:leader><marc:controlfield tag="001">1462776</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20130422094825.0</marc:controlfield><marc:controlfield tag="008">121018k19801990xx#                 und d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Bok, M. de,</marc:subfield><marc:subfield code="e">photographer</marc:subfield><marc:subfield code="0">(NL-AMISG)569324</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Photo.</marc:subfield><marc:subfield code="k">Visual document</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">4 ex.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">M. de Bok.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">Arjen Stada.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">Johan van Gurp.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="542"><marc:subfield code="m">closed</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="4" tag="600"><marc:subfield code="a">Niessen, Frits.</marc:subfield><marc:subfield code="0">(NL-AMISG)457222</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1980-1990.</marc:subfield><marc:subfield code="0">(NL-AMISG)368056</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Portrait</marc:subfield><marc:subfield code="0">(NL-AMISG)306035</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Photo.</marc:subfield><marc:subfield code="0">(NL-AMISG)121213</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Stada, Arjen,</marc:subfield><marc:subfield code="e">photographer</marc:subfield><marc:subfield code="0">(NL-AMISG)569134</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Gurp, Johan van,</marc:subfield><marc:subfield code="e">photographer</marc:subfield><marc:subfield code="0">(NL-AMISG)2005705</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">PvdA</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)574031</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG B33/757</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">30051003312722</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1462776</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1462776</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/0F011546-1950-4668-AD17-2C65EE0A4254</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nkm a22     7a 4500</marc:leader>
+<marc:controlfield tag="001">1462776</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20130422094825.0</marc:controlfield>
+<marc:controlfield tag="008">121018k19801990xx#                 und d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Bok, M. de,</marc:subfield>
+<marc:subfield code="e">photographer</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)569324</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="a">Photo.</marc:subfield>
+<marc:subfield code="k">Visual document</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">4 ex.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="b">M. de Bok.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="b">Arjen Stada.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="b">Johan van Gurp.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="542">
+<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="600">
+<marc:subfield code="a">Niessen, Frits.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)457222</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1980-1990.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)368056</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Portrait</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)306035</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+<marc:subfield code="a">Photo.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+<marc:subfield code="a">Stada, Arjen,</marc:subfield>
+<marc:subfield code="e">photographer</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)569134</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+<marc:subfield code="a">Gurp, Johan van,</marc:subfield>
+<marc:subfield code="e">photographer</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2005705</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">PvdA</marc:subfield>
+<marc:subfield code="e">collector.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)574031</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">BG B33/757</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">30051003312722</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1462776</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1462776</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/0F011546-1950-4668-AD17-2C65EE0A4254</marc:subfield>
+</marc:datafield></marc:record>

@@ -1,1 +1,55 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00423nam a2200169 a 45 0</marc:leader><marc:controlfield tag="001">1002968</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20120719124557.0</marc:controlfield><marc:controlfield tag="008">199812suuuuuuuune |||||||||||||||||||| d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10819724</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2=" " tag="041"><marc:subfield code="a">dut</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">ne</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Kruijt, J.P.</marc:subfield><marc:subfield code="0">(NL-AMISG)196492</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Mens, massa, gemeenschap /</marc:subfield><marc:subfield code="c">J.P. Kruijt.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Utrecht :</marc:subfield><marc:subfield code="b">Libertas,</marc:subfield><marc:subfield code="c">[1952?]</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">16 p.</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Christelijk Sociale Conferentie 1952.</marc:subfield><marc:subfield code="0">(NL-AMISG)50665</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">Bro 3421/19</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10592377</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1002968</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1002968</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/E794CBFF-F31E-4E86-8BF2-DE993240062E</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00423nam a2200169 a 45 0</marc:leader>
+<marc:controlfield tag="001">1002968</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20120719124557.0</marc:controlfield>
+<marc:controlfield tag="008">199812suuuuuuuune |||||||||||||||||||| d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:subfield code="a">(IISG)IISGb10819724</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+<marc:subfield code="a">dut</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+<marc:subfield code="a">ne</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Kruijt, J.P.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)196492</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="a">Mens, massa, gemeenschap /</marc:subfield>
+<marc:subfield code="c">J.P. Kruijt.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="a">Utrecht :</marc:subfield>
+<marc:subfield code="b">Libertas,</marc:subfield>
+<marc:subfield code="c">[1952?]</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">16 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">Christelijk Sociale Conferentie 1952.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)50665</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">Bro 3421/19</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">N10592377</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1002968</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">1002968</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/E794CBFF-F31E-4E86-8BF2-DE993240062E</marc:subfield>
+</marc:datafield></marc:record>

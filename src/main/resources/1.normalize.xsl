@@ -395,11 +395,11 @@
 	<xsl:template name="correctPlaceOfPublicationCode">
 		<xsl:param name="c"/>
 		<xsl:choose>
-			<xsl:when test="$c='|||'">xx#</xsl:when>
-			<xsl:when test="$c='|| '">xx#</xsl:when>
-			<xsl:when test="$c='|  '">xx#</xsl:when>
-			<xsl:when test="$c='||'">xx#</xsl:when>
-			<xsl:when test="$c='|'">xx#</xsl:when>
+			<xsl:when test="$c='|||'">xx </xsl:when>
+			<xsl:when test="$c='|| '">xx </xsl:when>
+			<xsl:when test="$c='|  '">xx </xsl:when>
+			<xsl:when test="$c='||'">xx </xsl:when>
+			<xsl:when test="$c='|'">xx </xsl:when>
 
 			<xsl:when test="$c='uk#'">xxk</xsl:when>
 			<xsl:when test="$c='uk|'">xxk</xsl:when>
@@ -416,33 +416,33 @@
 			<xsl:when test="$c='cn '">xxc</xsl:when>
 			<xsl:when test="$c='cn'">xxc</xsl:when>
 
-			<xsl:when test="$c='cs#'">xr#</xsl:when>
-			<xsl:when test="$c='cs|'">xr#</xsl:when>
-			<xsl:when test="$c='cs '">xr#</xsl:when>
-			<xsl:when test="$c='cs'">xr#</xsl:when>
+			<xsl:when test="$c='cs#'">xr </xsl:when>
+			<xsl:when test="$c='cs|'">xr </xsl:when>
+			<xsl:when test="$c='cs '">xr </xsl:when>
+			<xsl:when test="$c='cs'">xr </xsl:when>
 
-			<xsl:when test="$c='hk#'">cc#</xsl:when>
-			<xsl:when test="$c='hk|'">cc#</xsl:when>
-			<xsl:when test="$c='hk '">cc#</xsl:when>
-			<xsl:when test="$c='hk'">cc#</xsl:when>
+			<xsl:when test="$c='hk#'">cc </xsl:when>
+			<xsl:when test="$c='hk|'">cc </xsl:when>
+			<xsl:when test="$c='hk '">cc </xsl:when>
+			<xsl:when test="$c='hk'">cc </xsl:when>
 
-			<xsl:when test="$c='yu#'">rb#</xsl:when>
-			<xsl:when test="$c='yu|'">rb#</xsl:when>
-			<xsl:when test="$c='yu '">rb#</xsl:when>
-			<xsl:when test="$c='yu'">rb#</xsl:when>
+			<xsl:when test="$c='yu#'">rb </xsl:when>
+			<xsl:when test="$c='yu|'">rb </xsl:when>
+			<xsl:when test="$c='yu '">rb </xsl:when>
+			<xsl:when test="$c='yu'">rb </xsl:when>
 
-			<xsl:when test="$c='ge#'">gw#</xsl:when>
-			<xsl:when test="$c='ge|'">gw#</xsl:when>
-			<xsl:when test="$c='ge '">gw#</xsl:when>
-			<xsl:when test="$c='ge'">gw#</xsl:when>
+			<xsl:when test="$c='ge#'">gw </xsl:when>
+			<xsl:when test="$c='ge|'">gw </xsl:when>
+			<xsl:when test="$c='ge '">gw </xsl:when>
+			<xsl:when test="$c='ge'">gw </xsl:when>
 
-			<xsl:when test="$c='uu#'">xx#</xsl:when>
-			<xsl:when test="$c='uu|'">xx#</xsl:when>
-			<xsl:when test="$c='uu '">xx#</xsl:when>
-			<xsl:when test="$c='uu'">xx#</xsl:when>
+			<xsl:when test="$c='uu#'">xx </xsl:when>
+			<xsl:when test="$c='uu|'">xx </xsl:when>
+			<xsl:when test="$c='uu '">xx </xsl:when>
+			<xsl:when test="$c='uu'">xx </xsl:when>
 
-			<xsl:when test="$c='rus'">ru#</xsl:when>
-			<xsl:when test="$c='dut'">ne#</xsl:when>
+			<xsl:when test="$c='rus'">ru </xsl:when>
+			<xsl:when test="$c='dut'">ne </xsl:when>
 
 			<xsl:otherwise>
 				<xsl:value-of select="$c"/>
@@ -532,10 +532,12 @@
 
 		<xsl:variable name="var3NewPubCode">
 			<xsl:choose>
-				<xsl:when test="$var3step1_pos16_18='|||' and string-length($var044a)=2">
-					<xsl:value-of select="concat($var044a, '#')"/>
+				<!-- opmerking A, ook spatie|| en ||spatie -->
+				<xsl:when test="( $var3step1_pos16_18='|||' or $var3step1_pos16_18=' ||' or $var3step1_pos16_18='|| ' ) and string-length($var044a)=2">
+					<!-- opmerking B, spatie en niet # -->
+					<xsl:value-of select="concat($var044a, ' ')"/>
 				</xsl:when>
-				<xsl:when test="$var3step1_pos16_18='|||' and string-length($var044a)=3">
+				<xsl:when test="( $var3step1_pos16_18='|||' or $var3step1_pos16_18=' ||' or $var3step1_pos16_18='|| ' ) and string-length($var044a)=3">
 					<xsl:value-of select="$var044a"/>
 				</xsl:when>
 				<xsl:otherwise>
@@ -694,18 +696,30 @@
 			<xsl:variable name="var245_245a" select="/marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
 
 			<xsl:choose>
+
 				<!-- 655a -->
 				<xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos7='k'">
 					<marc:subfield code="a">
-						<xsl:value-of select="/marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a']"/>
+						<!-- opmerking D, vierkante [] eromheen -->
+						[<xsl:value-of select="/marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a']"/>]
 					</marc:subfield>
 				</xsl:when>
+
 				<!-- 245k -->
 				<xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos8='s'">
 					<marc:subfield code="a">
-						<xsl:value-of select="marc:subfield[@code='k']"/>
+						<!-- TODO QUESTION: opmerking D, vierkante [] eromheen -->
+						[<xsl:value-of select="marc:subfield[@code='k']"/>]
 					</marc:subfield>
 				</xsl:when>
+
+				<!-- Opmerking C, als 245a bestaat dan moet origineel getoond worden -->
+				<xsl:when test="string-length($var245_245a)>0">
+					<marc:subfield code="a">
+						<xsl:value-of select="$var245_245a"/>
+					</marc:subfield>
+				</xsl:when>
+
 			</xsl:choose>
 
 			<xsl:apply-templates select="@*|node()[@code!='a']"/>
@@ -716,33 +730,33 @@
 
 	<!--
 		step 020$a (isbn)
+		Opmerking F, zorgen dat voor code 'a' en code 'z' werkt
 	-->
-	<xls:template match="marc:datafield[@tag='020']">
+	<xls:template match="marc:datafield[@tag='020']/marc:subfield[@code='a' or @code='z']">
 
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
+		<xsl:variable name="var020a_1">
+			<xsl:call-template name="string-replace-all">
+				<xsl:with-param name="text" select="text()" />
+				<xsl:with-param name="replace" select="'-'" />
+				<xsl:with-param name="by" select="''" />
+			</xsl:call-template>
+		</xsl:variable>
 
-			<xsl:variable name="var020a_1">
-				<xsl:call-template name="string-replace-all">
-					<xsl:with-param name="text" select="marc:subfield[@code='a']" />
-					<xsl:with-param name="replace" select="'-'" />
-					<xsl:with-param name="by" select="''" />
-				</xsl:call-template>
-			</xsl:variable>
+		<xsl:variable name="var020a_2">
+			<xsl:call-template name="string-replace-all">
+				<xsl:with-param name="text" select="$var020a_1" />
+				<xsl:with-param name="replace" select="' '" />
+				<xsl:with-param name="by" select="''" />
+			</xsl:call-template>
+		</xsl:variable>
 
-			<xsl:variable name="var020a_2">
-				<xsl:call-template name="string-replace-all">
-					<xsl:with-param name="text" select="$var020a_1" />
-					<xsl:with-param name="replace" select="' '" />
-					<xsl:with-param name="by" select="''" />
-				</xsl:call-template>
-			</xsl:variable>
+		<marc:subfield>
+			<xsl:attribute name="code">
+				<xsl:value-of select="@code"/>
+			</xsl:attribute>
 
-			<marc:subfield code="a">
-				<xsl:value-of select="$var020a_2"/>
-			</marc:subfield>
-
-		</xsl:copy>
+			<xsl:value-of select="$var020a_2"/>
+		</marc:subfield>
 
 	</xls:template>
 

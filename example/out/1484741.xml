@@ -1,1 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nim a22     7i 4500</marc:leader><marc:controlfield tag="001">1484741</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20140304105154.0</marc:controlfield><marc:controlfield tag="008">140303s2005    ne                  dut d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="b">amusement en propaganda tijdens de bezetting.</marc:subfield><marc:subfield code="k">Sound document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">2005</marc:subfield><marc:subfield code="e">(Amsterdam :</marc:subfield><marc:subfield code="f">Theater Instituut Nederland,</marc:subfield><marc:subfield code="g">2005)</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">4 ex.; 70 min; 72 min; 72 min; 78 min.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">4 CD-box met boekje van Henk van Gelder over de verschillende radiocabarets en artiesten tijdens de Tweede Wereldoorlog. Op de eerste twee CD's "Koppen op !" neutraal amusement zoals dat ondanks de censuur van de Duitse bezetter tijdens de oorlog op de radio te horen was. De derde (controversiële) cd bevat opnames van het nationaal-socialistische Zondagmiddagcabaret van Paulus de Ruiter, een pseudoniem van Jacques van Tol. De vierde cd is in zijn geheel gevuld met opnames van Cabaret De Watergeus van Radio Oranje.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">2005, Theater Instituut Nederland. </marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="648"><marc:subfield code="a">1940-1945.</marc:subfield><marc:subfield code="0">(NL-AMISG)364487</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="650"><marc:subfield code="a">Music.</marc:subfield><marc:subfield code="0">(NL-AMISG)164053</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="650"><marc:subfield code="a">Recreation.</marc:subfield><marc:subfield code="0">(NL-AMISG)209765</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="650"><marc:subfield code="a">Theatre.</marc:subfield><marc:subfield code="0">(NL-AMISG)548253</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="651"><marc:subfield code="a">Netherlands.</marc:subfield><marc:subfield code="0">(NL-AMISG)567897</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="655"><marc:subfield code="a">CD.</marc:subfield><marc:subfield code="0">(NL-AMISG)43395</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Nederlands Instituut voor Beeld en Geluid (Hilversum)</marc:subfield><marc:subfield code="0">(NL-AMISG)531021</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Theater Instituut Nederland (Amsterdam)</marc:subfield><marc:subfield code="0">(NL-AMISG)531020</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG CD2/820</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">30051003316608</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1484741</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1484741</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/1640F75C-7D8A-486B-BA74-206C416F9890</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nim a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1484741</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20140304105154.0</marc:controlfield>
+<marc:controlfield tag="008">140303s2005    ne                  dut d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="b">amusement en propaganda tijdens de bezetting.</marc:subfield>
+<marc:subfield code="k">Sound document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="c">2005</marc:subfield>
+<marc:subfield code="e">(Amsterdam :</marc:subfield>
+<marc:subfield code="f">Theater Instituut Nederland,</marc:subfield>
+<marc:subfield code="g">2005)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">4 ex.; 70 min; 72 min; 72 min; 78 min.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+<marc:subfield code="a">4 CD-box met boekje van Henk van Gelder over de verschillende radiocabarets en artiesten tijdens de Tweede Wereldoorlog. Op de eerste twee CD's "Koppen op !" neutraal amusement zoals dat ondanks de censuur van de Duitse bezetter tijdens de oorlog op de radio te horen was. De derde (controversiële) cd bevat opnames van het nationaal-socialistische Zondagmiddagcabaret van Paulus de Ruiter, een pseudoniem van Jacques van Tol. De vierde cd is in zijn geheel gevuld met opnames van Cabaret De Watergeus van Radio Oranje.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="b">2005, Theater Instituut Nederland. </marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="648">
+<marc:subfield code="a">1940-1945.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)364487</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="650">
+<marc:subfield code="a">Music.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)164053</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="650">
+<marc:subfield code="a">Recreation.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)209765</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="650">
+<marc:subfield code="a">Theatre.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)548253</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="651">
+<marc:subfield code="a">Netherlands.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)567897</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="655">
+<marc:subfield code="a">CD.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)43395</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">Nederlands Instituut voor Beeld en Geluid (Hilversum)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)531021</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">Theater Instituut Nederland (Amsterdam)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)531020</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">BG CD2/820</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">30051003316608</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1484741</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1484741</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/1640F75C-7D8A-486B-BA74-206C416F9890</marc:subfield>
+</marc:datafield></marc:record>

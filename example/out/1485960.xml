@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nab a22     7i 4500</marc:leader><marc:controlfield tag="001">1485960</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20140917061137.0</marc:controlfield><marc:controlfield tag="008">140424s||||    xx#                 dut d</marc:controlfield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Brookman, F. Henry.</marc:subfield><marc:subfield code="0">(NL-AMISG)2013656</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="730"><marc:subfield code="a">Economisch- en sociaal-historisch jaarboek.</marc:subfield><marc:subfield code="0">(NL-AMISG)2012338</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="773"><marc:subfield code="g">39(1976):pp.187-240</marc:subfield><marc:subfield code="t">Economisch- en sociaal-historisch jaarboek.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="856"><marc:subfield code="u">http://hdl.handle.net/10622/01677942-1976-001</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">NEHA</marc:subfield><marc:subfield code="j">Article</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">1355885</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1485960</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1485960</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/7D56E390-26C1-4FA3-BB19-191327F935B6</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nab a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1485960</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20140917061137.0</marc:controlfield>
+<marc:controlfield tag="008">140424s||||    xx#                 dut d</marc:controlfield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Brookman, F. Henry.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2013656</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="730">
+<marc:subfield code="a">Economisch- en sociaal-historisch jaarboek.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2012338</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="773">
+<marc:subfield code="g">39(1976):pp.187-240</marc:subfield>
+<marc:subfield code="t">Economisch- en sociaal-historisch jaarboek.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="856">
+<marc:subfield code="u">http://hdl.handle.net/10622/01677942-1976-001</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">NEHA</marc:subfield>
+<marc:subfield code="j">Article</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">1355885</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1485960</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1485960</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/7D56E390-26C1-4FA3-BB19-191327F935B6</marc:subfield>
+</marc:datafield></marc:record>

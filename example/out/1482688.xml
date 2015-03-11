@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nkm a22     7i 4500</marc:leader><marc:controlfield tag="001">1482688</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20140305090714.0</marc:controlfield><marc:controlfield tag="008">131104s1995    ne                  dut d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">1995</marc:subfield><marc:subfield code="e">(S.l. : </marc:subfield><marc:subfield code="f">s.n.)</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="g">59x39 cm.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Programma dichtersfestival 27 oktober 1995. Georganiseerd door Prometheus en het Zuidlandtheater. Met Neeltje Maria Min, Mustafa Sitou, Simon Vinkenoog en anderen. </marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="a">Copyright unknown.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="542"><marc:subfield code="m">closed</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="4" tag="600"><marc:subfield code="a">Vinkenoog, Simon.</marc:subfield><marc:subfield code="0">(NL-AMISG)319133</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1995-1995.</marc:subfield><marc:subfield code="0">(NL-AMISG)471192</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Biographica.</marc:subfield><marc:subfield code="0">(NL-AMISG)306042</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Poetry.</marc:subfield><marc:subfield code="0">(NL-AMISG)362520</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Terneuzen (Netherlands)</marc:subfield><marc:subfield code="0">(NL-AMISG)231628</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Poster.</marc:subfield><marc:subfield code="0">(NL-AMISG)3248</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Vinkenoog, Simon,</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)2000682</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Zuidlantheater (Terneuzen)</marc:subfield><marc:subfield code="0">(NL-AMISG)2009931</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG D82/876</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">30051003220057</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1482688</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1482688</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/04B1A5D0-B347-46C7-B3BB-A17896911FE0</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nkm a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1482688</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20140305090714.0</marc:controlfield>
+<marc:controlfield tag="008">131104s1995    ne                  dut d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="k">Visual document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="c">1995</marc:subfield>
+<marc:subfield code="e">(S.l. : </marc:subfield>
+<marc:subfield code="f">s.n.)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="g">59x39 cm.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+<marc:subfield code="a">Programma dichtersfestival 27 oktober 1995. Georganiseerd door Prometheus en het Zuidlandtheater. Met Neeltje Maria Min, Mustafa Sitou, Simon Vinkenoog en anderen. </marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="a">Copyright unknown.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="542">
+<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="600">
+<marc:subfield code="a">Vinkenoog, Simon.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)319133</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1995-1995.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)471192</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Biographica.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)306042</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Poetry.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)362520</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+<marc:subfield code="a">Terneuzen (Netherlands)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)231628</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+<marc:subfield code="a">Poster.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)3248</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+<marc:subfield code="a">Vinkenoog, Simon,</marc:subfield>
+<marc:subfield code="e">collector.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2000682</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">Zuidlantheater (Terneuzen)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2009931</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">BG D82/876</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">30051003220057</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1482688</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1482688</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/04B1A5D0-B347-46C7-B3BB-A17896911FE0</marc:subfield>
+</marc:datafield></marc:record>

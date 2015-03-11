@@ -1,1 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nkm a22     7i 4500</marc:leader><marc:controlfield tag="001">1483154</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20131223144715.0</marc:controlfield><marc:controlfield tag="008">131202s1980    ne                  dut d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Moonen, J.</marc:subfield><marc:subfield code="e">draughtsman</marc:subfield><marc:subfield code="0">(NL-AMISG)2010339</marc:subfield><marc:subfield code="0">(NL-AMISG)2010340</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">(Ca. 1980)</marc:subfield><marc:subfield code="e">(S.l. : </marc:subfield><marc:subfield code="f">s.n.)</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="g">61x43 cm.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="a">Copyright unknown.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="542"><marc:subfield code="m">closed</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2="4" tag="610"><marc:subfield code="a">Stop Atoomgevaar Weert </marc:subfield><marc:subfield code="0">(NL-AMISG)2010341</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1978-1982.</marc:subfield><marc:subfield code="0">(NL-AMISG)368041</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Nuclear energy.</marc:subfield><marc:subfield code="0">(NL-AMISG)128091</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Nuclear waste</marc:subfield><marc:subfield code="0">(NL-AMISG)128073</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Weert (Netherlands)</marc:subfield><marc:subfield code="0">(NL-AMISG)231719</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Poster.</marc:subfield><marc:subfield code="0">(NL-AMISG)3248</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">Stop Atoomgevaar Weert </marc:subfield><marc:subfield code="0">(NL-AMISG)2010341</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG D89/62</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">30051003221105</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1483154</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1483154</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/E31E1C62-9DF6-4484-A757-752939B5F913</marc:subfield></marc:datafield></marc:record>
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nkm a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1483154</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20131223144715.0</marc:controlfield>
+<marc:controlfield tag="008">131202s1980    ne                  dut d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Moonen, J.</marc:subfield>
+<marc:subfield code="e">draughtsman</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2010339</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2010340</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="k">Visual document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="c">(Ca. 1980)</marc:subfield>
+<marc:subfield code="e">(S.l. : </marc:subfield>
+<marc:subfield code="f">s.n.)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="g">61x43 cm.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+<marc:subfield code="a">Copyright unknown.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="542">
+<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2="4" tag="610">
+<marc:subfield code="a">Stop Atoomgevaar Weert </marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2010341</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1978-1982.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)368041</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Nuclear energy.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)128091</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Nuclear waste</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)128073</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+<marc:subfield code="a">Weert (Netherlands)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)231719</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+<marc:subfield code="a">Poster.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)3248</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+<marc:subfield code="a">Stop Atoomgevaar Weert </marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2010341</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">BG D89/62</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">30051003221105</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1483154</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1483154</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/E31E1C62-9DF6-4484-A757-752939B5F913</marc:subfield>
+</marc:datafield></marc:record>

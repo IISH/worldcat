@@ -1,1 +1,76 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620ngm a22      a 4500</marc:leader><marc:controlfield tag="001">1452852</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20111208155915.0</marc:controlfield><marc:controlfield tag="008">110701s2011    it                  ita d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="041"><marc:subfield code="a">ita</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">it</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Bertelli, Michele</marc:subfield><marc:subfield code="0">(NL-AMISG)2001482</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="3" tag="245"><marc:subfield code="a">Un' idea esagerata di libertà :</marc:subfield><marc:subfield code="b">elèuthera 1986-2011, 25 anni di editoria libertaria /</marc:subfield><marc:subfield code="c">Michele Bertelli.</marc:subfield><marc:subfield code="k">Bewegend beeld-document = Moving image document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">2011</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">41 min.</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2="4" tag="610"><marc:subfield code="a">Elèuthera (Milano)</marc:subfield><marc:subfield code="0">(NL-AMISG)524008</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1986-2011</marc:subfield><marc:subfield code="0">(NL-AMISG)2001481</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Anniversaries</marc:subfield><marc:subfield code="0">(NL-AMISG)157267</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Publishing houses</marc:subfield><marc:subfield code="0">(NL-AMISG)252836</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Anarchism</marc:subfield><marc:subfield code="0">(NL-AMISG)7873</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Italy</marc:subfield><marc:subfield code="0">(NL-AMISG)466535</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">DVD</marc:subfield><marc:subfield code="0">(NL-AMISG)374953</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG CD2/193</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">67342</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1452852</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1452852</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/EC94E046-3DCF-4FD6-896E-FFB52A761404</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620ngm a22      a 4500</marc:leader>
+<marc:controlfield tag="001">1452852</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20111208155915.0</marc:controlfield>
+<marc:controlfield tag="008">110701s2011    it                  ita d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+<marc:subfield code="a">ita</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+<marc:subfield code="a">it</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Bertelli, Michele</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2001482</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="3" tag="245">
+<marc:subfield code="a">Un' idea esagerata di libertà :</marc:subfield>
+<marc:subfield code="b">elèuthera 1986-2011, 25 anni di editoria libertaria /</marc:subfield>
+<marc:subfield code="c">Michele Bertelli.</marc:subfield>
+<marc:subfield code="k">Bewegend beeld-document = Moving image document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="c">2011</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">41 min.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2="4" tag="610">
+<marc:subfield code="a">Elèuthera (Milano)</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)524008</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+<marc:subfield code="a">1986-2011</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2001481</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Anniversaries</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)157267</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Publishing houses</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)252836</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+<marc:subfield code="a">Anarchism</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)7873</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+<marc:subfield code="a">Italy</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)466535</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+<marc:subfield code="a">DVD</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)374953</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">BG CD2/193</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">67342</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1452852</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1452852</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/EC94E046-3DCF-4FD6-896E-FFB52A761404</marc:subfield>
+</marc:datafield></marc:record>

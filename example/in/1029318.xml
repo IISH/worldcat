@@ -1,1 +1,66 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00364nam a2200145 a 45 0</marc:leader><marc:controlfield tag="001">1029318</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20000428152508.0</marc:controlfield><marc:controlfield tag="008">200004suuuuuuuuru |||||||||||||||||rus d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10850471</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2=" " tag="041"><marc:subfield code="a">rus</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">ru</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">CKK-RKI v osnovnych postanovlenijach partii.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Moskva [etc.] :</marc:subfield><marc:subfield code="b">Gosudarstvennoe izd-vo,</marc:subfield><marc:subfield code="c">1927.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">223 p.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="694"><marc:subfield code="a">Kun, M.</marc:subfield><marc:subfield code="b">2001/1975</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="0">(NL-AMISG)2000338</marc:subfield><marc:subfield code="collector">f</marc:subfield><marc:subfield code="collector">f</marc:subfield><marc:subfield code="a">Kun, Miklós,</marc:subfield><marc:subfield code="b">c</marc:subfield><marc:subfield code="d">e</marc:subfield><marc:subfield code="collector">f</marc:subfield><marc:subfield code="k">l</marc:subfield><marc:subfield code="m">n</marc:subfield><marc:subfield code="o">p</marc:subfield><marc:subfield code="q">r</marc:subfield><marc:subfield code="s">t</marc:subfield><marc:subfield code="v">x</marc:subfield><marc:subfield code="y">z</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">2001/1975</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10614846</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1029318</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1029318</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/52F14477-8C8C-4A5E-A4D8-19E6FA6FD534</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00364nam a2200145 a 45 0</marc:leader>
+<marc:controlfield tag="001">1029318</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20000428152508.0</marc:controlfield>
+<marc:controlfield tag="008">200004suuuuuuuuru |||||||||||||||||rus d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:subfield code="a">(IISG)IISGb10850471</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+<marc:subfield code="a">rus</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+<marc:subfield code="a">ru</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="a">CKK-RKI v osnovnych postanovlenijach partii.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="a">Moskva [etc.] :</marc:subfield>
+<marc:subfield code="b">Gosudarstvennoe izd-vo,</marc:subfield>
+<marc:subfield code="c">1927.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">223 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="694">
+<marc:subfield code="a">Kun, M.</marc:subfield>
+<marc:subfield code="b">2001/1975</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+<marc:subfield code="0">(NL-AMISG)2000338</marc:subfield>
+<marc:subfield code="collector">f</marc:subfield>
+<marc:subfield code="collector">f</marc:subfield>
+<marc:subfield code="a">Kun, Miklós,</marc:subfield>
+<marc:subfield code="b">c</marc:subfield>
+<marc:subfield code="d">e</marc:subfield>
+<marc:subfield code="collector">f</marc:subfield>
+<marc:subfield code="k">l</marc:subfield>
+<marc:subfield code="m">n</marc:subfield>
+<marc:subfield code="o">p</marc:subfield>
+<marc:subfield code="q">r</marc:subfield>
+<marc:subfield code="s">t</marc:subfield>
+<marc:subfield code="v">x</marc:subfield>
+<marc:subfield code="y">z</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">2001/1975</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">N10614846</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1029318</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">1029318</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/52F14477-8C8C-4A5E-A4D8-19E6FA6FD534</marc:subfield>
+</marc:datafield></marc:record>

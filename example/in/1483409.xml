@@ -1,1 +1,46 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nam a22     7i 4500</marc:leader><marc:controlfield tag="001">1483409</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20141125135824.0</marc:controlfield><marc:controlfield tag="008">131216s2013    xxu                 eng d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="020"><marc:subfield code="a">9780253011510</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Veidlinger, Jeffrey.</marc:subfield><marc:subfield code="0">(NL-AMISG)2010474</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">In the shadow of the shtetl :</marc:subfield><marc:subfield code="b">small-town Jewish life in Soviet Ukraine /</marc:subfield><marc:subfield code="c">Jeffrey Veidlinger.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Bloomington [etc.] :</marc:subfield><marc:subfield code="b">Indiana University Press,</marc:subfield><marc:subfield code="c">2013.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">XXXIV, 385 p.</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">2012/4150</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">3083407734</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1483409</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1483409</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/3F805EDB-9C77-4CB7-A460-EC5AD77FF9D8</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nam a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1483409</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20141125135824.0</marc:controlfield>
+<marc:controlfield tag="008">131216s2013    xxu                 eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="020">
+<marc:subfield code="a">9780253011510</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+<marc:subfield code="a">Veidlinger, Jeffrey.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)2010474</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+<marc:subfield code="a">In the shadow of the shtetl :</marc:subfield>
+<marc:subfield code="b">small-town Jewish life in Soviet Ukraine /</marc:subfield>
+<marc:subfield code="c">Jeffrey Veidlinger.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+<marc:subfield code="a">Bloomington [etc.] :</marc:subfield>
+<marc:subfield code="b">Indiana University Press,</marc:subfield>
+<marc:subfield code="c">2013.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+<marc:subfield code="a">XXXIV, 385 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+<marc:subfield code="a">IISG</marc:subfield>
+<marc:subfield code="b">IISG</marc:subfield>
+<marc:subfield code="c">IISG</marc:subfield>
+<marc:subfield code="j">2012/4150</marc:subfield>
+<marc:subfield code="n">Available</marc:subfield>
+<marc:subfield code="p">3083407734</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+<marc:subfield code="a">1483409</marc:subfield>
+<marc:subfield code="b"/>
+<marc:subfield code="c">1483409</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+<marc:subfield code="a">10622/3F805EDB-9C77-4CB7-A460-EC5AD77FF9D8</marc:subfield>
+</marc:datafield></marc:record>
