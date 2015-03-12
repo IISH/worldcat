@@ -17,13 +17,7 @@
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">1972</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="500">
 
-<marc:subfield code="a">12345</marc:subfield>
-<marc:subfield code="b"/>
-
-
-</marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="542">
 <marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>
