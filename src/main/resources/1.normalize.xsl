@@ -806,4 +806,6 @@
 		</xsl:choose>
 	</xsl:template>
 
+    <xsl:template match="marc:subfield[@code='']"/>
+
 </xsl:stylesheet>
