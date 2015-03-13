@@ -628,7 +628,7 @@
                     </marc:subfield>
                 </xsl:when>
             </xsl:choose>
-            <xsl:apply-templates select="@*|node()[@code!='a']"/>
+            <xsl:apply-templates select="node()[@code!='a']"/>
         </xsl:copy>
     </xls:template>
     <!-- step 020$a (isbn) Opmerking F, zorgen dat voor code 'a' en code 'z' werkt -->

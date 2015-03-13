@@ -10,11 +10,9 @@ fi
 
 for file in $xslt_folder/*
 do
-	echo "# Flattening ${file}"
 	bn=$(basename $file)
 	n=${bn:0:1}
-	xslt=$(tr -d '\n' < $file)
 	echo "my \$xslt_${n} = \$_xslt_parser->parse_stylesheet(\$_xml_parser->parse_string(<<'XSLT${n}'));"
-	echo $xslt
+	cat $file
 	echo "XSLT${n}"
 done
