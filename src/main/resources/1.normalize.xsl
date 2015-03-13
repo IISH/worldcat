@@ -472,7 +472,7 @@
         <xsl:variable name="var3Postfix" select="substring(text(), 39, 3)"/>
         <xsl:variable name="var3Postfix_new">
             <xsl:choose>
-                <xsl:when test="$var3Postfix='' or $var3Postfix=' d' or $var3Postfix='| d' or $var3Postfix='||d'">
+                <xsl:when test="$var3Postfix='' or $var3Postfix='  d' or $var3Postfix='| d' or $var3Postfix='||d'">
                     <xsl:value-of select="concat(' ', 'd')"/>
                 </xsl:when>
                 <xsl:otherwise>

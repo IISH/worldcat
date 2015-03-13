@@ -3,7 +3,7 @@
 <marc:controlfield tag="001">1467255</marc:controlfield>
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
 <marc:controlfield tag="005">20130514075514.0</marc:controlfield>
-<marc:controlfield tag="008">130508s2006    ce                  eng  d</marc:controlfield>
+<marc:controlfield tag="008">130508s2006    ce                  eng d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="020">
 <marc:subfield code="a">9559102842</marc:subfield>
 </marc:datafield>
