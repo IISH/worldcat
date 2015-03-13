@@ -10,10 +10,7 @@
 <marc:datafield ind1=" " ind2=" " tag="040">
 <marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">
-						
-						[Poster.]
-					</marc:subfield><marc:subfield code="f">1980-</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">[Poster.]</marc:subfield><marc:subfield code="f">1980-</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="542">
 <marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>

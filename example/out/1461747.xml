@@ -9,10 +9,7 @@
 </marc:datafield>
 
 
-<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">
-						
-						[Sticker.]
-					</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">[Sticker.]</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">2010.</marc:subfield>
 </marc:datafield>

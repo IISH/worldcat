@@ -13,7 +13,7 @@ do
 	echo "# Flattening ${file}"
 	bn=$(basename $file)
 	n=${bn:0:1}
-	xslt=$(tr -d '\t\n\r' < $file)
+	xslt=$(tr -d '\n' < $file)
 	echo "my \$xslt_${n} = \$_xslt_parser->parse_stylesheet(\$_xml_parser->parse_string(<<'XSLT${n}'));"
 	echo $xslt
 	echo "XSLT${n}"

@@ -8,10 +8,7 @@
 <marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
 
-<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">
-						
-						[Photo.]
-					</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">[Photo.]</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="300">
 <marc:subfield code="a">17 ex.</marc:subfield>
 </marc:datafield>

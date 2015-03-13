@@ -9,10 +9,7 @@
 </marc:datafield>
 
 <marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Schoondergang, Robert,</marc:subfield><marc:subfield code="e">photographer</marc:subfield><marc:subfield code="0">(NL-AMISG)2004249</marc:subfield></marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">
-						
-						[Photo.]
-					</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">[Photo.]</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
 <marc:subfield code="c">(Ca. 1982).</marc:subfield>
 </marc:datafield>
