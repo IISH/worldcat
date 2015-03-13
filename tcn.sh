@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# Get sample data
 
 mkdir -p example/in
 
