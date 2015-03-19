@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><GetRecord><record><header><identifier>oai:evergreen.iisg.nl:1058682</identifier><datestamp>2011-08-10T03:11:42Z</datestamp></header><metadata><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00402nim a2200157 a 45 0</marc:leader>
+<marc:controlfield tag="001">1058682</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20000317101600.0</marc:controlfield>
+<marc:controlfield tag="008">200003suuuuuuuu||||||||||||||||||||fre d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+	<marc:subfield code="a">(IISG)IISGb10847717</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+	<marc:subfield code="a">fre</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="a">Curiel, Henri.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)71248</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="f">1964-1977.</marc:subfield>
+	<marc:subfield code="k">Geluidsdocument = Sound document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="a">11 ex.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+	<marc:subfield code="a">Interviews and readings.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+	<marc:subfield code="a">Audio cassette.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)108021</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="694">
+	<marc:subfield code="a">Egyptian communists</marc:subfield>
+	<marc:subfield code="b">BG GC5/351-61</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+	<marc:subfield code="a">Curiel, Henri,</marc:subfield>
+	<marc:subfield code="e">collector.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2000120</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">BG GC5/351-61</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">N10612246</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1058682</marc:subfield>
+	<marc:subfield code="b">Unknown</marc:subfield>
+	<marc:subfield code="c">1058682</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/BC371D44-72E1-4279-8266-6533AD361D41</marc:subfield>
+</marc:datafield>
+</marc:record></metadata></record></GetRecord></OAI-PMH>

@@ -5,74 +5,75 @@
 <marc:controlfield tag="005">20101130094816.0</marc:controlfield>
 <marc:controlfield tag="008">201011suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="035">
-<marc:subfield code="a">(IISG)IISGb10588035</marc:subfield>
+	<marc:subfield code="a">(IISG)IISGb10588035</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AmISG</marc:subfield>
+	<marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="0">(NL-AMISG)1140</marc:subfield>
-<marc:subfield code="a">Abelman, Hans,</marc:subfield>
-<marc:subfield code="b">c</marc:subfield>
-<marc:subfield code="d">e</marc:subfield>
-<marc:subfield code="painter">f</marc:subfield>
-<marc:subfield code="k">l</marc:subfield>
-<marc:subfield code="m">n</marc:subfield>
-<marc:subfield code="o">p</marc:subfield>
-<marc:subfield code="q">r</marc:subfield>
-<marc:subfield code="s">t</marc:subfield>
-<marc:subfield code="v">x</marc:subfield>
-<marc:subfield code="y">z</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)1140</marc:subfield>
+	<marc:subfield code="a">Abelman, Hans,</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="painter">f</marc:subfield>
+	<marc:subfield code="k">l</marc:subfield>
+	<marc:subfield code="m">n</marc:subfield>
+	<marc:subfield code="o">p</marc:subfield>
+	<marc:subfield code="q">r</marc:subfield>
+	<marc:subfield code="s">t</marc:subfield>
+	<marc:subfield code="v">x</marc:subfield>
+	<marc:subfield code="y">z</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="k">Visual document.</marc:subfield>
+	<marc:subfield code="k">Visual document.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
-<marc:subfield code="c">1973.</marc:subfield>
+	<marc:subfield code="c">1973.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="500">
-<marc:subfield code="a">Buurthuis Rubroekstraat in Crooswijk. Foto uit 1974.</marc:subfield>
+	<marc:subfield code="a">Buurthuis Rubroekstraat in Crooswijk. Foto uit 1974.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="542">
-<marc:subfield code="m">closed</marc:subfield>
+	<marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="648">
-<marc:subfield code="a">1973-1973.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)496420</marc:subfield>
+	<marc:subfield code="a">1973-1973.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)496420</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="650">
-<marc:subfield code="a">Mural painting.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)164045</marc:subfield>
+	<marc:subfield code="a">Mural painting.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)164045</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="651">
-<marc:subfield code="a">Rotterdam Crooswijk (Netherlands)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)569183</marc:subfield>
+	<marc:subfield code="a">Rotterdam Crooswijk (Netherlands)</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)569183</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="655">
-<marc:subfield code="a">Photo.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+	<marc:subfield code="a">Photo.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="695">
-<marc:subfield code="a">NED</marc:subfield>
-<marc:subfield code="h">Rotterdam Crooswijk</marc:subfield>
+	<marc:subfield code="a">NED</marc:subfield>
+	<marc:subfield code="h">Rotterdam Crooswijk</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="987">
-<marc:subfield code="a">F 137/26</marc:subfield>
+	<marc:subfield code="a">F 137/26</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">BG A27/193</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">10622/30051000420106</marc:subfield>
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">BG A27/193</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">10622/30051000420106</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">815182</marc:subfield>
-<marc:subfield code="b">Unknown</marc:subfield>
-<marc:subfield code="c">815182</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
+	<marc:subfield code="a">815182</marc:subfield>
+	<marc:subfield code="b">Unknown</marc:subfield>
+	<marc:subfield code="c">815182</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/427AFE8C-8369-4FCB-BFA2-51A1FF51DE7A</marc:subfield>
-</marc:datafield></marc:record>
+	<marc:subfield code="a">10622/427AFE8C-8369-4FCB-BFA2-51A1FF51DE7A</marc:subfield>
+</marc:datafield>
+</marc:record>

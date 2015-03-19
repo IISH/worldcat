@@ -5,71 +5,72 @@
 <marc:controlfield tag="005">20130214140620.0</marc:controlfield>
 <marc:controlfield tag="008">130214k19701980uu                  uuu d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AMISG</marc:subfield>
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="044">
-<marc:subfield code="a">uu</marc:subfield>
+	<marc:subfield code="a">uu</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Koers, Ab,</marc:subfield>
-<marc:subfield code="e">photographer.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)538710</marc:subfield>
+	<marc:subfield code="a">Koers, Ab,</marc:subfield>
+	<marc:subfield code="e">photographer.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)538710</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="k">Visual document.</marc:subfield>
+	<marc:subfield code="k">Visual document.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="300">
-<marc:subfield code="a">3 ex.</marc:subfield>
+	<marc:subfield code="a">3 ex.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="540">
-<marc:subfield code="b">Ab Koers.</marc:subfield>
+	<marc:subfield code="b">Ab Koers.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="540">
-<marc:subfield code="b">Jan Stegeman.</marc:subfield>
+	<marc:subfield code="b">Jan Stegeman.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="542">
-<marc:subfield code="m">restricted</marc:subfield>
+	<marc:subfield code="m">restricted</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="600">
-<marc:subfield code="a">Soares, Mário.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)487043</marc:subfield>
+	<marc:subfield code="a">Soares, Mário.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)487043</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="648">
-<marc:subfield code="a">1970-1980.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)568248</marc:subfield>
+	<marc:subfield code="a">1970-1980.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)568248</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="650">
-<marc:subfield code="a">Portrait.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)306035</marc:subfield>
+	<marc:subfield code="a">Portrait.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)306035</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="655">
-<marc:subfield code="a">Photo.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+	<marc:subfield code="a">Photo.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="700">
-<marc:subfield code="0">(NL-AMISG)336493</marc:subfield>
-<marc:subfield code="a">Stegeman, Jan,</marc:subfield>
-<marc:subfield code="e">photographer</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)336493</marc:subfield>
+	<marc:subfield code="a">Stegeman, Jan,</marc:subfield>
+	<marc:subfield code="e">photographer</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">PvdA</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)574031</marc:subfield>
+	<marc:subfield code="a">PvdA</marc:subfield>
+	<marc:subfield code="e">collector.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)574031</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">BG B33/924</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">30051003314405</marc:subfield>
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">BG B33/924</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">30051003314405</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">1465304</marc:subfield>
-<marc:subfield code="b"/>
-<marc:subfield code="c">1465304</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
+	<marc:subfield code="a">1465304</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1465304</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/6CD0C279-507D-4CE6-B710-5AD42FE71EAE</marc:subfield>
-</marc:datafield></marc:record>
+	<marc:subfield code="a">10622/6CD0C279-507D-4CE6-B710-5AD42FE71EAE</marc:subfield>
+</marc:datafield>
+</marc:record>

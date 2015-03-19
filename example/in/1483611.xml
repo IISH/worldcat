@@ -5,45 +5,46 @@
 <marc:controlfield tag="005">20141125121132.0</marc:controlfield>
 <marc:controlfield tag="008">131230s2013    xxk                 eng d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="020">
-<marc:subfield code="a">9781137294975</marc:subfield>
+	<marc:subfield code="a">9781137294975</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AMISG</marc:subfield>
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Tendler, Joseph.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2010589</marc:subfield>
+	<marc:subfield code="a">Tendler, Joseph.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2010589</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="a">Opponents of the Annales School /</marc:subfield>
-<marc:subfield code="c">Joseph Tendler.</marc:subfield>
+	<marc:subfield code="a">Opponents of the Annales School /</marc:subfield>
+	<marc:subfield code="c">Joseph Tendler.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
-<marc:subfield code="a">Basingstoke [etc.] :</marc:subfield>
-<marc:subfield code="b">Palgrave MacMillan,</marc:subfield>
-<marc:subfield code="c">2013.</marc:subfield>
+	<marc:subfield code="a">Basingstoke [etc.] :</marc:subfield>
+	<marc:subfield code="b">Palgrave MacMillan,</marc:subfield>
+	<marc:subfield code="c">2013.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="300">
-<marc:subfield code="a">XIV, 266 p.</marc:subfield>
+	<marc:subfield code="a">XIV, 266 p.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="0" tag="830">
-<marc:subfield code="a">Studies in modern history</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)347291</marc:subfield>
+	<marc:subfield code="a">Studies in modern history</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)347291</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">2012/4132</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">ACQ3206</marc:subfield>
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">2012/4132</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">ACQ3206</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">1483611</marc:subfield>
-<marc:subfield code="b"/>
-<marc:subfield code="c">1483611</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
+	<marc:subfield code="a">1483611</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1483611</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/21DDEDF8-C853-4659-889E-FA56724598BA</marc:subfield>
-</marc:datafield></marc:record>
+	<marc:subfield code="a">10622/21DDEDF8-C853-4659-889E-FA56724598BA</marc:subfield>
+</marc:datafield>
+</marc:record>

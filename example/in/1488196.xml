@@ -5,88 +5,89 @@
 <marc:controlfield tag="005">20140724092722.0</marc:controlfield>
 <marc:controlfield tag="008">140724s1985    ne                  dut d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AMISG</marc:subfield>
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="041">
-<marc:subfield code="a">dut</marc:subfield>
+	<marc:subfield code="a">dut</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="044">
-<marc:subfield code="a">ne</marc:subfield>
+	<marc:subfield code="a">ne</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="100">
-<marc:subfield code="a">Richardson, Martin.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)277358</marc:subfield>
+	<marc:subfield code="a">Richardson, Martin.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)277358</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="a">Apart? We zijn het zat!</marc:subfield>
-<marc:subfield code="k">Sound document.</marc:subfield>
+	<marc:subfield code="a">Apart? We zijn het zat!</marc:subfield>
+	<marc:subfield code="k">Sound document.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="260">
-<marc:subfield code="e">(Amsterdam :</marc:subfield>
-<marc:subfield code="f">AABN,</marc:subfield>
-<marc:subfield code="g">1985)</marc:subfield>
+	<marc:subfield code="e">(Amsterdam :</marc:subfield>
+	<marc:subfield code="f">AABN,</marc:subfield>
+	<marc:subfield code="g">1985)</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="300">
-<marc:subfield code="3">33 rpm.</marc:subfield>
+	<marc:subfield code="3">33 rpm.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="500">
-<marc:subfield code="a">Muziek en tekst: Martin Richardson, Bart Luirink en Matthijs Hischemöller. Songs: Apart? We zijn het zat!; Sharpeville; A cop a day; Stemmen.</marc:subfield>
+	<marc:subfield code="a">Muziek en tekst: Martin Richardson, Bart Luirink en Matthijs Hischemöller. Songs: Apart? We zijn het zat!; Sharpeville; A cop a day; Stemmen.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="540">
-<marc:subfield code="a">Copyright unknown.</marc:subfield>
+	<marc:subfield code="a">Copyright unknown.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="2" ind2=" " tag="610">
-<marc:subfield code="a">Actie Zuid-Afrika</marc:subfield>
-<marc:subfield code="d">(1985)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2719</marc:subfield>
+	<marc:subfield code="a">Actie Zuid-Afrika</marc:subfield>
+	<marc:subfield code="d">(1985)</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2719</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="648">
-<marc:subfield code="a">1985-1985.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)369881</marc:subfield>
+	<marc:subfield code="a">1985-1985.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)369881</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="650">
-<marc:subfield code="a">Militant music.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)323688</marc:subfield>
+	<marc:subfield code="a">Militant music.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)323688</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="651">
-<marc:subfield code="a">South Africa.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)287153</marc:subfield>
+	<marc:subfield code="a">South Africa.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)287153</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="651">
-<marc:subfield code="a">Netherlands.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)567354</marc:subfield>
+	<marc:subfield code="a">Netherlands.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)567354</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="655">
-<marc:subfield code="a">Gramophone record.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)124970</marc:subfield>
+	<marc:subfield code="a">Gramophone record.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)124970</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Mother of Spear &amp; Gemengde Gevoelens.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2012862</marc:subfield>
+	<marc:subfield code="a">Mother of Spear &amp; Gemengde Gevoelens.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2012862</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Anti-Apartheidsbeweging Nederland (Amsterdam)</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)9384</marc:subfield>
+	<marc:subfield code="a">Anti-Apartheidsbeweging Nederland (Amsterdam)</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)9384</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Nederlands Instituut voor Zuidelijk Afrika (Amsterdam),</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)573972</marc:subfield>
+	<marc:subfield code="a">Nederlands Instituut voor Zuidelijk Afrika (Amsterdam),</marc:subfield>
+	<marc:subfield code="e">collector.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)573972</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">BG PG5/145</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">30051003152508</marc:subfield>
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">BG PG5/145</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">30051003152508</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">1488196</marc:subfield>
-<marc:subfield code="b"/>
-<marc:subfield code="c">1488196</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
+	<marc:subfield code="a">1488196</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1488196</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/846DB343-6B5D-4A80-9E31-4C792905D519</marc:subfield>
-</marc:datafield></marc:record>
+	<marc:subfield code="a">10622/846DB343-6B5D-4A80-9E31-4C792905D519</marc:subfield>
+</marc:datafield>
+</marc:record>

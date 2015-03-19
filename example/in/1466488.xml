@@ -5,128 +5,129 @@
 <marc:controlfield tag="005">20140313135356.0</marc:controlfield>
 <marc:controlfield tag="008">130415k19811995ne                  uuu d</marc:controlfield>
 <marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AMISG</marc:subfield>
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="044">
-<marc:subfield code="a">ne</marc:subfield>
+	<marc:subfield code="a">ne</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
-<marc:subfield code="k">Visual document.</marc:subfield>
+	<marc:subfield code="k">Visual document.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="300">
-<marc:subfield code="a">17 ex.</marc:subfield>
+	<marc:subfield code="a">17 ex.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="500">
-<marc:subfield code="a">Diverse herdenkingsbijeenkomsten. Getoonde foto (1981): V.l.n.r. vooraan: Haije-Menist, Menist-Raapist, ?, Visser-Menist. Achteraan midden: De Winter-Van Tilborg, Groen, Kat-Schimmel.</marc:subfield>
+	<marc:subfield code="a">Diverse herdenkingsbijeenkomsten. Getoonde foto (1981): V.l.n.r. vooraan: Haije-Menist, Menist-Raapist, ?, Visser-Menist. Achteraan midden: De Winter-Van Tilborg, Groen, Kat-Schimmel.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="540">
-<marc:subfield code="a">Copyright unknown.</marc:subfield>
+	<marc:subfield code="a">Copyright unknown.</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="542">
-<marc:subfield code="m">closed</marc:subfield>
+	<marc:subfield code="m">closed</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="4" tag="600">
-<marc:subfield code="0">(NL-AMISG)2007347</marc:subfield>
-<marc:subfield code="a">Haije-Menist, Elly</marc:subfield>
-<marc:subfield code="b">c</marc:subfield>
-<marc:subfield code="d">e</marc:subfield>
-<marc:subfield code="f">k</marc:subfield>
-<marc:subfield code="l">m</marc:subfield>
-<marc:subfield code="n">o</marc:subfield>
-<marc:subfield code="p">q</marc:subfield>
-<marc:subfield code="r">s</marc:subfield>
-<marc:subfield code="t">v</marc:subfield>
-<marc:subfield code="x">y</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007347</marc:subfield>
+	<marc:subfield code="a">Haije-Menist, Elly</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="f">k</marc:subfield>
+	<marc:subfield code="l">m</marc:subfield>
+	<marc:subfield code="n">o</marc:subfield>
+	<marc:subfield code="p">q</marc:subfield>
+	<marc:subfield code="r">s</marc:subfield>
+	<marc:subfield code="t">v</marc:subfield>
+	<marc:subfield code="x">y</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="4" tag="600">
-<marc:subfield code="0">(NL-AMISG)2007348</marc:subfield>
-<marc:subfield code="a">Menist-Raapist, Jopie</marc:subfield>
-<marc:subfield code="b">c</marc:subfield>
-<marc:subfield code="d">e</marc:subfield>
-<marc:subfield code="f">k</marc:subfield>
-<marc:subfield code="l">m</marc:subfield>
-<marc:subfield code="n">o</marc:subfield>
-<marc:subfield code="p">q</marc:subfield>
-<marc:subfield code="r">s</marc:subfield>
-<marc:subfield code="t">v</marc:subfield>
-<marc:subfield code="x">y</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007348</marc:subfield>
+	<marc:subfield code="a">Menist-Raapist, Jopie</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="f">k</marc:subfield>
+	<marc:subfield code="l">m</marc:subfield>
+	<marc:subfield code="n">o</marc:subfield>
+	<marc:subfield code="p">q</marc:subfield>
+	<marc:subfield code="r">s</marc:subfield>
+	<marc:subfield code="t">v</marc:subfield>
+	<marc:subfield code="x">y</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="4" tag="600">
-<marc:subfield code="0">(NL-AMISG)2007345</marc:subfield>
-<marc:subfield code="a">Visser-Menist, Pien</marc:subfield>
-<marc:subfield code="b">c</marc:subfield>
-<marc:subfield code="d">e</marc:subfield>
-<marc:subfield code="f">k</marc:subfield>
-<marc:subfield code="l">m</marc:subfield>
-<marc:subfield code="n">o</marc:subfield>
-<marc:subfield code="p">q</marc:subfield>
-<marc:subfield code="r">s</marc:subfield>
-<marc:subfield code="t">v</marc:subfield>
-<marc:subfield code="x">y</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007345</marc:subfield>
+	<marc:subfield code="a">Visser-Menist, Pien</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="f">k</marc:subfield>
+	<marc:subfield code="l">m</marc:subfield>
+	<marc:subfield code="n">o</marc:subfield>
+	<marc:subfield code="p">q</marc:subfield>
+	<marc:subfield code="r">s</marc:subfield>
+	<marc:subfield code="t">v</marc:subfield>
+	<marc:subfield code="x">y</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="4" tag="600">
-<marc:subfield code="0">(NL-AMISG)2007349</marc:subfield>
-<marc:subfield code="a">De Winter-Van Tilborg, Heie</marc:subfield>
-<marc:subfield code="b">c</marc:subfield>
-<marc:subfield code="d">e</marc:subfield>
-<marc:subfield code="f">k</marc:subfield>
-<marc:subfield code="l">m</marc:subfield>
-<marc:subfield code="n">o</marc:subfield>
-<marc:subfield code="p">q</marc:subfield>
-<marc:subfield code="r">s</marc:subfield>
-<marc:subfield code="t">v</marc:subfield>
-<marc:subfield code="x">y</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007349</marc:subfield>
+	<marc:subfield code="a">De Winter-Van Tilborg, Heie</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="f">k</marc:subfield>
+	<marc:subfield code="l">m</marc:subfield>
+	<marc:subfield code="n">o</marc:subfield>
+	<marc:subfield code="p">q</marc:subfield>
+	<marc:subfield code="r">s</marc:subfield>
+	<marc:subfield code="t">v</marc:subfield>
+	<marc:subfield code="x">y</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2=" " tag="600">
-<marc:subfield code="a">Groen, Jan.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)485804</marc:subfield>
+	<marc:subfield code="a">Groen, Jan.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)485804</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="4" tag="600">
-<marc:subfield code="0">(NL-AMISG)2007350</marc:subfield>
-<marc:subfield code="a">Kat-Schimmel, Mary</marc:subfield>
-<marc:subfield code="b">c</marc:subfield>
-<marc:subfield code="d">e</marc:subfield>
-<marc:subfield code="f">k</marc:subfield>
-<marc:subfield code="l">m</marc:subfield>
-<marc:subfield code="n">o</marc:subfield>
-<marc:subfield code="p">q</marc:subfield>
-<marc:subfield code="r">s</marc:subfield>
-<marc:subfield code="t">v</marc:subfield>
-<marc:subfield code="x">y</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007350</marc:subfield>
+	<marc:subfield code="a">Kat-Schimmel, Mary</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="f">k</marc:subfield>
+	<marc:subfield code="l">m</marc:subfield>
+	<marc:subfield code="n">o</marc:subfield>
+	<marc:subfield code="p">q</marc:subfield>
+	<marc:subfield code="r">s</marc:subfield>
+	<marc:subfield code="t">v</marc:subfield>
+	<marc:subfield code="x">y</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="648">
-<marc:subfield code="0">(NL-AMISG)2007346</marc:subfield>
-<marc:subfield code="a">1981-1995</marc:subfield>
-<marc:subfield code="v">x</marc:subfield>
-<marc:subfield code="y">z</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007346</marc:subfield>
+	<marc:subfield code="a">1981-1995</marc:subfield>
+	<marc:subfield code="v">x</marc:subfield>
+	<marc:subfield code="y">z</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="650">
-<marc:subfield code="a">Group portrait.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)112454</marc:subfield>
+	<marc:subfield code="a">Group portrait.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)112454</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="655">
-<marc:subfield code="a">Photo.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
+	<marc:subfield code="a">Photo.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)121213</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="2" ind2=" " tag="710">
-<marc:subfield code="a">Sneevliet Herdenkingscomité,</marc:subfield>
-<marc:subfield code="e">collector.</marc:subfield>
-<marc:subfield code="0">(NL-AMISG)2007279</marc:subfield>
+	<marc:subfield code="a">Sneevliet Herdenkingscomité,</marc:subfield>
+	<marc:subfield code="e">collector.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2007279</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">BG A65/358</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">30051003283683</marc:subfield>
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">BG A65/358</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">30051003283683</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">1466488</marc:subfield>
-<marc:subfield code="b"/>
-<marc:subfield code="c">1466488</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
+	<marc:subfield code="a">1466488</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1466488</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/D79B975F-3390-4685-9992-83AE721147B2</marc:subfield>
-</marc:datafield></marc:record>
+	<marc:subfield code="a">10622/D79B975F-3390-4685-9992-83AE721147B2</marc:subfield>
+</marc:datafield>
+</marc:record>

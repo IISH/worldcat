@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><GetRecord><record><header><identifier>oai:evergreen.iisg.nl:1446561</identifier><datestamp>2012-09-19T11:23:43Z</datestamp></header><metadata><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00000nam a22000007a 4500</marc:leader>
+<marc:controlfield tag="001">1446561</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20110926130333.0</marc:controlfield>
+<marc:controlfield tag="008">201109suuuuuuuuxxk |||||||||||||||||eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="020">
+	<marc:subfield code="a">978-1-4082-3095-4</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+	<marc:subfield code="a">eng</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">xxk</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="a">Morgan, Kenneth</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)227320</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="245">
+	<marc:subfield code="a">The birth of industrial Britain :</marc:subfield>
+	<marc:subfield code="b">social change, 1750-1850 /</marc:subfield>
+	<marc:subfield code="c">Kenneth Morgan</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="250">
+	<marc:subfield code="a">2nd ed.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="a">Harlow (etc.) :</marc:subfield>
+	<marc:subfield code="b">Pearson,</marc:subfield>
+	<marc:subfield code="c">2011</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="a">XXXV, 167 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">NEHA</marc:subfield>
+	<marc:subfield code="j">2010/1400</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">ACQ23</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1446561</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1446561</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/A834FE5D-5415-4DEA-B1B9-C6FBAC2269A5</marc:subfield>
+</marc:datafield>
+</marc:record></metadata></record></GetRecord></OAI-PMH>

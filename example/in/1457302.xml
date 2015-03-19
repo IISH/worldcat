@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><GetRecord><record><header><identifier>oai:evergreen.iisg.nl:1457302</identifier><datestamp>2014-05-12T17:53:17Z</datestamp></header><metadata><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nkm a22      a 4500</marc:leader>
+<marc:controlfield tag="001">1457302</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20120712073254.0</marc:controlfield>
+<marc:controlfield tag="008">120509q190u    ne                  dut d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+	<marc:subfield code="a">dut</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">ne</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="0">(NL-AMISG)2003196</marc:subfield>
+	<marc:subfield code="a">Snijders, C.P.</marc:subfield>
+	<marc:subfield code="b">c</marc:subfield>
+	<marc:subfield code="d">e</marc:subfield>
+	<marc:subfield code="draughtsman.">f</marc:subfield>
+	<marc:subfield code="k">l</marc:subfield>
+	<marc:subfield code="m">n</marc:subfield>
+	<marc:subfield code="o">p</marc:subfield>
+	<marc:subfield code="q">r</marc:subfield>
+	<marc:subfield code="s">t</marc:subfield>
+	<marc:subfield code="v">x</marc:subfield>
+	<marc:subfield code="y">z</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="a">Levenslol.</marc:subfield>
+	<marc:subfield code="k">Visual document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="c">(Ca. 1905)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="g">33x31 cm.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="541">
+	<marc:subfield code="a">Tineke Lancée-Senff (kleindochter Hahn Jr.)</marc:subfield>
+	<marc:subfield code="d">2011.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="542">
+	<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+	<marc:subfield code="a">1900-1912.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)358701</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+	<marc:subfield code="a">Poverty.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)370819</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+	<marc:subfield code="a">Netherlands.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)569282</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+	<marc:subfield code="a">Drawing.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)269282</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">PM</marc:subfield>
+	<marc:subfield code="j">BG D88/713</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">30051003083166</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1457302</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1457302</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/1550C53C-1949-4B24-9780-4EE6C63802A3</marc:subfield>
+</marc:datafield>
+</marc:record></metadata></record></GetRecord></OAI-PMH>
