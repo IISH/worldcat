@@ -706,6 +706,29 @@
 			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='photographer.']">
 		<marc:subfield code="e">photographer.</marc:subfield>
 	</xls:template>
+
+	<!-- 611 and 711: revert attribute and value -->
+	<xls:template
+			match="marc:datafield[@tag='611' or @tag='711']/marc:subfield[text()='e' and string-length(@code) >= 2]">
+
+		<xsl:variable name="var_value_d" select="../marc:subfield[@code='d']"/>
+
+		<xsl:choose>
+			<!-- check if original d values is not zero long -->
+			<xsl:when test="string-length($var_value_d) = 0">
+				<!-- create d node -->
+				<marc:subfield code="d"><xsl:value-of select="@code"/></marc:subfield>
+			</xsl:when>
+			<xsl:otherwise>
+				<!-- keep original node -->
+				<xsl:copy>
+					<xsl:apply-templates select="@*|node()"/>
+				</xsl:copy>
+			</xsl:otherwise>
+		</xsl:choose>
+
+	</xls:template>
+
     <!-- replace function -->
     <xsl:template name="string-replace-all">
         <xsl:param name="text"/>

@@ -25,22 +25,22 @@
 <marc:datafield ind1=" " ind2=" " tag="260">
 	<marc:subfield code="c">1983, 17 augustus</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="300">
-	<marc:subfield code="a">46 min.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="500">
-	<marc:subfield code="a">Interview met radio-technicus Scheygrond door F.v.Aurich over de installatie van een studio-set bij Radio Freedom in Madagascar in de zomer van 1983.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2="4" tag="610">
-	<marc:subfield code="a">ANC (South Africa).</marc:subfield>
-	<marc:subfield code="b">Radio Freedom.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)558840</marc:subfield>
-</marc:datafield>
 <marc:datafield ind1="2" ind2="4" tag="611">
 	<marc:subfield code="0">(NL-AMISG)2715</marc:subfield>
 	<marc:subfield code="a">Actie Zuid-Afrika</marc:subfield>
-	<marc:subfield code="(1983)">e</marc:subfield>
+	<marc:subfield code="(1983-9999)">e</marc:subfield>
 </marc:datafield>
+	<marc:datafield ind1=" " ind2=" " tag="300">
+		<marc:subfield code="a">46 min.</marc:subfield>
+	</marc:datafield>
+	<marc:datafield ind1=" " ind2=" " tag="500">
+		<marc:subfield code="a">Interview met radio-technicus Scheygrond door F.v.Aurich over de installatie van een studio-set bij Radio Freedom in Madagascar in de zomer van 1983.</marc:subfield>
+	</marc:datafield>
+	<marc:datafield ind1="2" ind2="4" tag="610">
+		<marc:subfield code="a">ANC (South Africa).</marc:subfield>
+		<marc:subfield code="b">Radio Freedom.</marc:subfield>
+		<marc:subfield code="0">(NL-AMISG)558840</marc:subfield>
+	</marc:datafield>
 <marc:datafield ind1=" " ind2="4" tag="648">
 	<marc:subfield code="0">(NL-AMISG)2000970</marc:subfield>
 	<marc:subfield code="a">1983-1983</marc:subfield>
