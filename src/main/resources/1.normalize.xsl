@@ -1,6 +1,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:marc="http://www.loc.gov/MARC21/slim"
-                xmlns:xls="http://www.w3.org/1999/XSL/Transform"> <!-- check correctness of language code -->
+                xmlns:xls="http://www.w3.org/1999/XSL/Transform">
+	<!-- check correctness of language code -->
     <xsl:template name="checkLanguageCode">
         <xsl:param name="lc"/>
         <xsl:param name="if_incorrect_return_value"/>

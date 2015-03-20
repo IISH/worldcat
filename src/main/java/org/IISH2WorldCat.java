@@ -25,7 +25,7 @@ public class IISH2WorldCat {
             e.printStackTrace();
         }
 
-        String[] _transformers = {"/1.normalize.xsl", "/2.sortsubfield.xsl", "/3.removesinglechars.xsl", "/4.removeduplicates.xsl", "/5.rules.xsl"};
+        String[] _transformers = {"/1.normalize.xsl", "/2.sortsubfield.xsl", "/3.removesinglechars.xsl", "/4.removeduplicates.xsl", "/5.fixinvalidindicator.xsl", "/6.rules.xsl"};
         for (String _transformer : _transformers) {
 
             final URL resource = this.getClass().getResource(_transformer);

@@ -5,10 +5,10 @@
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
 <marc:controlfield tag="005">19980526165741.0</marc:controlfield>
 <marc:controlfield tag="008">199805suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
-<marc:datafield ind1=" " ind2=" " tag="035">
+<marc:datafield ind1="" ind2="" tag="035">
 	<marc:subfield code="a">(IISG)IISGb10804436</marc:subfield>
 </marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="040">
+<marc:datafield ind1="" ind2="" tag="040">
 	<marc:subfield code="a">NL-AmISG</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1="1" ind2="0" tag="245">
