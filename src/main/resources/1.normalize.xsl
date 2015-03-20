@@ -390,11 +390,11 @@
     <xsl:template name="correctPlaceOfPublicationCode">
         <xsl:param name="c"/>
         <xsl:choose>
-            <xsl:when test="$c='|||'">xx </xsl:when>
-            <xsl:when test="$c='|| '">xx </xsl:when>
-            <xsl:when test="$c='|  '">xx </xsl:when>
-            <xsl:when test="$c='||'">xx </xsl:when>
-            <xsl:when test="$c='|'">xx </xsl:when>
+            <xsl:when test="$c='|||'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='|| '"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='|  '"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='||'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='|'"><xsl:value-of select="'xx '"/></xsl:when>
             <xsl:when test="$c='uk#'">xxk</xsl:when>
             <xsl:when test="$c='uk|'">xxk</xsl:when>
             <xsl:when test="$c='uk '">xxk</xsl:when>
@@ -407,28 +407,28 @@
             <xsl:when test="$c='cn|'">xxc</xsl:when>
             <xsl:when test="$c='cn '">xxc</xsl:when>
             <xsl:when test="$c='cn'">xxc</xsl:when>
-            <xsl:when test="$c='cs#'">xr </xsl:when>
-            <xsl:when test="$c='cs|'">xr </xsl:when>
-            <xsl:when test="$c='cs '">xr </xsl:when>
-            <xsl:when test="$c='cs'">xr </xsl:when>
-            <xsl:when test="$c='hk#'">cc </xsl:when>
-            <xsl:when test="$c='hk|'">cc </xsl:when>
-            <xsl:when test="$c='hk '">cc </xsl:when>
-            <xsl:when test="$c='hk'">cc </xsl:when>
-            <xsl:when test="$c='yu#'">rb </xsl:when>
-            <xsl:when test="$c='yu|'">rb </xsl:when>
-            <xsl:when test="$c='yu '">rb </xsl:when>
-            <xsl:when test="$c='yu'">rb </xsl:when>
-            <xsl:when test="$c='ge#'">gw </xsl:when>
-            <xsl:when test="$c='ge|'">gw </xsl:when>
-            <xsl:when test="$c='ge '">gw </xsl:when>
-            <xsl:when test="$c='ge'">gw </xsl:when>
-            <xsl:when test="$c='uu#'">xx </xsl:when>
-            <xsl:when test="$c='uu|'">xx </xsl:when>
-            <xsl:when test="$c='uu '">xx </xsl:when>
-            <xsl:when test="$c='uu'">xx </xsl:when>
-            <xsl:when test="$c='rus'">ru </xsl:when>
-            <xsl:when test="$c='dut'">ne </xsl:when>
+            <xsl:when test="$c='cs#'"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='cs|'"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='cs '"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='cs'"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='hk#'"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='hk|'"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='hk '"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='hk'"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='yu#'"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='yu|'"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='yu '"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='yu'"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='ge#'"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='ge|'"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='ge '"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='ge'"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='uu#'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='uu|'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='uu '"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='uu'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='rus'"><xsl:value-of select="'ru '"/></xsl:when>
+            <xsl:when test="$c='dut'"><xsl:value-of select="'ne '"/></xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="$c"/>
             </xsl:otherwise>
@@ -504,6 +504,7 @@
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="var3NewPubCode_2">
+	        <!-- TODO vraag: wat gebeurt er als waarde eindigt met een spatie? wordt de spatie eraf geknipt ? -->
             <xsl:call-template name="correctPlaceOfPublicationCode">
                 <xsl:with-param name="c" select="$var3NewPubCode"/>
             </xsl:call-template>
