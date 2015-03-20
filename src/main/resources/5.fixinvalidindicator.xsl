@@ -14,10 +14,9 @@
 		<xsl:variable name="var_ind2" select="@ind2"/>
 
 		<marc:datafield>
-
 			<xsl:attribute name="ind1">
 			<xsl:choose>
-				<xsl:when test="string-length($var_ind1) = 0"><xsl:text> </xsl:text></xsl:when>
+				<xsl:when test="string-length($var_ind1) = 0"><xsl:value-of select="' '"/></xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="$var_ind1"/>
 				</xsl:otherwise>
@@ -26,7 +25,7 @@
 
 			<xsl:attribute name="ind2">
 				<xsl:choose>
-					<xsl:when test="string-length($var_ind2) = 0"><xsl:text> </xsl:text></xsl:when>
+					<xsl:when test="string-length($var_ind2) = 0"><xsl:value-of select="' '"/></xsl:when>
 					<xsl:otherwise>
 						<xsl:value-of select="$var_ind2"/>
 					</xsl:otherwise>
@@ -37,7 +36,7 @@
 				<xsl:value-of select="@tag"/>
 			</xsl:attribute>
 
-			<xsl:apply-templates select="@*|node()"/>
+			<xsl:apply-templates select="node()"/>
 
 		</marc:datafield>
 	</xls:template>

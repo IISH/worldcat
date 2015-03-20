@@ -5,7 +5,7 @@
 <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
 <marc:controlfield tag="005">20110926130333.0</marc:controlfield>
 <marc:controlfield tag="008">201109suuuuuuuuxxk |||||||||||||||||eng d</marc:controlfield>
-<marc:datafield ind1=" " ind2=" " tag="020">
+<marc:datafield ind1="" ind2="" tag="020">
 	<marc:subfield code="a">978-1-4082-3095-4</marc:subfield>
 </marc:datafield>
 <marc:datafield ind1=" " ind2=" " tag="041">
