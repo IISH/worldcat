@@ -574,10 +574,10 @@
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:variable name="count041a"
-                          select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
+                          select="count(//marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
             <xsl:choose>
                 <xsl:when test="$count041a=1">
-                    <xsl:apply-templates select="/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
+                    <xsl:apply-templates select="//marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates select="node()"/>
@@ -590,10 +590,10 @@
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:variable name="count044a"
-                          select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
+                          select="count(//marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
             <xsl:choose>
                 <xsl:when test="$count044a=1">
-                    <xsl:apply-templates select="/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
+                    <xsl:apply-templates select="//marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates select="node()"/>
@@ -607,12 +607,12 @@
             <xsl:apply-templates select="@*"/>
             <xsl:variable name="var245_marcleader_pos7" select="substring(//marc:leader, 7, 1)"/>
             <xsl:variable name="var245_marcleader_pos8" select="substring(//marc:leader, 8, 1)"/>
-            <xsl:variable name="var245_245a" select="/marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
+            <xsl:variable name="var245_245a" select="//marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
             <xsl:choose> <!-- 655a -->
                 <xsl:when test="string-length($var245_245a)=0 and ( $var245_marcleader_pos7='g' or  $var245_marcleader_pos7='i' or  $var245_marcleader_pos7='k' or  $var245_marcleader_pos7='o' or  $var245_marcleader_pos7='r' )">
                     <!-- opmerking D, vierkante [] eromheen -->
                     <marc:subfield code="a"><xsl:value-of
-                            select="concat('[', /marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a'], ']')"/>
+                            select="concat('[', //marc:datafield[@tag='655']/marc:subfield[@code='a'], ']')"/>
                     </marc:subfield>
                 </xsl:when>
                 <!-- 245k -->
