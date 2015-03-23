@@ -509,8 +509,19 @@
                 <xsl:with-param name="c" select="$var3NewPubCode"/>
             </xsl:call-template>
         </xsl:variable>
+	    <!-- extra trailing space protection -->
+	    <xsl:variable name="var3NewPubCode_3">
+		    <xsl:choose>
+			    <xsl:when test="string-length($var3NewPubCode_2)=2">
+				    <xsl:value-of select="concat($var3NewPubCode_2, ' ')"/>
+			    </xsl:when>
+			    <xsl:otherwise>
+				    <xsl:value-of select="$var3NewPubCode_2"/>
+			    </xsl:otherwise>
+		    </xsl:choose>
+	    </xsl:variable>
         <!-- concat -->
-        <xsl:variable name="var3step2" select="concat($var3step1_pos1_15, $var3NewPubCode_2, $var3step1_pos19_41)"/>
+        <xsl:variable name="var3step2" select="concat($var3step1_pos1_15, $var3NewPubCode_3, $var3step1_pos19_41)"/>
         <!-- step 3 008 35-37 -->
         <xsl:variable name="var3step1_pos1_35" select="substring($var3step2, 1, 35)"/>
         <xsl:variable name="var3step1_pos36_38" select="substring($var3step2, 36, 3)"/>
