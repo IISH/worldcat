@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:leader>00620nam a22     7a 4500</marc:leader>
-<marc:controlfield tag="001">1467255</marc:controlfield>
-<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
-<marc:controlfield tag="005">20130514075514.0</marc:controlfield>
-<marc:controlfield tag="008">130508s2006    ce                  eng d</marc:controlfield>
-<marc:datafield ind1=" " ind2=" " tag="020">
-<marc:subfield code="a">9559102842</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AMISG</marc:subfield>
-</marc:datafield>
 
-
-<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Strathern, Alan</marc:subfield><marc:subfield code="0">(NL-AMISG)2007757</marc:subfield></marc:datafield>
-<marc:datafield ind1="1" ind2="4" tag="245"><marc:subfield code="a">The royal 'we' :</marc:subfield><marc:subfield code="b">Sinhala identity in the dynastic state /</marc:subfield><marc:subfield code="c">Alan Strathern.</marc:subfield></marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="260">
-<marc:subfield code="a">Colombo : </marc:subfield>
-<marc:subfield code="b">Social Scientists' Association, </marc:subfield>
-<marc:subfield code="c">2006.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="300">
-<marc:subfield code="a">23 p. </marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">in process</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">5975756</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">1467255</marc:subfield>
-<marc:subfield code="b"/>
-<marc:subfield code="c">1467255</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/80BC1069-3969-49E6-8BE3-77B50A408F4B</marc:subfield>
-</marc:datafield></marc:record>
+  <marc:leader>00620nam a22     7a 4500</marc:leader>
+  <marc:controlfield tag="001">1467255</marc:controlfield>
+  <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+  <marc:controlfield tag="005">20130514075514.0</marc:controlfield>
+  <marc:controlfield tag="008">130508s2006    ce                  eng d</marc:controlfield>
+  <marc:datafield ind1=" " ind2=" " tag="020">
+    <marc:subfield code="a">9559102842</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="040">
+    <marc:subfield code="a">NL-AMISG</marc:subfield>
+  </marc:datafield>
+  
+  
+  <marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Strathern, Alan</marc:subfield><marc:subfield code="0">(NL-AMISG)2007757</marc:subfield></marc:datafield>
+  <marc:datafield ind1="1" ind2="4" tag="245"><marc:subfield code="a">The royal 'we' :</marc:subfield><marc:subfield code="b">Sinhala identity in the dynastic state /</marc:subfield><marc:subfield code="c">Alan Strathern.</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="260">
+    <marc:subfield code="a">Colombo : </marc:subfield>
+    <marc:subfield code="b">Social Scientists' Association, </marc:subfield>
+    <marc:subfield code="c">2006.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="300">
+    <marc:subfield code="a">23 p. </marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="4" ind2=" " tag="852">
+    <marc:subfield code="a">IISG</marc:subfield>
+    <marc:subfield code="b">IISG</marc:subfield>
+    <marc:subfield code="c">IISG</marc:subfield>
+    <marc:subfield code="j">in process</marc:subfield>
+    <marc:subfield code="n">Available</marc:subfield>
+    <marc:subfield code="p">5975756</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="901">
+    <marc:subfield code="a">1467255</marc:subfield>
+    <marc:subfield code="b"/>
+    <marc:subfield code="c">1467255</marc:subfield>
+    <marc:subfield code="t">biblio</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="902">
+    <marc:subfield code="a">10622/80BC1069-3969-49E6-8BE3-77B50A408F4B</marc:subfield>
+  </marc:datafield>
+</marc:record>

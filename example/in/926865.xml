@@ -1,86 +1,87 @@
 <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:leader>00677nkm a2200229 a 45 0</marc:leader>
-<marc:controlfield tag="001">926865</marc:controlfield>
-<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
-<marc:controlfield tag="005">19960902153537.0</marc:controlfield>
-<marc:controlfield tag="008">199609suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
-<marc:datafield ind1=" " ind2=" " tag="035">
-	<marc:subfield code="a">(IISG)IISGb10732320</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="040">
-	<marc:subfield code="a">NL-AmISG</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-	<marc:subfield code="a">AJ,</marc:subfield>
-	<marc:subfield code="e">draughtsman.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)5141</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-	<marc:subfield code="a">Sozialpolitik?</marc:subfield>
-	<marc:subfield code="k">Visual document.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="260">
-	<marc:subfield code="c">1930.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="300">
-	<marc:subfield code="g">31.5x22.5 cm.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="500">
-	<marc:subfield code="a">Wahlkampf-brochure der Deutsche Volkspartei.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="542">
-	<marc:subfield code="m">closed</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="648">
-	<marc:subfield code="a">1930-1930.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)362577</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-	<marc:subfield code="a">General elections.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)137892</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="650">
-	<marc:subfield code="a">Medical insurance.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)343906</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="651">
-	<marc:subfield code="a">Germany.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)112722</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="4" tag="655">
-	<marc:subfield code="a">Print.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)262665</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="695">
-	<marc:subfield code="a">GER</marc:subfield>
-	<marc:subfield code="e">Germany.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-	<marc:subfield code="a">Deutsche Volkspartei.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)63488</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2="0" tag="830">
-	<marc:subfield code="a">Wen wollt Ihr wählen?</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)363927</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="987">
-	<marc:subfield code="a">A 462/32</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="4" ind2=" " tag="852">
-	<marc:subfield code="a">IISG</marc:subfield>
-	<marc:subfield code="b">IISG</marc:subfield>
-	<marc:subfield code="c">IISG</marc:subfield>
-	<marc:subfield code="j">BG C11/823</marc:subfield>
-	<marc:subfield code="n">Available</marc:subfield>
-	<marc:subfield code="p">10622/30051000917705</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="901">
-	<marc:subfield code="a">926865</marc:subfield>
-	<marc:subfield code="b">Unknown</marc:subfield>
-	<marc:subfield code="c">926865</marc:subfield>
-	<marc:subfield code="t">biblio</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="902">
-	<marc:subfield code="a">10622/301F652A-79EB-4363-85AC-D2B246199537</marc:subfield>
-</marc:datafield>
+
+  <marc:leader>00677nkm a2200229 a 45 0</marc:leader>
+  <marc:controlfield tag="001">926865</marc:controlfield>
+  <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+  <marc:controlfield tag="005">19960902153537.0</marc:controlfield>
+  <marc:controlfield tag="008">199609suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
+  <marc:datafield ind1=" " ind2=" " tag="035">
+    <marc:subfield code="a">(IISG)IISGb10732320</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="040">
+    <marc:subfield code="a">NL-AmISG</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2=" " tag="100">
+    <marc:subfield code="a">AJ,</marc:subfield>
+    <marc:subfield code="e">draughtsman.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)5141</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2="0" tag="245">
+    <marc:subfield code="a">Sozialpolitik?</marc:subfield>
+    <marc:subfield code="k">Visual document.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="260">
+    <marc:subfield code="c">1930.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="300">
+    <marc:subfield code="g">31.5x22.5 cm.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="500">
+    <marc:subfield code="a">Wahlkampf-brochure der Deutsche Volkspartei.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="542">
+    <marc:subfield code="m">closed</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="648">
+    <marc:subfield code="a">1930-1930.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)362577</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="650">
+    <marc:subfield code="a">General elections.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)137892</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="650">
+    <marc:subfield code="a">Medical insurance.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)343906</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="651">
+    <marc:subfield code="a">Germany.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)112722</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="4" tag="655">
+    <marc:subfield code="a">Print.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)262665</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="695">
+    <marc:subfield code="a">GER</marc:subfield>
+    <marc:subfield code="e">Germany.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="710">
+    <marc:subfield code="a">Deutsche Volkspartei.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)63488</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2="0" tag="830">
+    <marc:subfield code="a">Wen wollt Ihr wählen?</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)363927</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="987">
+    <marc:subfield code="a">A 462/32</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="4" ind2=" " tag="852">
+    <marc:subfield code="a">IISG</marc:subfield>
+    <marc:subfield code="b">IISG</marc:subfield>
+    <marc:subfield code="c">IISG</marc:subfield>
+    <marc:subfield code="j">BG C11/823</marc:subfield>
+    <marc:subfield code="n">Available</marc:subfield>
+    <marc:subfield code="p">10622/30051000917705</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="901">
+    <marc:subfield code="a">926865</marc:subfield>
+    <marc:subfield code="b">Unknown</marc:subfield>
+    <marc:subfield code="c">926865</marc:subfield>
+    <marc:subfield code="t">biblio</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="902">
+    <marc:subfield code="a">10622/301F652A-79EB-4363-85AC-D2B246199537</marc:subfield>
+  </marc:datafield>
 </marc:record>

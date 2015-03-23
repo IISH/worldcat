@@ -32,7 +32,17 @@ for tcn in 1113517 897563 999566 1454573 1454768 1467255 1382749 557727 317268 1
 1482656 \
 1483611 \
 1485960 \
-1486026
+1486026 \
+1026151 \
+1036226 \
+1044593 \
+1061665 \
+1001296 \
+1001963 \
+1011643 \
+1014212 \
+1457306 \
+1457259
 
 do
     url="https://evergreen.iisg.nl/opac/extras/oai/biblio?verb=GetRecord&identifier=oai:evergreen.iisg.nl:${tcn}&metadataPrefix=marcxml"

@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:leader>00538nam a22001457a 4500</marc:leader>
-<marc:controlfield tag="001">317268</marc:controlfield>
-<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
-<marc:controlfield tag="005">19950210234845.0</marc:controlfield>
-<marc:controlfield tag="008">199502suuuuuuuuxx |||||||||||||||||und d</marc:controlfield>
-<marc:datafield ind1=" " ind2=" " tag="035">
-<marc:subfield code="a">(IISG)IISGb10153764</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="040">
-<marc:subfield code="a">NL-AmISG</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Janssens, E.</marc:subfield><marc:subfield code="0">(NL-AMISG)158851</marc:subfield></marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Topographie médicale et statistique démographique de Bruxelles. (1864-66).</marc:subfield></marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="260">
-<marc:subfield code="a">Bruxelles :</marc:subfield>
-<marc:subfield code="b">Manceaux,</marc:subfield>
-<marc:subfield code="c">1868.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="300">
-<marc:subfield code="a">VIII, 262 p.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="690">
-<marc:subfield code="a">B 55</marc:subfield>
-<marc:subfield code="b">Belgium; social history; social conditions; workers; public health, housing</marc:subfield>
-<marc:subfield code="c">België; sociale geschiedenis; sociale toestanden; arbeiders; volksgezondheid en volkshuisvesting.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="4" ind2=" " tag="852">
-<marc:subfield code="a">IISG</marc:subfield>
-<marc:subfield code="b">IISG</marc:subfield>
-<marc:subfield code="c">IISG</marc:subfield>
-<marc:subfield code="j">B 55/21 fol</marc:subfield>
-<marc:subfield code="n">Available</marc:subfield>
-<marc:subfield code="p">N10151435</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="901">
-<marc:subfield code="a">317268</marc:subfield>
-<marc:subfield code="b">Unknown</marc:subfield>
-<marc:subfield code="c">317268</marc:subfield>
-<marc:subfield code="t">biblio</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="902">
-<marc:subfield code="a">10622/2797C56C-47A7-43F9-92F8-D39F770157EF</marc:subfield>
-</marc:datafield></marc:record>
+
+  <marc:leader>00538nam a22001457a 4500</marc:leader>
+  <marc:controlfield tag="001">317268</marc:controlfield>
+  <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+  <marc:controlfield tag="005">19950210234845.0</marc:controlfield>
+  <marc:controlfield tag="008">199502suuuuuuuuxx                  und d</marc:controlfield>
+  <marc:datafield ind1=" " ind2=" " tag="035">
+    <marc:subfield code="a">(IISG)IISGb10153764</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="040">
+    <marc:subfield code="a">NL-AmISG</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Janssens, E.</marc:subfield><marc:subfield code="0">(NL-AMISG)158851</marc:subfield></marc:datafield>
+  <marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Topographie médicale et statistique démographique de Bruxelles. (1864-66).</marc:subfield></marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="260">
+    <marc:subfield code="a">Bruxelles :</marc:subfield>
+    <marc:subfield code="b">Manceaux,</marc:subfield>
+    <marc:subfield code="c">1868.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="300">
+    <marc:subfield code="a">VIII, 262 p.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="690">
+    <marc:subfield code="a">B 55</marc:subfield>
+    <marc:subfield code="b">Belgium; social history; social conditions; workers; public health, housing</marc:subfield>
+    <marc:subfield code="c">België; sociale geschiedenis; sociale toestanden; arbeiders; volksgezondheid en volkshuisvesting.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="4" ind2=" " tag="852">
+    <marc:subfield code="a">IISG</marc:subfield>
+    <marc:subfield code="b">IISG</marc:subfield>
+    <marc:subfield code="c">IISG</marc:subfield>
+    <marc:subfield code="j">B 55/21 fol</marc:subfield>
+    <marc:subfield code="n">Available</marc:subfield>
+    <marc:subfield code="p">N10151435</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="901">
+    <marc:subfield code="a">317268</marc:subfield>
+    <marc:subfield code="b">Unknown</marc:subfield>
+    <marc:subfield code="c">317268</marc:subfield>
+    <marc:subfield code="t">biblio</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="902">
+    <marc:subfield code="a">10622/2797C56C-47A7-43F9-92F8-D39F770157EF</marc:subfield>
+  </marc:datafield>
+</marc:record>

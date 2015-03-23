@@ -1,66 +1,67 @@
 <marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<marc:leader>00620nkm a22     7i 4500</marc:leader>
-<marc:controlfield tag="001">1482641</marc:controlfield>
-<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
-<marc:controlfield tag="005">20140304152558.0</marc:controlfield>
-<marc:controlfield tag="008">131029s19uu    ne                  uuu d</marc:controlfield>
-<marc:datafield ind1=" " ind2=" " tag="040">
-	<marc:subfield code="a">NL-AMISG</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="044">
-	<marc:subfield code="a">ne</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="100">
-	<marc:subfield code="a">Troelstra, Jelle,</marc:subfield>
-	<marc:subfield code="e">painter.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)313443</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2="0" tag="245">
-	<marc:subfield code="a">[No title]. </marc:subfield>
-	<marc:subfield code="k">Visual document.</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="260">
-	<marc:subfield code="f">(Stifting ta stipe fan it F.L.M.D.)</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="542">
-	<marc:subfield code="m">closed</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="1" ind2=" " tag="600">
-	<marc:subfield code="a">Troelstra, Pieter Jelles.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)250040</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="648">
-	<marc:subfield code="a">1926-1926.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)360614</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="650">
-	<marc:subfield code="a">Portrait.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)306035</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="655">
-	<marc:subfield code="a">Picture postcard.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)197051</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="2" ind2=" " tag="710">
-	<marc:subfield code="a">PvdA,</marc:subfield>
-	<marc:subfield code="e">collector.</marc:subfield>
-	<marc:subfield code="0">(NL-AMISG)2001149</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1="4" ind2=" " tag="852">
-	<marc:subfield code="a">IISG</marc:subfield>
-	<marc:subfield code="b">IISG</marc:subfield>
-	<marc:subfield code="c">IISG</marc:subfield>
-	<marc:subfield code="j">BG A66/467</marc:subfield>
-	<marc:subfield code="n">Available</marc:subfield>
-	<marc:subfield code="p">30051003206627</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="901">
-	<marc:subfield code="a">1482641</marc:subfield>
-	<marc:subfield code="b"/>
-	<marc:subfield code="c">1482641</marc:subfield>
-	<marc:subfield code="t">biblio</marc:subfield>
-</marc:datafield>
-<marc:datafield ind1=" " ind2=" " tag="902">
-	<marc:subfield code="a">10622/E30CA256-E4CA-40E3-AD35-A2DA5D28923E</marc:subfield>
-</marc:datafield>
+
+  <marc:leader>00620nkm a22     7i 4500</marc:leader>
+  <marc:controlfield tag="001">1482641</marc:controlfield>
+  <marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+  <marc:controlfield tag="005">20140304152558.0</marc:controlfield>
+  <marc:controlfield tag="008">131029s19uu    ne                  uuu d</marc:controlfield>
+  <marc:datafield ind1=" " ind2=" " tag="040">
+    <marc:subfield code="a">NL-AMISG</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="044">
+    <marc:subfield code="a">ne</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2=" " tag="100">
+    <marc:subfield code="a">Troelstra, Jelle,</marc:subfield>
+    <marc:subfield code="e">painter.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)313443</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2="0" tag="245">
+    <marc:subfield code="a">[No title]. </marc:subfield>
+    <marc:subfield code="k">Visual document.</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="260">
+    <marc:subfield code="f">(Stifting ta stipe fan it F.L.M.D.)</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="542">
+    <marc:subfield code="m">closed</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="1" ind2=" " tag="600">
+    <marc:subfield code="a">Troelstra, Pieter Jelles.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)250040</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="648">
+    <marc:subfield code="a">1926-1926.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)360614</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="650">
+    <marc:subfield code="a">Portrait.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)306035</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="655">
+    <marc:subfield code="a">Picture postcard.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)197051</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="2" ind2=" " tag="710">
+    <marc:subfield code="a">PvdA,</marc:subfield>
+    <marc:subfield code="e">collector.</marc:subfield>
+    <marc:subfield code="0">(NL-AMISG)2001149</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1="4" ind2=" " tag="852">
+    <marc:subfield code="a">IISG</marc:subfield>
+    <marc:subfield code="b">IISG</marc:subfield>
+    <marc:subfield code="c">IISG</marc:subfield>
+    <marc:subfield code="j">BG A66/467</marc:subfield>
+    <marc:subfield code="n">Available</marc:subfield>
+    <marc:subfield code="p">30051003206627</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="901">
+    <marc:subfield code="a">1482641</marc:subfield>
+    <marc:subfield code="b"/>
+    <marc:subfield code="c">1482641</marc:subfield>
+    <marc:subfield code="t">biblio</marc:subfield>
+  </marc:datafield>
+  <marc:datafield ind1=" " ind2=" " tag="902">
+    <marc:subfield code="a">10622/E30CA256-E4CA-40E3-AD35-A2DA5D28923E</marc:subfield>
+  </marc:datafield>
 </marc:record>
