@@ -70,6 +70,7 @@ public class IISH2WorldCat {
 
             source.read(record, 0, length);
 
+            System.out.println(source_file.getAbsolutePath());
             for (Transformer transformer : transformers) {
                 record = convertRecord(transformer, record);
             }
@@ -80,7 +81,6 @@ public class IISH2WorldCat {
 
             String msg = validate.validate(target);
             if (msg != null) {
-                System.out.println("===================================================================");
                 System.out.println("Invalid MarcXML: " + target.getAbsolutePath());
                 System.out.println(msg);
             }
