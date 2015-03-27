@@ -1,6 +1,18 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:marc="http://www.loc.gov/MARC21/slim"
                 xmlns:xls="http://www.w3.org/1999/XSL/Transform">
+	<!-- check 245a -->
+	<xsl:template name="check245Title">
+		<xsl:param name="title"/>
+		<xsl:choose>
+			<xsl:when test="$title='[]'">
+				<xsl:value-of select="'[No Title.]'"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$title"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 	<!-- check correctness of language code -->
     <xsl:template name="checkLanguageCode">
         <xsl:param name="lc"/>
@@ -623,15 +635,21 @@
             <xsl:choose> <!-- 655a -->
                 <xsl:when test="string-length($var245_245a)=0 and ( $var245_marcleader_pos7='g' or  $var245_marcleader_pos7='i' or  $var245_marcleader_pos7='k' or  $var245_marcleader_pos7='o' or  $var245_marcleader_pos7='r' )">
                     <!-- opmerking D, vierkante [] eromheen -->
-                    <marc:subfield code="a"><xsl:value-of
-                            select="concat('[', //marc:datafield[@tag='655']/marc:subfield[@code='a'], ']')"/>
+                    <marc:subfield code="a">
+	                    <!-- if title equals [] then show No Title else show value -->
+	                    <xsl:call-template name="check245Title">
+		                    <xsl:with-param name="title" select="concat('[', //marc:datafield[@tag='655']/marc:subfield[@code='a'], ']')"/>
+	                    </xsl:call-template>
                     </marc:subfield>
                 </xsl:when>
                 <!-- 245k -->
                 <xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos8='s'">
                     <!-- TODO QUESTION: opmerking D, vierkante [] eromheen -->
-                    <marc:subfield code="a"><xsl:value-of
-                            select="concat('[', marc:subfield[@code='k'], ']')"/>
+                    <marc:subfield code="a">
+	                    <!-- if title equals [] then show No Title else show value -->
+	                    <xsl:call-template name="check245Title">
+		                    <xsl:with-param name="title" select="concat('[', marc:subfield[@code='k'], ']')"/>
+	                    </xsl:call-template>
                     </marc:subfield>
                 </xsl:when>
                 <!-- Opmerking C, als 245a bestaat dan moet origineel getoond worden -->

@@ -1,1 +1,58 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nam a22     7i 4500</marc:leader><marc:controlfield tag="001">1483076</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20131128103951.0</marc:controlfield><marc:controlfield tag="008">131127s2013    xxu                 eng d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="020"><marc:subfield code="a">978-0-520-27415-0</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="041"><marc:subfield code="a">eng</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">xxu</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Marr, David G.</marc:subfield><marc:subfield code="0">(NL-AMISG)211165</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Vietnam :</marc:subfield><marc:subfield code="b">state, war, and revolution (1945-1946) /</marc:subfield><marc:subfield code="c">David G. Marr.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Berkeley, Calif. [etc.] :</marc:subfield><marc:subfield code="b">U. of California P.,</marc:subfield><marc:subfield code="c">2013.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">XIX, 721 p.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="0" tag="830"><marc:subfield code="a">From Indochina to Vietnam : revolution and war in a global perspective ;</marc:subfield><marc:subfield code="v">6.</marc:subfield><marc:subfield code="0">(NL-AMISG)562924</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">2012/1597</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">94827849242424</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1483076</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1483076</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/24010DD4-5253-4F0F-B615-85AA4BB95D6E</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nam a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1483076</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20131128103951.0</marc:controlfield>
+<marc:controlfield tag="008">131127s2013    xxu                 eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="020">
+	<marc:subfield code="a">978-0-520-27415-0</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+	<marc:subfield code="a">eng</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">xxu</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="a">Marr, David G.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)211165</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="a">Vietnam :</marc:subfield>
+	<marc:subfield code="b">state, war, and revolution (1945-1946) /</marc:subfield>
+	<marc:subfield code="c">David G. Marr.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="a">Berkeley, Calif. [etc.] :</marc:subfield>
+	<marc:subfield code="b">U. of California P.,</marc:subfield>
+	<marc:subfield code="c">2013.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="a">XIX, 721 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="0" tag="830">
+	<marc:subfield code="a">From Indochina to Vietnam : revolution and war in a global perspective ;</marc:subfield>
+	<marc:subfield code="v">6.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)562924</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">2012/1597</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">94827849242424</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1483076</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1483076</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/24010DD4-5253-4F0F-B615-85AA4BB95D6E</marc:subfield>
+</marc:datafield>
+</marc:record>

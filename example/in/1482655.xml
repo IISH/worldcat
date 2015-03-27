@@ -1,1 +1,57 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nam a22     7i 4500</marc:leader><marc:controlfield tag="001">1482655</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20141124100953.0</marc:controlfield><marc:controlfield tag="008">131029s2013    xxu                 eng d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="020"><marc:subfield code="a">9781441154408</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="041"><marc:subfield code="a">eng</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">xxu</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Ryley, Peter.</marc:subfield><marc:subfield code="0">(NL-AMISG)2009919</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Making another world possible :</marc:subfield><marc:subfield code="b">anarchism, anti-capitalism and ecology in late 19th and early 20th century Britain /</marc:subfield><marc:subfield code="c">Peter Ryley.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">New York, N.Y. [etc.] :</marc:subfield><marc:subfield code="b">Bloomsbury,</marc:subfield><marc:subfield code="c">2013.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">XXVIII, 233 p.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="830"><marc:subfield code="a">Contemporary anarchist studies.</marc:subfield><marc:subfield code="0">(NL-AMISG)2009968</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">2012/3295</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">223472304870</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1482655</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1482655</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/5F1DBB27-B2BC-45F9-A6F6-A277AA3ABB71</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nam a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1482655</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20141124100953.0</marc:controlfield>
+<marc:controlfield tag="008">131029s2013    xxu                 eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="020">
+	<marc:subfield code="a">9781441154408</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+	<marc:subfield code="a">eng</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">xxu</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="a">Ryley, Peter.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2009919</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="a">Making another world possible :</marc:subfield>
+	<marc:subfield code="b">anarchism, anti-capitalism and ecology in late 19th and early 20th century Britain /</marc:subfield>
+	<marc:subfield code="c">Peter Ryley.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="a">New York, N.Y. [etc.] :</marc:subfield>
+	<marc:subfield code="b">Bloomsbury,</marc:subfield>
+	<marc:subfield code="c">2013.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="a">XXVIII, 233 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="830">
+	<marc:subfield code="a">Contemporary anarchist studies.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2009968</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">2012/3295</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">223472304870</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1482655</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1482655</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/5F1DBB27-B2BC-45F9-A6F6-A277AA3ABB71</marc:subfield>
+</marc:datafield>
+</marc:record>

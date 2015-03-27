@@ -1,1 +1,84 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00620nkm a22     7i 4500</marc:leader><marc:controlfield tag="001">1482612</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20140224152421.0</marc:controlfield><marc:controlfield tag="008">131024s1963    ne                  dut d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AMISG</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="041"><marc:subfield code="a">dut</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">ne</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Spreekmeester, Ies,</marc:subfield><marc:subfield code="e">draughtsman.</marc:subfield><marc:subfield code="0">(NL-AMISG)330186</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="a">Pag. 69.</marc:subfield><marc:subfield code="k">Visual document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">1963. </marc:subfield><marc:subfield code="e">(Amsterdam : </marc:subfield><marc:subfield code="f">Geïllustreerde Pers ,</marc:subfield><marc:subfield code="g">1963)</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="g">20x20 cm.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Spreekmeester tekende sinds de eerste uitgave pal na de oorlog, de lijntekeningen voor het Margriet Kookboek. Decennialang werd herdruk op herdruk door Spreekmeester met telkens weer andere tekeningen geïllustreerd.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="540"><marc:subfield code="b">Erven Spreekmeester.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="541"><marc:subfield code="a">Erven Spreekmeester.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="542"><marc:subfield code="m">closed</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1963-1963.</marc:subfield><marc:subfield code="0">(NL-AMISG)366188</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="650"><marc:subfield code="a">Food.</marc:subfield><marc:subfield code="0">(NL-AMISG)365738</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Netherlands.</marc:subfield><marc:subfield code="0">(NL-AMISG)567354</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Drawing.</marc:subfield><marc:subfield code="0">(NL-AMISG)269282</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Spreekmeester, Ies,</marc:subfield><marc:subfield code="0">(NL-AMISG)2000615</marc:subfield><marc:subfield code="e">collector.</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">PM</marc:subfield><marc:subfield code="j">BG C39/768</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">30051003238786</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1482612</marc:subfield><marc:subfield code="b"/><marc:subfield code="c">1482612</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/0EE27F1E-C842-48F7-ADCD-4C6AA9C4A68E</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00620nkm a22     7i 4500</marc:leader>
+<marc:controlfield tag="001">1482612</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20140224152421.0</marc:controlfield>
+<marc:controlfield tag="008">131024s1963    ne                  dut d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AMISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="041">
+	<marc:subfield code="a">dut</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">ne</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="a">Spreekmeester, Ies,</marc:subfield>
+	<marc:subfield code="e">draughtsman.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)330186</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="a">Pag. 69.</marc:subfield>
+	<marc:subfield code="k">Visual document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="c">1963. </marc:subfield>
+	<marc:subfield code="e">(Amsterdam : </marc:subfield>
+	<marc:subfield code="f">Geïllustreerde Pers ,</marc:subfield>
+	<marc:subfield code="g">1963)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="g">20x20 cm.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+	<marc:subfield code="a">Spreekmeester tekende sinds de eerste uitgave pal na de oorlog, de lijntekeningen voor het Margriet Kookboek. Decennialang werd herdruk op herdruk door Spreekmeester met telkens weer andere tekeningen geïllustreerd.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="540">
+	<marc:subfield code="b">Erven Spreekmeester.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="541">
+	<marc:subfield code="a">Erven Spreekmeester.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="542">
+	<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+	<marc:subfield code="a">1963-1963.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)366188</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="650">
+	<marc:subfield code="a">Food.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)365738</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+	<marc:subfield code="a">Netherlands.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)567354</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+	<marc:subfield code="a">Drawing.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)269282</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+	<marc:subfield code="a">Spreekmeester, Ies,</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2000615</marc:subfield>
+	<marc:subfield code="e">collector.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">PM</marc:subfield>
+	<marc:subfield code="j">BG C39/768</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">30051003238786</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1482612</marc:subfield>
+	<marc:subfield code="b"/>
+	<marc:subfield code="c">1482612</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/0EE27F1E-C842-48F7-ADCD-4C6AA9C4A68E</marc:subfield>
+</marc:datafield>
+</marc:record>

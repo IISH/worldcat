@@ -1,1 +1,61 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00418nam a2200157   45 0</marc:leader><marc:controlfield tag="001">1256645</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20070821135056.0</marc:controlfield><marc:controlfield tag="008">200708s1961uuuuyu |||||||||||||||||ger d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb11026082</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2=" " tag="041"><marc:subfield code="a">ger</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">yu</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="100"><marc:subfield code="a">Kavčič, Stane.</marc:subfield><marc:subfield code="0">(NL-AMISG)172407</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="4" tag="245"><marc:subfield code="a">Die Selbstverwaltung in Jugoslawien /</marc:subfield><marc:subfield code="c">Stane Kavčič</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">Beograd :</marc:subfield><marc:subfield code="b">Publicisticko-Izdavacki Zavod "Jugoslavija",</marc:subfield><marc:subfield code="c">1961</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="a">57 p.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="694"><marc:subfield code="a">Souchy Bauer, A.</marc:subfield><marc:subfield code="b">Bro 5187/1</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2=" " tag="700"><marc:subfield code="a">Souchy, Augustin,</marc:subfield><marc:subfield code="e">collector.</marc:subfield><marc:subfield code="0">(NL-AMISG)2000613</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">Bro 5187/1</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10751621</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1256645</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1256645</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/528CD404-87E9-45A7-8A6D-0C0717B1AED8</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00418nam a2200157   45 0</marc:leader>
+<marc:controlfield tag="001">1256645</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20070821135056.0</marc:controlfield>
+<marc:controlfield tag="008">200708s1961uuuuyu |||||||||||||||||ger d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+	<marc:subfield code="a">(IISG)IISGb11026082</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+	<marc:subfield code="a">ger</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">yu</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="100">
+	<marc:subfield code="a">Kavčič, Stane.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)172407</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="245">
+	<marc:subfield code="a">Die Selbstverwaltung in Jugoslawien /</marc:subfield>
+	<marc:subfield code="c">Stane Kavčič</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="a">Beograd :</marc:subfield>
+	<marc:subfield code="b">Publicisticko-Izdavacki Zavod "Jugoslavija",</marc:subfield>
+	<marc:subfield code="c">1961</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="a">57 p.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="694">
+	<marc:subfield code="a">Souchy Bauer, A.</marc:subfield>
+	<marc:subfield code="b">Bro 5187/1</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2=" " tag="700">
+	<marc:subfield code="a">Souchy, Augustin,</marc:subfield>
+	<marc:subfield code="e">collector.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)2000613</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">Bro 5187/1</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">N10751621</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1256645</marc:subfield>
+	<marc:subfield code="b">Unknown</marc:subfield>
+	<marc:subfield code="c">1256645</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/528CD404-87E9-45A7-8A6D-0C0717B1AED8</marc:subfield>
+</marc:datafield>
+</marc:record>

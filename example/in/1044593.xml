@@ -1,1 +1,37 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00253noc a2200109 a 45 0</marc:leader><marc:controlfield tag="001">1044593</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20000717104234.0</marc:controlfield><marc:controlfield tag="008">200007suuuuuuuu||||||||||||||||||||||| d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10854616</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="k">Documentatie = Documentation.</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="4" tag="600"><marc:subfield code="a">Vijlbrief, N.</marc:subfield><marc:subfield code="0">(NL-AMISG)344728</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">Documentatiemap + subject</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10618495</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1044593</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1044593</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/5A9592AF-AC77-4538-945B-BC889EB4838A</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00253noc a2200109 a 45 0</marc:leader>
+<marc:controlfield tag="001">1044593</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20000717104234.0</marc:controlfield>
+<marc:controlfield tag="008">200007suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+	<marc:subfield code="a">(IISG)IISGb10854616</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="k">Documentatie = Documentation.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="600">
+	<marc:subfield code="a">Vijlbrief, N.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)344728</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">Documentatiemap + subject</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">N10618495</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1044593</marc:subfield>
+	<marc:subfield code="b">Unknown</marc:subfield>
+	<marc:subfield code="c">1044593</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/5A9592AF-AC77-4538-945B-BC889EB4838A</marc:subfield>
+</marc:datafield>
+</marc:record>

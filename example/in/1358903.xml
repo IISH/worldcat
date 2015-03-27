@@ -1,1 +1,166 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00494nas a22001690a 45 0</marc:leader><marc:controlfield tag="001">1358903</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">20050905121348.0</marc:controlfield><marc:controlfield tag="008">200509suuuuuuuuus |||||||||||||||||eng d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="022"><marc:subfield code="a">0036-0341</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10525901</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2=" " tag="041"><marc:subfield code="a">eng</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="044"><marc:subfield code="a">xxu</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="4" tag="245"><marc:subfield code="a">The Russian review :</marc:subfield><marc:subfield code="b">an American journal devoted to Russia past and present.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="a">New York, N.Y., [etc.]</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Since 1997 the tables of contents are available in IALHI Serials Service.</marc:subfield></marc:datafield><marc:datafield ind1="0" ind2="0" tag="856"><marc:subfield code="u">http://serials.ialhi.org/serials/serial_52.asp</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">ZO 6183</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">Z87250</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2="0" tag="853"><marc:subfield code="8">2</marc:subfield><marc:subfield code="a">Vol.</marc:subfield><marc:subfield code="b">No.</marc:subfield><marc:subfield code="i">(Year.)</marc:subfield><marc:subfield code="j">(Month.)</marc:subfield><marc:subfield code="u">4</marc:subfield><marc:subfield code="v">R</marc:subfield><marc:subfield code="w">q</marc:subfield><marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="863"><marc:subfield code="8">2.1</marc:subfield><marc:subfield code="a">ISS</marc:subfield><marc:subfield code="p">P863.10331611</marc:subfield><marc:subfield code="t">1</marc:subfield><marc:subfield code="w">g</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="866"><marc:subfield code="a">1(1941/42) - 4(1944/45). - Reprint, New York (1965/66)</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">ZO 40560</marc:subfield><marc:subfield code="n">On order</marc:subfield><marc:subfield code="p">ACQ153</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2="0" tag="853"><marc:subfield code="8">4</marc:subfield><marc:subfield code="a">Vol.</marc:subfield><marc:subfield code="b">No.</marc:subfield><marc:subfield code="i">(Year.)</marc:subfield><marc:subfield code="j">(Month.)</marc:subfield><marc:subfield code="u">4</marc:subfield><marc:subfield code="v">R</marc:subfield><marc:subfield code="w">q</marc:subfield><marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="863"><marc:subfield code="8">4.2</marc:subfield><marc:subfield code="a">70</marc:subfield><marc:subfield code="b">3</marc:subfield><marc:subfield code="i">2011</marc:subfield><marc:subfield code="j">JUL</marc:subfield><marc:subfield code="p">P863.10565886</marc:subfield><marc:subfield code="t">2</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="866"><marc:subfield code="a">5(1945/46) - 7(1947/48). - Reprint; 8(1948/49) - . - With: Cummulative indexes: Vol. 1-30</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">ZO 40560</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">Z87251</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2="0" tag="853"><marc:subfield code="8">4</marc:subfield><marc:subfield code="a">Vol.</marc:subfield><marc:subfield code="b">No.</marc:subfield><marc:subfield code="i">(Year.)</marc:subfield><marc:subfield code="j">(Month.)</marc:subfield><marc:subfield code="u">4</marc:subfield><marc:subfield code="v">R</marc:subfield><marc:subfield code="w">q</marc:subfield><marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="863"><marc:subfield code="8">4.2</marc:subfield><marc:subfield code="a">70</marc:subfield><marc:subfield code="b">3</marc:subfield><marc:subfield code="i">2011</marc:subfield><marc:subfield code="j">JUL</marc:subfield><marc:subfield code="p">P863.10565886</marc:subfield><marc:subfield code="t">2</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="866"><marc:subfield code="a">5(1945/46) - 7(1947/48). - Reprint; 8(1948/49) - . - With: Cummulative indexes: Vol. 1-30</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">ZO 40560</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">@@1308240</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2="0" tag="853"><marc:subfield code="8">4</marc:subfield><marc:subfield code="a">Vol.</marc:subfield><marc:subfield code="b">No.</marc:subfield><marc:subfield code="i">(Year.)</marc:subfield><marc:subfield code="j">(Month.)</marc:subfield><marc:subfield code="u">4</marc:subfield><marc:subfield code="v">R</marc:subfield><marc:subfield code="w">q</marc:subfield><marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="863"><marc:subfield code="8">4.2</marc:subfield><marc:subfield code="a">70</marc:subfield><marc:subfield code="b">3</marc:subfield><marc:subfield code="i">2011</marc:subfield><marc:subfield code="j">JUL</marc:subfield><marc:subfield code="p">P863.10565886</marc:subfield><marc:subfield code="t">2</marc:subfield></marc:datafield><marc:datafield ind1="5" ind2="0" tag="866"><marc:subfield code="a">5(1945/46) - 7(1947/48). - Reprint; 8(1948/49) - . - With: Cummulative indexes: Vol. 1-30</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1358903</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1358903</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/94226974-C845-4A21-99A1-6DE62C1259BF</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00494nas a22001690a 45 0</marc:leader>
+<marc:controlfield tag="001">1358903</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">20050905121348.0</marc:controlfield>
+<marc:controlfield tag="008">200509suuuuuuuuus |||||||||||||||||eng d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="022">
+	<marc:subfield code="a">0036-0341</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+	<marc:subfield code="a">(IISG)IISGb10525901</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2=" " tag="041">
+	<marc:subfield code="a">eng</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="044">
+	<marc:subfield code="a">xxu</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="4" tag="245">
+	<marc:subfield code="a">The Russian review :</marc:subfield>
+	<marc:subfield code="b">an American journal devoted to Russia past and present.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="a">New York, N.Y., [etc.]</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+	<marc:subfield code="a">Since 1997 the tables of contents are available in IALHI Serials Service.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="0" ind2="0" tag="856">
+	<marc:subfield code="u">http://serials.ialhi.org/serials/serial_52.asp</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">ZO 6183</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">Z87250</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2="0" tag="853">
+	<marc:subfield code="8">2</marc:subfield>
+	<marc:subfield code="a">Vol.</marc:subfield>
+	<marc:subfield code="b">No.</marc:subfield>
+	<marc:subfield code="i">(Year.)</marc:subfield>
+	<marc:subfield code="j">(Month.)</marc:subfield>
+	<marc:subfield code="u">4</marc:subfield>
+	<marc:subfield code="v">R</marc:subfield>
+	<marc:subfield code="w">q</marc:subfield>
+	<marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="863">
+	<marc:subfield code="8">2.1</marc:subfield>
+	<marc:subfield code="a">ISS</marc:subfield>
+	<marc:subfield code="p">P863.10331611</marc:subfield>
+	<marc:subfield code="t">1</marc:subfield>
+	<marc:subfield code="w">g</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="866">
+	<marc:subfield code="a">1(1941/42) - 4(1944/45). - Reprint, New York (1965/66)</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">ZO 40560</marc:subfield>
+	<marc:subfield code="n">On order</marc:subfield>
+	<marc:subfield code="p">ACQ153</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2="0" tag="853">
+	<marc:subfield code="8">4</marc:subfield>
+	<marc:subfield code="a">Vol.</marc:subfield>
+	<marc:subfield code="b">No.</marc:subfield>
+	<marc:subfield code="i">(Year.)</marc:subfield>
+	<marc:subfield code="j">(Month.)</marc:subfield>
+	<marc:subfield code="u">4</marc:subfield>
+	<marc:subfield code="v">R</marc:subfield>
+	<marc:subfield code="w">q</marc:subfield>
+	<marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="863">
+	<marc:subfield code="8">4.2</marc:subfield>
+	<marc:subfield code="a">70</marc:subfield>
+	<marc:subfield code="b">3</marc:subfield>
+	<marc:subfield code="i">2011</marc:subfield>
+	<marc:subfield code="j">JUL</marc:subfield>
+	<marc:subfield code="p">P863.10565886</marc:subfield>
+	<marc:subfield code="t">2</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="866">
+	<marc:subfield code="a">5(1945/46) - 7(1947/48). - Reprint; 8(1948/49) - . - With: Cummulative indexes: Vol. 1-30</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">ZO 40560</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">Z87251</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2="0" tag="853">
+	<marc:subfield code="8">4</marc:subfield>
+	<marc:subfield code="a">Vol.</marc:subfield>
+	<marc:subfield code="b">No.</marc:subfield>
+	<marc:subfield code="i">(Year.)</marc:subfield>
+	<marc:subfield code="j">(Month.)</marc:subfield>
+	<marc:subfield code="u">4</marc:subfield>
+	<marc:subfield code="v">R</marc:subfield>
+	<marc:subfield code="w">q</marc:subfield>
+	<marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="863">
+	<marc:subfield code="8">4.2</marc:subfield>
+	<marc:subfield code="a">70</marc:subfield>
+	<marc:subfield code="b">3</marc:subfield>
+	<marc:subfield code="i">2011</marc:subfield>
+	<marc:subfield code="j">JUL</marc:subfield>
+	<marc:subfield code="p">P863.10565886</marc:subfield>
+	<marc:subfield code="t">2</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="866">
+	<marc:subfield code="a">5(1945/46) - 7(1947/48). - Reprint; 8(1948/49) - . - With: Cummulative indexes: Vol. 1-30</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">ZO 40560</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">@@1308240</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2="0" tag="853">
+	<marc:subfield code="8">4</marc:subfield>
+	<marc:subfield code="a">Vol.</marc:subfield>
+	<marc:subfield code="b">No.</marc:subfield>
+	<marc:subfield code="i">(Year.)</marc:subfield>
+	<marc:subfield code="j">(Month.)</marc:subfield>
+	<marc:subfield code="u">4</marc:subfield>
+	<marc:subfield code="v">R</marc:subfield>
+	<marc:subfield code="w">q</marc:subfield>
+	<marc:subfield code="y">pm0128,0428,0728,1028</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="863">
+	<marc:subfield code="8">4.2</marc:subfield>
+	<marc:subfield code="a">70</marc:subfield>
+	<marc:subfield code="b">3</marc:subfield>
+	<marc:subfield code="i">2011</marc:subfield>
+	<marc:subfield code="j">JUL</marc:subfield>
+	<marc:subfield code="p">P863.10565886</marc:subfield>
+	<marc:subfield code="t">2</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="5" ind2="0" tag="866">
+	<marc:subfield code="a">5(1945/46) - 7(1947/48). - Reprint; 8(1948/49) - . - With: Cummulative indexes: Vol. 1-30</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1358903</marc:subfield>
+	<marc:subfield code="b">Unknown</marc:subfield>
+	<marc:subfield code="c">1358903</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/94226974-C845-4A21-99A1-6DE62C1259BF</marc:subfield>
+</marc:datafield>
+</marc:record>

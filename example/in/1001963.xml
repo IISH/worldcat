@@ -1,1 +1,62 @@
-<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"><marc:leader>00457ngm a2200181 a 45 0</marc:leader><marc:controlfield tag="001">1001963</marc:controlfield><marc:controlfield tag="003">NL-AMISG</marc:controlfield><marc:controlfield tag="005">19980604105803.0</marc:controlfield><marc:controlfield tag="008">199806suuuuuuuu||||||||||||||||||||||| d</marc:controlfield><marc:datafield ind1=" " ind2=" " tag="035"><marc:subfield code="a">(IISG)IISGb10805042</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="040"><marc:subfield code="a">NL-AmISG</marc:subfield></marc:datafield><marc:datafield ind1="1" ind2="0" tag="245"><marc:subfield code="k">Bewegend beeld-document = Moving image document.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="260"><marc:subfield code="c">1992.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="300"><marc:subfield code="3">Betacam.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="500"><marc:subfield code="a">Eerste vertoning op 21 maart 1992.</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="648"><marc:subfield code="a">1992-1992.</marc:subfield><marc:subfield code="0">(NL-AMISG)552290</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="651"><marc:subfield code="a">Netherlands.</marc:subfield><marc:subfield code="0">(NL-AMISG)569282</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2="4" tag="655"><marc:subfield code="a">Video.</marc:subfield><marc:subfield code="0">(NL-AMISG)317413</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="695"><marc:subfield code="a">NED</marc:subfield><marc:subfield code="e">Nederland.</marc:subfield></marc:datafield><marc:datafield ind1="2" ind2=" " tag="710"><marc:subfield code="a">FNV.</marc:subfield><marc:subfield code="0">(NL-AMISG)83933</marc:subfield></marc:datafield><marc:datafield ind1="4" ind2=" " tag="852"><marc:subfield code="a">IISG</marc:subfield><marc:subfield code="b">IISG</marc:subfield><marc:subfield code="c">IISG</marc:subfield><marc:subfield code="j">BG V1/253</marc:subfield><marc:subfield code="n">Available</marc:subfield><marc:subfield code="p">N10583465</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="901"><marc:subfield code="a">1001963</marc:subfield><marc:subfield code="b">Unknown</marc:subfield><marc:subfield code="c">1001963</marc:subfield><marc:subfield code="t">biblio</marc:subfield></marc:datafield><marc:datafield ind1=" " ind2=" " tag="902"><marc:subfield code="a">10622/7CAC8150-9ACA-4600-BE69-5076690D79D8</marc:subfield></marc:datafield></marc:record>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+<marc:leader>00457ngm a2200181 a 45 0</marc:leader>
+<marc:controlfield tag="001">1001963</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">19980604105803.0</marc:controlfield>
+<marc:controlfield tag="008">199806suuuuuuuu||||||||||||||||||||||| d</marc:controlfield>
+<marc:datafield ind1=" " ind2=" " tag="035">
+	<marc:subfield code="a">(IISG)IISGb10805042</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="040">
+	<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="1" ind2="0" tag="245">
+	<marc:subfield code="k">Bewegend beeld-document = Moving image document.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="260">
+	<marc:subfield code="c">1992.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="300">
+	<marc:subfield code="3">Betacam.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="500">
+	<marc:subfield code="a">Eerste vertoning op 21 maart 1992.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="648">
+	<marc:subfield code="a">1992-1992.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)552290</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="651">
+	<marc:subfield code="a">Netherlands.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)569282</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2="4" tag="655">
+	<marc:subfield code="a">Video.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)317413</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="695">
+	<marc:subfield code="a">NED</marc:subfield>
+	<marc:subfield code="e">Nederland.</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="2" ind2=" " tag="710">
+	<marc:subfield code="a">FNV.</marc:subfield>
+	<marc:subfield code="0">(NL-AMISG)83933</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1="4" ind2=" " tag="852">
+	<marc:subfield code="a">IISG</marc:subfield>
+	<marc:subfield code="b">IISG</marc:subfield>
+	<marc:subfield code="c">IISG</marc:subfield>
+	<marc:subfield code="j">BG V1/253</marc:subfield>
+	<marc:subfield code="n">Available</marc:subfield>
+	<marc:subfield code="p">N10583465</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="901">
+	<marc:subfield code="a">1001963</marc:subfield>
+	<marc:subfield code="b">Unknown</marc:subfield>
+	<marc:subfield code="c">1001963</marc:subfield>
+	<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+<marc:datafield ind1=" " ind2=" " tag="902">
+	<marc:subfield code="a">10622/7CAC8150-9ACA-4600-BE69-5076690D79D8</marc:subfield>
+</marc:datafield>
+</marc:record>
