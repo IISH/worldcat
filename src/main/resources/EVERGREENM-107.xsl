@@ -26,7 +26,7 @@
 
     </xsl:template>
 
-    <xsl:template match="marc:subfield[@code='k' and text()='Visual document.']">
+    <xsl:template match="marc:subfield[@code='k' and text()='Visual document.' and ../../marc:datafield[@tag='245']]">
         <marc:subfield code="k">Sound document.</marc:subfield>
     </xsl:template>
 
