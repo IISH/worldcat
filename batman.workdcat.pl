@@ -59,36 +59,23 @@ my $_xml_parser = new XML::LibXML;
 my $_xslt_parser = new XML::LibXSLT;
 
 
-#
-# The fingerprint is used for comparing the source and end result of the transformation
-my $xslt_fingerprint = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT'));
-<xsl:stylesheet version="1.0"
-               xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-               xmlns="http://www.loc.gov/MARC21/slim"
-               xmlns:marc="http://www.loc.gov/MARC21/slim"
-       exclude-result-prefixes="marc">
-   <xsl:output omit-xml-declaration="yes" indent="no"/>
-
-   <xsl:template match="marc:record">
-           <xsl:value-of select="concat('\\leader', marc:leader)"/>
-           <xsl:for-each select="marc:controlfield">
-               <xsl:value-of select="concat('\\', @tag, '  ', text())"/>
-           </xsl:for-each>
-           <xsl:for-each select="marc:datafield">
-               <xsl:value-of select="concat('\\', @tag, @ind1, @ind2)"/>
-               <xsl:for-each select="marc:subfield">
-                   <xsl:value-of select="concat('$', @code, text())"/>
-               </xsl:for-each>
-           </xsl:for-each>
-   </xsl:template>
-
-</xsl:stylesheet>
-XSLT
-
 my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1'));
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:marc="http://www.loc.gov/MARC21/slim"
-                xmlns:xls="http://www.w3.org/1999/XSL/Transform"> <!-- check correctness of language code -->
+                xmlns:xls="http://www.w3.org/1999/XSL/Transform">
+	<!-- check 245a -->
+	<xsl:template name="check245Title">
+		<xsl:param name="title"/>
+		<xsl:choose>
+			<xsl:when test="$title='[]'">
+				<xsl:value-of select="'[No Title.]'"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$title"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<!-- check correctness of language code -->
     <xsl:template name="checkLanguageCode">
         <xsl:param name="lc"/>
         <xsl:param name="if_incorrect_return_value"/>
@@ -477,11 +464,11 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
     <xsl:template name="correctPlaceOfPublicationCode">
         <xsl:param name="c"/>
         <xsl:choose>
-            <xsl:when test="$c='|||'">xx </xsl:when>
-            <xsl:when test="$c='|| '">xx </xsl:when>
-            <xsl:when test="$c='|  '">xx </xsl:when>
-            <xsl:when test="$c='||'">xx </xsl:when>
-            <xsl:when test="$c='|'">xx </xsl:when>
+            <xsl:when test="$c='|||'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='|| '"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='|  '"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='||'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='|'"><xsl:value-of select="'xx '"/></xsl:when>
             <xsl:when test="$c='uk#'">xxk</xsl:when>
             <xsl:when test="$c='uk|'">xxk</xsl:when>
             <xsl:when test="$c='uk '">xxk</xsl:when>
@@ -494,28 +481,28 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
             <xsl:when test="$c='cn|'">xxc</xsl:when>
             <xsl:when test="$c='cn '">xxc</xsl:when>
             <xsl:when test="$c='cn'">xxc</xsl:when>
-            <xsl:when test="$c='cs#'">xr </xsl:when>
-            <xsl:when test="$c='cs|'">xr </xsl:when>
-            <xsl:when test="$c='cs '">xr </xsl:when>
-            <xsl:when test="$c='cs'">xr </xsl:when>
-            <xsl:when test="$c='hk#'">cc </xsl:when>
-            <xsl:when test="$c='hk|'">cc </xsl:when>
-            <xsl:when test="$c='hk '">cc </xsl:when>
-            <xsl:when test="$c='hk'">cc </xsl:when>
-            <xsl:when test="$c='yu#'">rb </xsl:when>
-            <xsl:when test="$c='yu|'">rb </xsl:when>
-            <xsl:when test="$c='yu '">rb </xsl:when>
-            <xsl:when test="$c='yu'">rb </xsl:when>
-            <xsl:when test="$c='ge#'">gw </xsl:when>
-            <xsl:when test="$c='ge|'">gw </xsl:when>
-            <xsl:when test="$c='ge '">gw </xsl:when>
-            <xsl:when test="$c='ge'">gw </xsl:when>
-            <xsl:when test="$c='uu#'">xx </xsl:when>
-            <xsl:when test="$c='uu|'">xx </xsl:when>
-            <xsl:when test="$c='uu '">xx </xsl:when>
-            <xsl:when test="$c='uu'">xx </xsl:when>
-            <xsl:when test="$c='rus'">ru </xsl:when>
-            <xsl:when test="$c='dut'">ne </xsl:when>
+            <xsl:when test="$c='cs#'"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='cs|'"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='cs '"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='cs'"><xsl:value-of select="'xr '"/></xsl:when>
+            <xsl:when test="$c='hk#'"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='hk|'"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='hk '"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='hk'"><xsl:value-of select="'cc '"/></xsl:when>
+            <xsl:when test="$c='yu#'"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='yu|'"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='yu '"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='yu'"><xsl:value-of select="'rb '"/></xsl:when>
+            <xsl:when test="$c='ge#'"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='ge|'"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='ge '"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='ge'"><xsl:value-of select="'gw '"/></xsl:when>
+            <xsl:when test="$c='uu#'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='uu|'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='uu '"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='uu'"><xsl:value-of select="'xx '"/></xsl:when>
+            <xsl:when test="$c='rus'"><xsl:value-of select="'ru '"/></xsl:when>
+            <xsl:when test="$c='dut'"><xsl:value-of select="'ne '"/></xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="$c"/>
             </xsl:otherwise>
@@ -591,12 +578,24 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="var3NewPubCode_2">
+	        <!-- TODO vraag: wat gebeurt er als waarde eindigt met een spatie? wordt de spatie eraf geknipt ? -->
             <xsl:call-template name="correctPlaceOfPublicationCode">
                 <xsl:with-param name="c" select="$var3NewPubCode"/>
             </xsl:call-template>
         </xsl:variable>
+	    <!-- extra trailing space protection -->
+	    <xsl:variable name="var3NewPubCode_3">
+		    <xsl:choose>
+			    <xsl:when test="string-length($var3NewPubCode_2)=2">
+				    <xsl:value-of select="concat($var3NewPubCode_2, ' ')"/>
+			    </xsl:when>
+			    <xsl:otherwise>
+				    <xsl:value-of select="$var3NewPubCode_2"/>
+			    </xsl:otherwise>
+		    </xsl:choose>
+	    </xsl:variable>
         <!-- concat -->
-        <xsl:variable name="var3step2" select="concat($var3step1_pos1_15, $var3NewPubCode_2, $var3step1_pos19_41)"/>
+        <xsl:variable name="var3step2" select="concat($var3step1_pos1_15, $var3NewPubCode_3, $var3step1_pos19_41)"/>
         <!-- step 3 008 35-37 -->
         <xsl:variable name="var3step1_pos1_35" select="substring($var3step2, 1, 35)"/>
         <xsl:variable name="var3step1_pos36_38" select="substring($var3step2, 36, 3)"/>
@@ -661,10 +660,10 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:variable name="count041a"
-                          select="count(/marc:record/marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
+                          select="count(//marc:datafield[@tag='041']/marc:subfield[@code='a'])"/>
             <xsl:choose>
                 <xsl:when test="$count041a=1">
-                    <xsl:apply-templates select="/marc:record/marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
+                    <xsl:apply-templates select="//marc:datafield[@tag='041']/marc:subfield[@code!='a']"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates select="node()"/>
@@ -677,10 +676,10 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:variable name="count044a"
-                          select="count(/marc:record/marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
+                          select="count(//marc:datafield[@tag='044']/marc:subfield[@code='a'])"/>
             <xsl:choose>
                 <xsl:when test="$count044a=1">
-                    <xsl:apply-templates select="/marc:record/marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
+                    <xsl:apply-templates select="//marc:datafield[@tag='044']/marc:subfield[@code!='a']"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:apply-templates select="node()"/>
@@ -694,19 +693,25 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
             <xsl:apply-templates select="@*"/>
             <xsl:variable name="var245_marcleader_pos7" select="substring(//marc:leader, 7, 1)"/>
             <xsl:variable name="var245_marcleader_pos8" select="substring(//marc:leader, 8, 1)"/>
-            <xsl:variable name="var245_245a" select="/marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
+            <xsl:variable name="var245_245a" select="//marc:datafield[@tag='245']/marc:subfield[@code='a']"/>
             <xsl:choose> <!-- 655a -->
-                <xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos7='k'">
+                <xsl:when test="string-length($var245_245a)=0 and ( $var245_marcleader_pos7='g' or  $var245_marcleader_pos7='i' or  $var245_marcleader_pos7='k' or  $var245_marcleader_pos7='o' or  $var245_marcleader_pos7='r' )">
                     <!-- opmerking D, vierkante [] eromheen -->
-                    <marc:subfield code="a"><xsl:value-of
-                            select="concat('[', /marc:record/marc:datafield[@tag='655']/marc:subfield[@code='a'], ']')"/>
+                    <marc:subfield code="a">
+	                    <!-- if title equals [] then show No Title else show value -->
+	                    <xsl:call-template name="check245Title">
+		                    <xsl:with-param name="title" select="concat('[', //marc:datafield[@tag='655']/marc:subfield[@code='a'], ']')"/>
+	                    </xsl:call-template>
                     </marc:subfield>
                 </xsl:when>
                 <!-- 245k -->
                 <xsl:when test="string-length($var245_245a)=0 and $var245_marcleader_pos8='s'">
                     <!-- TODO QUESTION: opmerking D, vierkante [] eromheen -->
-                    <marc:subfield code="a"><xsl:value-of
-                            select="concat('[', marc:subfield[@code='k'], ']')"/>
+                    <marc:subfield code="a">
+	                    <!-- if title equals [] then show No Title else show value -->
+	                    <xsl:call-template name="check245Title">
+		                    <xsl:with-param name="title" select="concat('[', marc:subfield[@code='k'], ']')"/>
+	                    </xsl:call-template>
                     </marc:subfield>
                 </xsl:when>
                 <!-- Opmerking C, als 245a bestaat dan moet origineel getoond worden -->
@@ -743,30 +748,78 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
         </marc:subfield>
     </xls:template>
     <!-- invalid subfield codes, part 1, collector, designer, draughtsman, engraver, painter, photographer -->
+	<!-- TODO met punt collector. ze moeten allemaal een punt krijgen ook de gene zonder -->
     <xls:template
-            match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655'or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='collector']"> <!-- TODO is het nodig om te controlen of originele waarde f is src -->
-        <marc:subfield code="e">collector</marc:subfield>
+            match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655'or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='collector']">
+        <marc:subfield code="e">collector.</marc:subfield>
     </xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655'or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='collector.']">
+		<marc:subfield code="e">collector.</marc:subfield>
+	</xls:template>
     <xls:template
             match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='designer']">
-        <marc:subfield code="e">designer</marc:subfield>
+        <marc:subfield code="e">designer.</marc:subfield>
     </xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='designer.']">
+		<marc:subfield code="e">designer.</marc:subfield>
+	</xls:template>
     <xls:template
             match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='draughtsman']">
-        <marc:subfield code="e">draughtsman</marc:subfield>
+        <marc:subfield code="e">draughtsman.</marc:subfield>
     </xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='draughtsman.']">
+		<marc:subfield code="e">draughtsman.</marc:subfield>
+	</xls:template>
     <xls:template
             match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='engraver']">
-        <marc:subfield code="e">engraver</marc:subfield>
+        <marc:subfield code="e">engraver.</marc:subfield>
     </xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='engraver.']">
+		<marc:subfield code="e">engraver.</marc:subfield>
+	</xls:template>
     <xls:template
             match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='painter']">
-        <marc:subfield code="e">painter</marc:subfield>
+        <marc:subfield code="e">painter.</marc:subfield>
     </xls:template>
-    <xls:template
-            match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='photographer']">
-        <marc:subfield code="e">photographer</marc:subfield>
-    </xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='painter.']">
+		<marc:subfield code="e">painter.</marc:subfield>
+	</xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='photographer']">
+		<marc:subfield code="e">photographer.</marc:subfield>
+	</xls:template>
+	<xls:template
+			match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[@code='photographer.']">
+		<marc:subfield code="e">photographer.</marc:subfield>
+	</xls:template>
+
+	<!-- 611 and 711: revert attribute and value -->
+	<xls:template
+			match="marc:datafield[@tag='611' or @tag='711']/marc:subfield[text()='e' and string-length(@code) >= 2]">
+
+		<xsl:variable name="var_value_d" select="../marc:subfield[@code='d']"/>
+
+		<xsl:choose>
+			<!-- check if original d values is not zero long -->
+			<xsl:when test="string-length($var_value_d) = 0">
+				<!-- create d node -->
+				<marc:subfield code="d"><xsl:value-of select="@code"/></marc:subfield>
+			</xsl:when>
+			<xsl:otherwise>
+				<!-- keep original node -->
+				<xsl:copy>
+					<xsl:apply-templates select="@*|node()"/>
+				</xsl:copy>
+			</xsl:otherwise>
+		</xsl:choose>
+
+	</xls:template>
+
     <!-- replace function -->
     <xsl:template name="string-replace-all">
         <xsl:param name="text"/>
@@ -792,13 +845,15 @@ my $xslt_1 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT1
 XSLT1
 my $xslt_2 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT2'));
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:marc="http://www.loc.gov/MARC21/slim"> <!-- copy node -->
+                xmlns:marc="http://www.loc.gov/MARC21/slim">
+	<!-- copy node -->
     <xsl:template match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <!-- sort first ascending characters codes, then sort ascending number codes --> <!-- TODO (opmerking e) zie remove single chars alleen bepaalde nodes -->
+
+    <!-- sort first ascending characters codes, then sort ascending number codes -->
     <xsl:template
             match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']">
         <marc:datafield ind1="{@ind1}" ind2="{@ind2}" tag="{@tag}">
@@ -820,12 +875,14 @@ my $xslt_2 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT2
 XSLT2
 my $xslt_3 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT3'));
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:marc="http://www.loc.gov/MARC21/slim"> <!-- copy node -->
+                xmlns:marc="http://www.loc.gov/MARC21/slim">
+	<!-- copy node -->
     <xsl:template match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+
     <!-- remove single char codes with single char values -->
     <xsl:template
             match="marc:datafield[@tag='100' or @tag='110' or @tag='600' or @tag='610' or @tag='648' or @tag='650' or @tag='655' or @tag='700' or @tag='710' or @tag='830']/marc:subfield[string-length(@code)=1]">
@@ -842,18 +899,120 @@ my $xslt_3 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT3
 XSLT3
 my $xslt_4 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT4'));
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:marc="http://www.loc.gov/MARC21/slim"> <!-- copy node -->
+                xmlns:marc="http://www.loc.gov/MARC21/slim">
+	<!-- copy node -->
     <xsl:template match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+
     <!-- remove node if preceding sibling is the same -->
     <xsl:template
             match="marc:subfield[@code = preceding-sibling::marc:subfield[1]/@code and text() = preceding-sibling::marc:subfield[1]/text()]"/>
 </xsl:stylesheet>
 XSLT4
 my $xslt_5 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT5'));
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:marc="http://www.loc.gov/MARC21/slim"
+                xmlns:xls="http://www.w3.org/1999/XSL/Transform">
+
+	<xsl:template match="@*|node()">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<!-- fix invalid indicator -->
+	<xls:template match="marc:datafield">
+		<xsl:variable name="var_ind1" select="@ind1"/>
+		<xsl:variable name="var_ind2" select="@ind2"/>
+
+		<marc:datafield>
+			<xsl:attribute name="ind1">
+			<xsl:choose>
+				<xsl:when test="string-length($var_ind1) = 0"><xsl:value-of select="' '"/></xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="$var_ind1"/>
+				</xsl:otherwise>
+			</xsl:choose>
+			</xsl:attribute>
+
+			<xsl:attribute name="ind2">
+				<xsl:choose>
+					<xsl:when test="string-length($var_ind2) = 0"><xsl:value-of select="' '"/></xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="$var_ind2"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:attribute>
+
+			<xsl:attribute name="tag">
+				<xsl:value-of select="@tag"/>
+			</xsl:attribute>
+
+			<xsl:apply-templates select="node()"/>
+
+		</marc:datafield>
+	</xls:template>
+
+</xsl:stylesheet>
+XSLT5
+my $xslt_6 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT6'));
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:marc="http://www.loc.gov/MARC21/slim"
+                xmlns:xls="http://www.w3.org/1999/XSL/Transform">
+
+	<xsl:template match="@*|node()">
+		<xsl:copy>
+			<xsl:apply-templates select="@*|node()"/>
+		</xsl:copy>
+	</xsl:template>
+
+	<!-- replace pipes -->
+	<xls:template match="marc:controlfield[@tag='008']">
+		<xsl:variable name="var_008_pipes" select="text()"/>
+
+		<xsl:variable name="var_008_spaces">
+			<xsl:call-template name="string-replace-all">
+				<xsl:with-param name="text" select="$var_008_pipes"/>
+				<xsl:with-param name="replace" select="'|'"/>
+				<xsl:with-param name="by" select="' '"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+		<xsl:copy>
+			<xsl:attribute name="tag">
+				<xsl:value-of select="@tag"/>
+			</xsl:attribute>
+			<xsl:value-of select="$var_008_spaces"/>
+		</xsl:copy>
+	</xls:template>
+
+	<!-- replace function -->
+	<xsl:template name="string-replace-all">
+		<xsl:param name="text"/>
+		<xsl:param name="replace"/>
+		<xsl:param name="by"/>
+		<xsl:choose>
+			<xsl:when test="contains($text, $replace)">
+				<xsl:value-of select="substring-before($text,$replace)"/>
+				<xsl:value-of select="$by"/>
+				<xsl:call-template name="string-replace-all">
+					<xsl:with-param name="text" select="substring-after($text,$replace)"/>
+					<xsl:with-param name="replace" select="$replace"/>
+					<xsl:with-param name="by" select="$by"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="$text"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+</xsl:stylesheet>
+XSLT6
+my $xslt_7 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT7'));
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:marc="http://www.loc.gov/MARC21/slim">
     <xsl:template match="@*|node()">
@@ -863,7 +1022,36 @@ my $xslt_5 = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT5
     </xsl:template>
     <xsl:template match="marc:datafield[not(marc:subfield)]"/>
 </xsl:stylesheet>
-XSLT5
+XSLT7
+
+
+
+#
+# The fingerprint is used for comparing the source and end result of the transformation
+my $xslt_fingerprint = $_xslt_parser->parse_stylesheet($_xml_parser->parse_string(<<'XSLT'));
+<xsl:stylesheet version="1.0"
+               xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+               xmlns="http://www.loc.gov/MARC21/slim"
+               xmlns:marc="http://www.loc.gov/MARC21/slim"
+       exclude-result-prefixes="marc">
+   <xsl:output omit-xml-declaration="yes" indent="no"/>
+
+   <xsl:template match="marc:record">
+           <xsl:value-of select="concat('\\leader', marc:leader)"/>
+           <xsl:for-each select="marc:controlfield">
+               <xsl:value-of select="concat('\\', @tag, '  ', text())"/>
+           </xsl:for-each>
+           <xsl:for-each select="marc:datafield">
+               <xsl:value-of select="concat('\\', @tag, @ind1, @ind2)"/>
+               <xsl:for-each select="marc:subfield">
+                   <xsl:value-of select="concat('$', @code, text())"/>
+               </xsl:for-each>
+           </xsl:for-each>
+   </xsl:template>
+
+</xsl:stylesheet>
+XSLT
+
 
 
 # A dummy marc record for trying out the transformation with.
@@ -1266,6 +1454,8 @@ SQL
         $new_marc = transform($new_marc, $xslt_3);
         $new_marc = transform($new_marc, $xslt_4);
         $new_marc = transform($new_marc, $xslt_5);
+        $new_marc = transform($new_marc, $xslt_6);
+        $new_marc = transform($new_marc, $xslt_7);
 
         $valid = 1;
     } otherwise {

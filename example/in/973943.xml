@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<marc:record xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:marc="http://www.loc.gov/MARC21/slim">
+<marc:leader>00870nkm a22002777a 4500</marc:leader>
+<marc:controlfield tag="001">973943</marc:controlfield>
+<marc:controlfield tag="003">NL-AMISG</marc:controlfield>
+<marc:controlfield tag="005">19951026113920.0</marc:controlfield>
+<marc:controlfield tag="008">199510suuuuuuuuxx                  und d</marc:controlfield>
+<marc:datafield tag="035" ind2=" " ind1=" ">
+<marc:subfield code="a">(IISG)IISGb10716204</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="040" ind2=" " ind1=" ">
+<marc:subfield code="a">NL-AmISG</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="100" ind2=" " ind1="1">
+<marc:subfield code="a">Opland,</marc:subfield>
+<marc:subfield code="e">draughtsman.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)241316</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="245" ind2="0" ind1="1">
+<marc:subfield code="a">Gifgas conferentie.</marc:subfield>
+<marc:subfield code="k">Visual document.</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="260" ind2=" " ind1=" ">
+<marc:subfield code="c">1989, 7 januari</marc:subfield>
+<marc:subfield code="e">Amsterdam :</marc:subfield>
+<marc:subfield code="f">De Volkskrant.</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="300" ind2=" " ind1=" ">
+<marc:subfield code="g">18.5x23 cm.</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="500" ind2=" " ind1=" ">
+<marc:subfield code="a">V.l.n.r.: ?, Khadaffi, Reagan,?, ?, Hussein, Mitterrand, ?, ?, Gorbac̆ev, Kohl en Thatcher.</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="542" ind2=" " ind1=" ">
+<marc:subfield code="m">closed</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="600" ind2="4" ind1="1">
+<marc:subfield code="a">Al-Qadhafi, Muammar.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)124281</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="655" ind2="4" ind1=" ">
+<marc:subfield code="a">Print.</marc:subfield>
+<marc:subfield code="0">(NL-AMISG)262665</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="902" ind2=" " ind1=" ">
+<marc:subfield code="a">10622/00185563-3940-4DFA-9BED-3DA9D1EFA424</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="856" ind2="0" ind1="4">
+<marc:subfield code="u">http://hdl.handle.net/10622/30051000836988</marc:subfield>
+</marc:datafield>
+<marc:datafield tag="901" ind2=" " ind1=" ">
+<marc:subfield code="a">973943</marc:subfield>
+<marc:subfield code="b">Unknown</marc:subfield>
+<marc:subfield code="c">973943</marc:subfield>
+<marc:subfield code="t">biblio</marc:subfield>
+</marc:datafield>
+</marc:record>

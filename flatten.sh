@@ -8,7 +8,7 @@ if [ ! -d $xslt_folder ] ; then
 	exit 1
 fi
 
-for file in $xslt_folder/*
+for file in "$xslt_folder/"*.xsl
 do
 	bn=$(basename $file)
 	n=${bn:0:1}
